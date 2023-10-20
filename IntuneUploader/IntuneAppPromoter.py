@@ -49,6 +49,7 @@ class IntuneAppPromoter(IntuneUploaderBase):
     }
 
     def main(self):
+        """Main process"""
         # Set variables
         self.BASE_ENDPOINT = (
             "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps"

@@ -37,6 +37,7 @@ class IntuneAppIconGetter(DmgMounter):
     }
 
     def main(self):
+        """Main process"""
         # Get input variables
         app_file = self.env.get("app_file")
         name = self.env.get("name")

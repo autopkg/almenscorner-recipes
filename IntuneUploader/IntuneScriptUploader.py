@@ -65,6 +65,8 @@ class IntuneScriptUploader(IntuneUploaderBase):
     }
 
     def main(self):
+        """Main process"""
+
         def assign_script(self, script_id: str, assignment_info: dict) -> None:
             """Assigns a script to groups.
 
