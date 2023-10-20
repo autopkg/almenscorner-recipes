@@ -6,7 +6,7 @@ A set of recipes for use with the [IntuneAppUploader](https://github.com/almensc
 To use the recipes, add this repository to your autopkg repos and create overrides:
 
 ```bash
-autopkg repo-add https://github.com/almenscorner/recipes
+autopkg repo-add almenscorner-recipes
 ```
 
 ```bash
