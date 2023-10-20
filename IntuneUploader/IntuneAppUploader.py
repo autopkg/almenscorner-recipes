@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 
 """
 This processor uploads an app to Microsoft Intune using the Microsoft Graph API, it also assigns the app to group(s) if specified
@@ -9,12 +10,12 @@ It is heavily inspired by the IntuneImporter processor by @SteveKueng.
 Created by Tobias Almén
 """
 
-import sys
-import tempfile
 import json
 import os
-
+import sys
+import tempfile
 from dataclasses import dataclass, field
+
 from autopkglib import ProcessorError
 
 sys.path.insert(0, os.path.dirname(__file__))
