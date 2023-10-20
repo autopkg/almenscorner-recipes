@@ -20,13 +20,16 @@ from IntuneUploaderLib.IntuneUploaderBase import IntuneUploaderBase
 
 
 class App:
+    """App class"""
+
     def __init__(self, app_name, app_version):
         self.displayName = app_name
         self.primaryBundleVersion = app_version
 
 
 class IntuneAppPromoter(IntuneUploaderBase):
-    "This processor promotes an app to groups in Intune based on the input variables."
+    """This processor promotes an app to groups in Intune based on the input variables."""
+
     description = __doc__
     input_variables = {
         "display_name": {

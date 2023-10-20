@@ -21,6 +21,8 @@ from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 
 class IntuneUploaderBase(Processor):
+    """IntuneUploaderBase processor"""
+
     def obtain_accesstoken(
         self, client_id: str, client_secret: str, tenant_id: str
     ) -> dict:
@@ -46,13 +48,12 @@ class IntuneUploaderBase(Processor):
 
         response = requests.post(url, headers=headers, data=data)
 
-        if response.status_code == 200:
-            response = json.loads(response.text)
-            return response
-        else:
+        if response.status_code != 200:
             raise ProcessorError(
                 f"Failed to obtain access token. Status code: {response.status_code}"
             )
+        response = json.loads(response.text)
+        return response
 
     def makeapirequest(self, endpoint: str, token: dict, q_param=None) -> dict:
         """This function makes a request to the Graph API and returns the response as a dictionary.
@@ -102,23 +103,21 @@ class IntuneUploaderBase(Processor):
                     time.sleep(int(response.headers["Retry-After"]))
                     response = requests.get(endpoint, headers=headers)
 
-        if response.status_code == 200:
-            json_data = json.loads(response.text)
-
-            if "@odata.nextLink" in json_data.keys():
-                record = self.makeapirequest(json_data["@odata.nextLink"], token)
-                entries = len(record["value"])
-                count = 0
-                while count < entries:
-                    json_data["value"].append(record["value"][count])
-                    count += 1
-
-            return json_data
-
-        else:
+        if response.status_code != 200:
             raise ProcessorError(
                 "Request failed with ", response.status_code, " - ", response.text
             )
+        json_data = json.loads(response.text)
+
+        if "@odata.nextLink" in json_data.keys():
+            record = self.makeapirequest(json_data["@odata.nextLink"], token)
+            entries = len(record["value"])
+            count = 0
+            while count < entries:
+                json_data["value"].append(record["value"][count])
+                count += 1
+
+        return json_data
 
     def makeapirequestPost(
         self,
@@ -156,8 +155,6 @@ class IntuneUploaderBase(Processor):
             if response.text:
                 json_data = json.loads(response.text)
                 return json_data
-            else:
-                pass
         elif response.status_code == 429:
             self.output(
                 f"Hit Graph throttling, trying again after {response.headers['Retry-After']} seconds"
@@ -419,7 +416,7 @@ class IntuneUploaderBase(Processor):
             if status["uploadState"] == "commitFileFailed":
                 self.delete_app()
                 raise ProcessorError("Failed to commit file")
-            elif attempt > 20:
+            if attempt > 20:
                 self.delete_app()
                 raise ProcessorError("Timed out waiting for file upload to complete")
 
@@ -439,7 +436,7 @@ class IntuneUploaderBase(Processor):
             if status["uploadState"] == "azureStorageUriRequestFailed":
                 self.delete_app()
                 raise ProcessorError("Failed to get the Azure Storage upload URL")
-            elif attempt > 20:
+            if attempt > 20:
                 self.delete_app()
                 raise ProcessorError(
                     "Timed out waiting for the Azure Storage upload URL"

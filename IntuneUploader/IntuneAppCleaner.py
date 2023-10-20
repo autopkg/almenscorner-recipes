@@ -71,7 +71,7 @@ class IntuneAppCleaner(IntuneUploaderBase):
         self.output(f"Found {str(len(apps))} apps matching {app_name}")
 
         if len(apps) == 0:
-            return None
+            return
 
         # Get primaryBundleVersion or buildNumber for each app and set it as a key in the app dict
         apps = list(

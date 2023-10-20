@@ -25,6 +25,8 @@ __all__ = ["IntuneAppUploader"]
 
 
 class IntuneAppUploader(IntuneUploaderBase):
+    """IntuneAppUploader processor"""
+
     description = __doc__
     input_variables = {
         "CLIENT_ID": {

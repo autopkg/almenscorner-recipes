@@ -95,15 +95,15 @@ class IntuneScriptUploader(IntuneUploaderBase):
             if missing_assignment:
                 for assignment in missing_assignment:
                     if assignment["intent"] == "exclude":
-                        type = "#microsoft.graph.exclusionGroupAssignmentTarget"
+                        atype = "#microsoft.graph.exclusionGroupAssignmentTarget"
                     else:
-                        type = "#microsoft.graph.groupAssignmentTarget"
+                        atype = "#microsoft.graph.groupAssignmentTarget"
 
                     # Assign the script to the group
                     data["deviceManagementScriptAssignments"].append(
                         {
                             "target": {
-                                "@odata.type": type,
+                                "@odata.type": atype,
                                 "groupId": assignment["group_id"],
                             },
                         }
@@ -175,7 +175,7 @@ class IntuneScriptUploader(IntuneUploaderBase):
         # Create script object
         script = ShellScript()
 
-        with open(script_path, "r") as f:
+        with open(script_path, "r", encoding="utf-8") as f:
             # Encode script content as base64
             script.scriptContent = base64.b64encode(f.read().encode("utf-8")).decode(
                 "utf-8"

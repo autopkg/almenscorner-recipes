@@ -48,7 +48,7 @@ class IntuneAppIconGetter(DmgMounter):
         # If app bundle not found, skip icon extraction
         if not os.path.exists(app_file):
             self.output(f"Could not find {app_file}.app, skipping icon extraction")
-            return None
+            return
 
         # If app bundle is a .dmg file, mount it and get path to .app file
         if os.path.splitext(app_file)[1] == ".dmg":
@@ -56,24 +56,23 @@ class IntuneAppIconGetter(DmgMounter):
             app_path = glob.glob(os.path.join(mount_point, "*.app"))
             if not app_file:
                 self.output("Could not find .app file, skipping icon extraction")
-                return None
-            else:
-                # It is assumed that we will get the first .app file in the mounted .dmg
-                app_path = app_path[0]
-                info_plist = os.path.join(app_path, "Contents", "Info.plist")
+                return
+            # It is assumed that we will get the first .app file in the mounted .dmg
+            app_path = app_path[0]
+            info_plist = os.path.join(app_path, "Contents", "Info.plist")
         elif os.path.splitext(app_file)[1] == ".app":
             app_path = app_file
             info_plist = os.path.join(app_path, "Contents", "Info.plist")
         else:
             self.output("File is not a .app or .dmg file, skipping icon extraction")
-            return None
+            return
 
         # Load Info.plist file and get icon file path
         try:
             with open(info_plist, "rb") as f:
                 info_dict = plistlib.load(f)
         except plistlib.InvalidFileException:
-            return None
+            return
 
         icon_name = info_dict.get(
             "CFBundleIconFile", name
@@ -89,12 +88,12 @@ class IntuneAppIconGetter(DmgMounter):
         # If icon file not found, skip icon extraction
         if not os.path.exists(icon_path):
             self.output(f"Could not find icon for {name}, skipping icon extraction")
-            return None
+            return
 
         # If sips command not found, skip icon extraction
         if not os.path.exists(sips_path):
             self.output("Could not find sips, skipping icon extraction")
-            return None
+            return
 
         # Use sips command to convert icon to png format and save to output path
         try:
@@ -124,7 +123,7 @@ class IntuneAppIconGetter(DmgMounter):
             proc.wait()
         except subprocess.CalledProcessError as err:
             self.output(f"Error converting icon: {err}")
-            return None
+            return
 
         # Set output variable to path of extracted icon file
         if os.path.exists(icon_output_path):
