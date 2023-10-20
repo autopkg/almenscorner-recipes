@@ -2,52 +2,52 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the current release of Escrow Buddy from Github.</string>
-    <key>Identifier</key>
-    <string>com.github.almenscorner.intune.EscrowBuddy</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>Escrow Buddy</string>
-        <key>description</key>
-        <string>Escrow Buddy is a tool used by MDM administrators to ensure a valid FileVault recovery key is escrowed for your Mac.</string>
-        <key>developer</key>
-        <string>Netflix</string>
-        <key>display_name</key>
-        <string>Escrow Buddy</string>
-        <key>categories</key>
-        <array>
-            <string>Computer Management</string>
-        </array>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.0</string>
-    <key>ParentRecipe</key>
-    <string>com.github.homebysix.download.EscrowBuddy</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>app_file</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/%filename%</string>
-                <key>displayname</key>
-                <string>%display_name%</string>
-                <key>description</key>
-                <string>%description%</string>
-                <key>publisher</key>
-                <string>%developer%</string>
-                <key>version</key>
-                <string>%version%</string>
-                <key>bundleVersion</key>
-                <string>%version%</string>
-                <key>bundleId</key>
-                <string>com.netflix.Escrow-Buddy</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
-        </dict>
-    </array>
+	<key>Description</key>
+	<string>Downloads the current release of Escrow Buddy from Github.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.EscrowBuddy</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Escrow Buddy</string>
+		<key>categories</key>
+		<array>
+			<string>Computer Management</string>
+		</array>
+		<key>description</key>
+		<string>Escrow Buddy is a tool used by MDM administrators to ensure a valid FileVault recovery key is escrowed for your Mac.</string>
+		<key>developer</key>
+		<string>Netflix</string>
+		<key>display_name</key>
+		<string>Escrow Buddy</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.download.EscrowBuddy</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/%filename%</string>
+				<key>bundleId</key>
+				<string>com.netflix.Escrow-Buddy</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
 </dict>
 </plist>

@@ -2,78 +2,78 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the latest Spotify.
+	<key>Description</key>
+	<string>Downloads the latest Spotify.
 
 For Apple Silicon set DOWNLOAD_ARCH to "ARM64" and SUPPORTED_ARCH to "arm64" (default)
 
 For Intel leave DOWNLOAD_ARCH empty and set SUPPORTED_ARCH to "x86_64"</string>
-    <key>Identifier</key>
-    <string>com.github.almenscorner.intune.Spotify</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>Spotify</string>
-        <key>description</key>
-        <string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
-        <key>developer</key>
-        <string>Spotify</string>
-        <key>display_name</key>
-        <string>Spotify</string>
-        <key>categories</key>
-        <array>
-            <string>Photos &amp; Media</string>
-        </array>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.0</string>
-    <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.Spotify</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%pathname%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>app_file</key>
-                <string>%pathname%</string>
-                <key>name</key>
-                <string>%NAME%</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>app_file</key>
-                <string>%pathname%</string>
-                <key>displayname</key>
-                <string>%display_name%</string>
-                <key>description</key>
-                <string>%description%</string>
-                <key>publisher</key>
-                <string>%developer%</string>
-                <key>version</key>
-                <string>%version%</string>
-                <key>bundleVersion</key>
-                <string>%version%</string>
-                <key>bundleId</key>
-                <string>%bundleid%</string>
-                <key>icon</key>
-                <string>%icon_file_path%</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
-        </dict>
-    </array>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.Spotify</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Spotify</string>
+		<key>categories</key>
+		<array>
+			<string>Photos &amp; Media</string>
+		</array>
+		<key>description</key>
+		<string>Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels.</string>
+		<key>developer</key>
+		<string>Spotify</string>
+		<key>display_name</key>
+		<string>Spotify</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.download.Spotify</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
 </dict>
 </plist>

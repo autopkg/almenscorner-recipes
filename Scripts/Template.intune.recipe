@@ -2,39 +2,39 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Creates or updates a script in Intune.</string>
-    <key>Identifier</key>
-    <string>com.github.almenscorner.intune.Script</string>
-    <key>Input</key>
-    <dict>
-        <key>script_path</key>
-        <string>/path/to/script_name.sh</string>
-        <key>description</key>
-        <string></string>
-        <key>assignment_info</key>
-        <array>
-            <dict>
-                <key>group_id</key>
-                <string>xxxx-xxxxx-xxxxxx-xxxxxx</string>
-                <key>intent</key>
-                <string></string> <!-- Empty string means include, to exclude a group, set string to 'exclude' -->
-            </dict>
-        </array>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>1.0.0</string>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>script_path</key>
-                <string>%script_path%</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneScriptUploader</string>
-        </dict>
-    </array>
+	<key>Description</key>
+	<string>Creates or updates a script in Intune.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.Script</string>
+	<key>Input</key>
+	<dict>
+		<key>assignment_info</key>
+		<array>
+			<dict>
+				<key>group_id</key>
+				<string>xxxx-xxxxx-xxxxxx-xxxxxx</string>
+				<key>intent</key>
+				<string></string> <!-- Empty string means include, to exclude a group, set string to 'exclude' -->
+			</dict>
+		</array>
+		<key>description</key>
+		<string></string>
+		<key>script_path</key>
+		<string>/path/to/script_name.sh</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>script_path</key>
+				<string>%script_path%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneScriptUploader</string>
+		</dict>
+	</array>
 </dict>
 </plist>
