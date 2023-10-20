@@ -89,7 +89,7 @@ class IntuneAppPromoter(IntuneUploaderBase):
         )
 
         # Check if promotion info is set
-        if promotion_info == None:
+        if not promotion_info:
             self.output("No promotion info found, exiting.")
             return None
 
@@ -98,7 +98,7 @@ class IntuneAppPromoter(IntuneUploaderBase):
         # Get matching apps
         intune_apps = self.get_matching_apps(app_name)
         # If no apps are found, exit
-        if intune_apps == None:
+        if not intune_apps:
             self.output(f"No app found with name: {app_name}, exiting.")
             return None
 

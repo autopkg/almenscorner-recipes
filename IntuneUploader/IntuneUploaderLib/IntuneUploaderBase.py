@@ -285,8 +285,8 @@ class IntuneUploaderBase(Processor):
         # Combine the signature and IV + encrypted data into a single byte string
         encrypted_pkg = signature + iv_data
 
-        # Generate a base64-encoded string of the encrypted package
-        encoded_pkg = base64.b64encode(encrypted_pkg).decode()
+        # Generate a base64-encoded string of the encrypted package (unused)
+        # encoded_pkg = base64.b64encode(encrypted_pkg).decode()
 
         # Generate a base64-encoded string of the encryption key
         encoded_key = base64.b64encode(encryptionKey).decode()
