@@ -2,32 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the current version of FileZilla. Specify the channel via %NAME%.</string>
-    <key>Identifier</key>
-    <string>com.github.almenscorner.intune.FileZilla</string>
-    <key>Input</key>
-    <dict>
-        <key>NAME</key>
-        <string>FileZilla</string>
-        <key>description</key>
-        <string>FileZilla is a fast and reliable cross-platform FTP, FTPS and SFTP client.</string>
-        <key>developer</key>
-        <string>Tim Kosse</string>
-        <key>display_name</key>
-        <string>FileZilla</string>
-        <key>categories</key>
-        <array>
-            <string>Productivity</string>
-        </array>
-    </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.0</string>
-    <key>ParentRecipe</key>
-    <string>com.github.keeleysam.recipes.FileZilla.download</string>
-    <key>Process</key>
-    <array>
-        <dict>
+	<key>Description</key>
+	<string>Downloads the current version of FileZilla. Specify the channel via %NAME%.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.FileZilla</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>FileZilla</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>FileZilla is a fast and reliable cross-platform FTP, FTPS and SFTP client.</string>
+		<key>developer</key>
+		<string>Tim Kosse</string>
+		<key>display_name</key>
+		<string>FileZilla</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.keeleysam.recipes.FileZilla.download</string>
+	<key>Process</key>
+	<array>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -38,49 +38,49 @@
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%dmg_path%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>app_file</key>
-                <string>%dmg_root%/%NAME%.app</string>
-                <key>name</key>
-                <string>%NAME%</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>app_file</key>
-                <string>%dmg_path%</string>
-                <key>displayname</key>
-                <string>%display_name%</string>
-                <key>description</key>
-                <string>%description%</string>
-                <key>publisher</key>
-                <string>%developer%</string>
-                <key>version</key>
-                <string>%version%</string>
-                <key>bundleVersion</key>
-                <string>%version%</string>
-                <key>bundleId</key>
-                <string>%bundleid%</string>
-                <key>icon</key>
-                <string>%icon_file_path%</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
-        </dict>
-    </array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%dmg_path%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%dmg_root%/%NAME%.app</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%dmg_path%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
 </dict>
 </plist>

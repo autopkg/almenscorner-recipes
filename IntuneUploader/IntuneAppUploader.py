@@ -1,4 +1,5 @@
 #!/usr/local/autopkg/python
+# -*- coding: utf-8 -*-
 
 """
 This processor uploads an app to Microsoft Intune using the Microsoft Graph API, it also assigns the app to group(s) if specified
@@ -9,12 +10,12 @@ It is heavily inspired by the IntuneImporter processor by @SteveKueng.
 Created by Tobias Almén
 """
 
-import sys
-import tempfile
 import json
 import os
-
+import sys
+import tempfile
 from dataclasses import dataclass, field
+
 from autopkglib import ProcessorError
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -24,6 +25,8 @@ __all__ = ["IntuneAppUploader"]
 
 
 class IntuneAppUploader(IntuneUploaderBase):
+    """IntuneAppUploader processor"""
+
     description = __doc__
     input_variables = {
         "CLIENT_ID": {
@@ -148,6 +151,7 @@ class IntuneAppUploader(IntuneUploaderBase):
     }
 
     def main(self):
+        """Main process"""
         # Set up variables
         self.BASE_ENDPOINT = (
             "https://graph.microsoft.com/beta/deviceAppManagement/mobileApps"
