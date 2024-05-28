@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Support Companion is a macOS helper application, designed to empower end-users by providing them with quick and easy access to crucial information and actions.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.download.SupportCompanion</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>SupportCompanion</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>asset_regex</key>
+				<string>SupportCompanion-\S.*?.pkg</string>
+				<key>github_repo</key>
+				<string>macadmins/supportcompanion</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
+			</dict>
+			<key>Processor</key>
+			<string>GitHubReleasesInfoProvider</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>expected_authority_names</key>
+				<array>
+					<string>Developer ID Installer: Mac Admins Open Source (T4SK8ZXCXG)</string>
+					<string>Developer ID Certification Authority</string>
+					<string>Apple Root CA</string>
+				</array>
+				<key>input_path</key>
+				<string>%pathname%</string>
+				<key>requirement</key>
+				<string>identifier "com.almenscorner.supportcompanion"</string>
+				<key>strict_verification</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>
