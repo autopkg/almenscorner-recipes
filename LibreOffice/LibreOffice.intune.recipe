@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest stable version of LibreOffice for macOS. The architecture (ARCH) can be 'x86_64' or 'aarch64'</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.LibreOffice</string>
+	<key>Input</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base.</string>
+		<key>developer</key>
+		<string>The Document Foundation</string>
+		<key>display_name</key>
+		<string>LibreOffice</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.LibreOffice</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%-%ARCH%-%version%.pkg</string>
+				<key>bundleId</key>
+				<string>org.libreoffice.script</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%-%ARCH%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
