@@ -3,13 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Support Companion is a macOS helper application, designed to empower end-users by providing them with quick and easy access to crucial information and actions.</string>
+	<string>Support Companion is a macOS helper application, designed to empower end-users by providing them with quick and easy access to crucial information and actions.
+Set PRERELEASE to a non-empty string to download prereleases, either
+via Input in an override or via the -k option,
+i.e.: `-k PRERELEASE=yes`
+
+Set TYPE to "_LaunchAgent" or "_Suite" string to download the new SupportCompanion LaunchAgent or Suite, either
+via Input in an override or via the -k option,
+i.e.: `-k TYPE=_Suite`</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.download.SupportCompanion</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>SupportCompanion</string>
+		<key>PRERELEASE</key>
+		<string></string>
+		<key>TYPE</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -19,11 +30,13 @@
 			<key>Arguments</key>
 			<dict>
 				<key>asset_regex</key>
-				<string>SupportCompanion-\S.*?.pkg</string>
+				<string>SupportCompanion%TYPE%-\S.*?.pkg</string>
 				<key>github_repo</key>
 				<string>macadmins/supportcompanion</string>
 				<key>sort_by_highest_tag_names</key>
 				<string>True</string>
+				<key>include_prereleases</key>
+				<string>%PRERELEASE%</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>
