@@ -10,6 +10,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>Privileges</string>
+		<key>bundleid</key>
+		<string>com.sap.privileges</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
@@ -20,8 +22,6 @@
 		<string>SAP</string>
 		<key>display_name</key>
 		<string>Privileges</string>
-        <key>bundleid</key>
-        <string>com.sap.privileges</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
