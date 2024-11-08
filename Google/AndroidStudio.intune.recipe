@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Android Studio IDE from Google.
+
+	For Intel set DOWNLOAD_ARCH to "mac" and SUPPORTED_ARCH to "x86_64"
+
+	For Apple Silicon set DOWNLOAD_ARCH to "mac_arm" and SUPPORTED_ARCH to "arm64"</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.AndroidStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_ARCH</key>
+		<string>mac_arm</string>
+		<key>SUPPORTED_ARCH</key>
+		<string>arm64</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>Android Studio is the official IDE for Android application development, based on IntelliJ IDEA.</string>
+		<key>developer</key>
+		<string>Google</string>
+		<key>display_name</key>
+		<string>Android Studio</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.pkg.AndroidStudio</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pkg_path%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>postinstall_script</key>
+				<string></string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
