@@ -22,7 +22,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.killahquam.munki.slack</string>
+	<string>com.github.kevinmcox.munki.Slack-dmg</string>
 	<key>Process</key>
 	<array>
 		<dict>
