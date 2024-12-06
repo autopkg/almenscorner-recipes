@@ -109,7 +109,7 @@
 				<key>additional_pkginfo</key>
 				<dict>
 					<key>minimum_os_version</key>
-					<string>11.0</string>
+					<string>14.0</string>
 				</dict>
 			</dict>
 			<key>Processor</key>
@@ -122,7 +122,7 @@
 				<string>%RECIPE_CACHE_DIR%/payload</string>
 				<key>installs_item_paths</key>
 				<array>
-					<string>/Applications/Utilities/SupportCompanion.app</string>
+					<string>/Applications/SupportCompanion.app</string>
 				</array>
 			</dict>
 			<key>Processor</key>
