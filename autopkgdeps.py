@@ -9,6 +9,7 @@ Created by Tobias Almén
 import os
 import plistlib
 import urllib.parse
+
 from pytablewriter import MarkdownTableWriter
 
 # Directory containing AutoPkg recipe files

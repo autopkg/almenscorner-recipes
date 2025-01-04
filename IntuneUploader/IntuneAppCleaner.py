@@ -76,9 +76,11 @@ class IntuneAppCleaner(IntuneUploaderBase):
         # Get primaryBundleVersion or buildNumber for each app and set it as a key in the app dict
         apps = list(
             map(
-                lambda item: {**item, "primaryBundleVersion": item["buildNumber"]}
-                if "primaryBundleVersion" not in item and "buildNumber" in item
-                else item,
+                lambda item: (
+                    {**item, "primaryBundleVersion": item["buildNumber"]}
+                    if "primaryBundleVersion" not in item and "buildNumber" in item
+                    else item
+                ),
                 apps,
             )
         )
@@ -118,11 +120,11 @@ class IntuneAppCleaner(IntuneUploaderBase):
                 "keep count": str(keep_versions),
                 "match count": str(len(apps)),
                 "removed count": str(len(apps_to_delete)),
-                "removed versions": ", ".join(
-                    [app["primaryBundleVersion"] for app in apps_to_delete]
-                )
-                if len(apps_to_delete) > 0
-                else "",
+                "removed versions": (
+                    ", ".join([app["primaryBundleVersion"] for app in apps_to_delete])
+                    if len(apps_to_delete) > 0
+                    else ""
+                ),
             },
         }
 
