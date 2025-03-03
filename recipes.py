@@ -6,10 +6,10 @@ This script creates a JSON file with a list of all AutoPkg recipes in the curren
 Created by Tobias Almén
 """
 
+import json
 import os
 import plistlib
 import urllib.parse
-import json
 
 # Directory containing AutoPkg recipe files
 recipes_directory = os.getcwd()
@@ -17,6 +17,7 @@ main_repo = "almenscorner-recipes"
 
 # List to store results
 results = []
+
 
 def process_recipe_file(file_path, file_name):
     """
@@ -30,11 +31,16 @@ def process_recipe_file(file_path, file_name):
             plist_data = plistlib.load(plist_file)
 
         name = plist_data["Input"]["display_name"]
-        
+
         if name == "%NAME%":
             name = plist_data["Input"]["NAME"]
-        
-        recipe_url = f"https://github.com/autopkg/{main_repo}/blob/main/" + os.path.basename(os.path.dirname(file_path)) + "/" + urllib.parse.quote_plus(file_name)
+
+        recipe_url = (
+            f"https://github.com/autopkg/{main_repo}/blob/main/"
+            + os.path.basename(os.path.dirname(file_path))
+            + "/"
+            + urllib.parse.quote_plus(file_name)
+        )
 
         results.append(
             {
@@ -42,7 +48,7 @@ def process_recipe_file(file_path, file_name):
                 "recipe_url": recipe_url,
             }
         )
-        
+
     except Exception as e:
         print(f"Failed to process {file_path}: {e}")
 
@@ -53,7 +59,7 @@ for root, dirs, files in os.walk(recipes_directory):
         if file_name.endswith(".intune.recipe"):
             file_path = os.path.join(root, file_name)
             process_recipe_file(file_path, file_name)
-            
+
 # write results to a json file
 with open("recipes.json", "w") as f:
     json.dump(results, f, indent=4)
