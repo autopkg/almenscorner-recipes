@@ -112,6 +112,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brave/Brave.intune.recipe"
     },
     {
+        "name": "Better Display",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe"
+    },
+    {
         "name": "PyCharm Community Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-CE.intune.recipe"
     },
