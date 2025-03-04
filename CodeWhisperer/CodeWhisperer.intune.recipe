@@ -3,30 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Amazon Q.</string>
+	<string>Downloads the latest version of CodeWhisperer.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.AmazonQ</string>
+	<string>com.github.almenscorner.intune.CodeWhisperer</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Amazon Q</string>
+		<string>CodeWhisperer</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-		<string>Amazon Q – Generative AI Assistant
-
-The most capable generative AI–powered assistant for accelerating software development and leveraging companies internal data</string>
+		<string>Edit HTML code and text on your Mac.</string>
 		<key>developer</key>
 		<string>AMZN Mobile LLC</string>
 		<key>display_name</key>
-		<string>Amazon Q</string>
+		<string>CodeWhisperer</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dataJAR-recipes.download.Amazon Q</string>
+	<string>com.github.dataJAR-recipes.download.CodeWhisperer</string>
 	<key>Process</key>
 	<array>
 		<dict>

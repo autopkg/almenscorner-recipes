@@ -60,6 +60,9 @@ for root, dirs, files in os.walk(recipes_directory):
             file_path = os.path.join(root, file_name)
             process_recipe_file(file_path, file_name)
 
+# Sort results by name
+results.sort(key=lambda x: x["name"])
+
 # write results to a json file
 with open("recipes.json", "w") as f:
     json.dump(results, f, indent=4)
