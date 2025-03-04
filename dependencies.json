@@ -1,0 +1,102 @@
+[
+    {
+        "recipe_url": "https://github.com/autopkg/ahousseini-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/ahousseini-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/almenscorner-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/apettinen-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/apettinen-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/apizz-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/apizz-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/autopkg-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/autopkg-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/bnpl-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/bnpl-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/dataJAR-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/hjuutilainen-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/hjuutilainen-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/homebysix-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/homebysix-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/jc0b-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/jc0b-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/jleggat-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/jleggat-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/keeleysam-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/keeleysam-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/kevinmcox-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/kevinmcox-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/macprince-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/macprince-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/mikestechshop-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/mikestechshop-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/moofit-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/moofit-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/n8felton-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/n8felton-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/novaksam-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/novaksam-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/peetinc-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/peetinc-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/rtrouton-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/rtrouton-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/smithjw-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/smithjw-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/swy-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/swy-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/timsutton-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/timsutton-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/valdore86-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/valdore86-recipes"
+    }
+]
