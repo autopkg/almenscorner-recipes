@@ -292,8 +292,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe"
     },
     {
+        "name": "VirtualBox",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBox/VirtualBox.intune.recipe"
+    },
+    {
         "name": "Visual Studio Code",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Code/Code.intune.recipe"
+    },
+    {
+        "name": "Vivaldi",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Vivaldi/Vivaldi.intune.recipe"
     },
     {
         "name": "Webstorm",
