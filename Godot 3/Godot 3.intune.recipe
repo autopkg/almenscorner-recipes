@@ -3,37 +3,48 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Amazon Q.</string>
+	<string>Downloads the latest version of Godot 3.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.AmazonQ</string>
+	<string>com.github.almenscorner.intune.Godot 3</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Amazon Q</string>
+		<string>Godot 3</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-		<string>Amazon Q – Generative AI Assistant
+		<string>Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.
 
-The most capable generative AI–powered assistant for accelerating software development and leveraging companies internal data</string>
+Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</string>
 		<key>developer</key>
-		<string>AMZN Mobile LLC</string>
+		<string>Godot Foundation</string>
 		<key>display_name</key>
-		<string>Amazon Q</string>
+		<string>Godot 3</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dataJAR-recipes.download.Amazon Q</string>
+	<string>com.github.dataJAR-recipes.download.Godot 3</string>
 	<key>Process</key>
 	<array>
+        <dict>
+            <key>Processor</key>
+            <string>DmgCreator</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_root</key>
+                <string>%pkgroot%/Applications/</string>
+                <key>dmg_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -42,7 +53,7 @@ The most capable generative AI–powered assistant for accelerating software dev
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>

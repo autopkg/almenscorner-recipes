@@ -3,30 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Amazon Q.</string>
+	<string>Downloads the latest version of Canva.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.AmazonQ</string>
+	<string>com.github.almenscorner.intune.Canva</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Amazon Q</string>
+		<string>Canva</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-		<string>Amazon Q – Generative AI Assistant
-
-The most capable generative AI–powered assistant for accelerating software development and leveraging companies internal data</string>
+		<string>Canva makes it easy to create professional designs and to share or print them.</string>
 		<key>developer</key>
-		<string>AMZN Mobile LLC</string>
+		<string>Canva</string>
 		<key>display_name</key>
-		<string>Amazon Q</string>
+		<string>Canva</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dataJAR-recipes.download.Amazon Q</string>
+	<string>com.github.dataJAR-recipes.download.Canva</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -53,7 +51,7 @@ The most capable generative AI–powered assistant for accelerating software dev
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%dmg_path%</string>
+				<string>%pathname%</string>
 				<key>bundleId</key>
 				<string>%bundleid%</string>
 				<key>bundleVersion</key>

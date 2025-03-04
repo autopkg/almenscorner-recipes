@@ -3,37 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Amazon Q.</string>
+	<string>Downloads the latest version of Ollama.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.AmazonQ</string>
+	<string>com.github.almenscorner.intune.Ollama</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Amazon Q</string>
+		<string>Ollama</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-		<string>Amazon Q – Generative AI Assistant
-
-The most capable generative AI–powered assistant for accelerating software development and leveraging companies internal data</string>
+		<string>Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.</string>
 		<key>developer</key>
-		<string>AMZN Mobile LLC</string>
+		<string>Infra Technologies, Inc.</string>
 		<key>display_name</key>
-		<string>Amazon Q</string>
+		<string>Ollama</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.dataJAR-recipes.download.Amazon Q</string>
+	<string>com.github.dataJAR-recipes.download.Ollama</string>
 	<key>Process</key>
 	<array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+                <key>dmg_root</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+            </dict>
+            <key>Processor</key>
+            <string>DmgCreator</string>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -42,7 +51,7 @@ The most capable generative AI–powered assistant for accelerating software dev
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
