@@ -6,6 +6,7 @@ This script finds parent depedency repos and updates the README table with the r
 Created by Tobias Almén
 """
 
+import json
 import os
 import plistlib
 import urllib.parse
@@ -18,6 +19,9 @@ main_repo = "almenscorner-recipes"
 
 # List to store results
 results = []
+json_results = []
+
+added_dependencies = set()
 
 
 def write_table(data):
@@ -72,6 +76,17 @@ def process_recipe_file(file_path, file_name):
                     f"[{formatted_dependency}]({dependency_url})",
                 ]
             )
+
+            if dependency_url not in added_dependencies:
+                json_results.append(
+                    {
+                        "recipe_url": dependency_url,
+                        "repo_add_command": f"autopkg repo-add {dependency_url}",
+                    }
+                )
+
+            added_dependencies.add(dependency_url)
+
     except Exception as e:
         print(f"Failed to process {file_path}: {e}")
 
@@ -86,6 +101,12 @@ for root, dirs, files in os.walk(recipes_directory):
 if results:
     new_table = write_table(results)
     readme_path = os.path.join(recipes_directory, "README.md")
+    json_path = os.path.join(recipes_directory, "dependencies.json")
+
+    json_results.sort(key=lambda x: x["recipe_url"])
+
+    with open(json_path, "w") as json_file:
+        json.dump(json_results, json_file, indent=4)
 
     with open(readme_path, "r") as readme_file:
         readme_contents = readme_file.read()
