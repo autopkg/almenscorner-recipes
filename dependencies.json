@@ -28,6 +28,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/grumpydrew-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/grumpydrew-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/hjuutilainen-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/hjuutilainen-recipes"
     },

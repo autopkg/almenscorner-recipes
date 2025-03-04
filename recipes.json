@@ -96,6 +96,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe"
     },
     {
+        "name": "Better Touch Tool",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterTouchTool/BetterTouchTool.intune.recipe"
+    },
+    {
+        "name": "Bitwarden",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bitwarden/Bitwarden.intune.recipe"
+    },
+    {
         "name": "Brave",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brave/Brave.intune.recipe"
     },
@@ -104,8 +112,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Caffeine/Caffeine.intune.recipe"
     },
     {
+        "name": "Cakebrew",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cakebrew/Cakebrew.intune.recipe"
+    },
+    {
         "name": "Canva",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Canva/Canva.intune.recipe"
+    },
+    {
+        "name": "ChatGPT",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenAI/ChatGPT.intune.recipe"
     },
     {
         "name": "Chef Workstation",
@@ -114,6 +130,14 @@
     {
         "name": "Citrix Workspace",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Citrix/CitrixWorkspace.intune.recipe"
+    },
+    {
+        "name": "Claude",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anthropic/Claude.intune.recipe"
+    },
+    {
+        "name": "CleanMyMac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/CleanMyMac3.intune.recipe"
     },
     {
         "name": "ClickShare",
@@ -152,6 +176,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Escrow Buddy/EscrowBuddy.intune.recipe"
     },
     {
+        "name": "Evernote",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Evernote/Evernote.intune.recipe"
+    },
+    {
         "name": "Figma",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Figma/Figma.intune.recipe"
     },
@@ -170,6 +198,10 @@
     {
         "name": "GitHub Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GitHub/GitHubDesktop.intune.recipe"
+    },
+    {
+        "name": "GitKraken",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axosoft/GitKraken.intune.recipe"
     },
     {
         "name": "Godot 3",
@@ -204,8 +236,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeePassXC/KeePassXC.intune.recipe"
     },
     {
+        "name": "Kitty",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kitty/Kitty.intune.recipe"
+    },
+    {
         "name": "Krita",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krita/Krita.intune.recipe"
+    },
+    {
+        "name": "Kubectl",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kubernetes/Kubectl.intune.recipe"
     },
     {
         "name": "LibreOffice",
@@ -336,6 +376,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/WindowsApp/WindowsApp.intune.recipe"
     },
     {
+        "name": "Wireshark",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Wireshark/Wireshark.intune.recipe"
+    },
+    {
         "name": "Yubico Authenticator",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe"
     },
@@ -346,6 +390,10 @@
     {
         "name": "iMazing",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazing/iMazing.intune.recipe"
+    },
+    {
+        "name": "iMazing Profile Editor",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazingProfileEditor/iMazingProfileEditor.intune.recipe"
     },
     {
         "name": "iTerm2",
