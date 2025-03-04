@@ -4,6 +4,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/1password/1password.intune.recipe"
     },
     {
+        "name": "Acorn",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FlyingMeat/Acorn.intune.recipe"
+    },
+    {
         "name": "Adobe Creative Cloud",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeCreativeCloudUniversal.intune.recipe"
     },
@@ -12,8 +16,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeReader.intune.recipe"
     },
     {
+        "name": "AirFoil",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RougueAmoeba/AirFoil.intune.recipe"
+    },
+    {
         "name": "AirParrot 3",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirParrot 3/AirParrot3.intune.recipe"
+    },
+    {
+        "name": "Airy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airy/Airy.intune.recipe"
+    },
+    {
+        "name": "Alacritty",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alacritty/Alacritty.intune.recipe"
+    },
+    {
+        "name": "Alfred",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alfred/Alfred5.intune.recipe"
     },
     {
         "name": "AltTab",
@@ -38,6 +58,10 @@
     {
         "name": "Anki",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anki/Anki.intune.recipe"
+    },
+    {
+        "name": "Anydesk",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe"
     },
     {
         "name": "Arc",
