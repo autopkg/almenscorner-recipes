@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest DevToys.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.DevToys</string>
+	<key>Input</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>DevToys helps with daily development tasks by offering a bundle of tiny tools designed to do quick, specific tiny tasks. No need to use many untrustworthy websites to simply decode a text or compress an image. With Smart Detection, the app intuitively selects the best tool for the data on your clipboard.</string>
+		<key>developer</key>
+		<string>DevToys</string>
+		<key>display_name</key>
+		<string>DevToys</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.almenscorner.download.DevToys</string>
+	<key>Process</key>
+	<array>
+        <dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%dmg_path%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%dmg_path%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%dmg_path%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

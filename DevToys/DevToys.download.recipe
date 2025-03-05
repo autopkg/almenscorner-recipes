@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of DevToys.
+Set PRERELEASE to a non-empty string to download prereleases, either
+via Input in an override or via the -k option,
+i.e.: `-k PRERELEASE=yes`
+
+Downloads arm64 version by default. Set ARCH to "x64" to download x64 version.
+</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.download.DevToys</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>DevToys</string>
+		<key>ARCH</key>
+		<string>arm64</string>
+        <key>PRERELEASE</key>
+        <string>1</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>asset_regex</key>
+				<string>devtoys_osx_%ARCH%.zip</string>
+				<key>github_repo</key>
+				<string>DevToys-app/DevToys</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
+				<key>include_prereleases</key>
+				<string>%PRERELEASE%</string>
+			</dict>
+			<key>Processor</key>
+			<string>GitHubReleasesInfoProvider</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.zip</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>archive_path</key>
+                <string>%pathname%</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/DevToys</string>
+            </dict>
+            <key>Processor</key>
+            <string>Unarchiver</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/DevToys.app</string>
+				<key>requirement</key>
+				<string>anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = V6QF45RK9R</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>

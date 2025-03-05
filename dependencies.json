@@ -48,6 +48,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jleggat-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/joshua-d-miller-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/joshua-d-miller-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/jpiel-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jpiel-recipes"
     },

@@ -68,6 +68,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
     },
     {
+        "name": "Asana",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe"
+    },
+    {
         "name": "Audacity",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Audacity/Audacity.intune.recipe"
     },
@@ -160,6 +164,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
     },
     {
+        "name": "DevToys",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe"
+    },
+    {
+        "name": "Discord",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Discord/Discord.intune.recipe"
+    },
+    {
         "name": "DisplayLink Manager",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DisplayLink Manager/DisplayLinkManager.intune.recipe"
     },
@@ -192,6 +204,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe"
     },
     {
+        "name": "Gifox",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gifox/Gifox.intune.recipe"
+    },
+    {
         "name": "Git",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Git/Git.intune.recipe"
     },
@@ -222,6 +238,14 @@
     {
         "name": "Grammarly",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe"
+    },
+    {
+        "name": "Hidden Bar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
+    },
+    {
+        "name": "Insomnia",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe"
     },
     {
         "name": "IntelliJ IDEA Community Edition",
@@ -310,6 +334,10 @@
     {
         "name": "Slack",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe"
+    },
+    {
+        "name": "Snagit",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snagit/Snagit.intune.recipe"
     },
     {
         "name": "Spotify",
