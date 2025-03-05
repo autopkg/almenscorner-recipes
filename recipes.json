@@ -48,6 +48,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Chime/AmazonChime.intune.recipe"
     },
     {
+        "name": "Amazon Corretto",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Corretto/AmazonCorretto.intune.recipe"
+    },
+    {
         "name": "Amazon Q",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Q/AmazonQ.intune.recipe"
     },
@@ -66,6 +70,10 @@
     {
         "name": "Arc",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
+    },
+    {
+        "name": "Asana",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe"
     },
     {
         "name": "Audacity",
@@ -102,6 +110,10 @@
     {
         "name": "Bitwarden",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bitwarden/Bitwarden.intune.recipe"
+    },
+    {
+        "name": "Blender",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Blender/Blender.intune.recipe"
     },
     {
         "name": "Brave",
@@ -160,6 +172,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
     },
     {
+        "name": "DevToys",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe"
+    },
+    {
+        "name": "Discord",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Discord/Discord.intune.recipe"
+    },
+    {
         "name": "DisplayLink Manager",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DisplayLink Manager/DisplayLinkManager.intune.recipe"
     },
@@ -190,6 +210,10 @@
     {
         "name": "Firefox",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe"
+    },
+    {
+        "name": "Gifox",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gifox/Gifox.intune.recipe"
     },
     {
         "name": "Git",
@@ -224,12 +248,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe"
     },
     {
+        "name": "Hidden Bar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
+    },
+    {
+        "name": "Insomnia",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe"
+    },
+    {
         "name": "IntelliJ IDEA Community Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-CE.intune.recipe"
     },
     {
         "name": "IntelliJ IDEA Ultimate Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-UE.intune.recipe"
+    },
+    {
+        "name": "Jump Desktop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jump Desktop/JumpDesktop.intune.recipe"
     },
     {
         "name": "KeePassXC",
@@ -280,6 +316,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ollama/Ollama.intune.recipe"
     },
     {
+        "name": "Parsec",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
+    },
+    {
+        "name": "Postman",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postman/Postman.intune.recipe"
+    },
+    {
         "name": "Privileges",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Privileges/Privileges.intune.recipe"
     },
@@ -308,8 +352,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe"
     },
     {
+        "name": "Sketch",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BohemianCoding/Sketch.intune.recipe"
+    },
+    {
         "name": "Slack",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe"
+    },
+    {
+        "name": "Snagit",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snagit/Snagit.intune.recipe"
+    },
+    {
+        "name": "Splashtop Business",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Splashtop/SplashtopBusiness.intune.recipe"
     },
     {
         "name": "Spotify",

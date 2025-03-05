@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Amazon Coretto and imports it into Munki.
+
+Set MAJOR_VERSION to the major version you wish to download. Currently: 8, 11, 15, 16, 17, 18, 19, 20, 21, 22 or 23
+
+For Intel use: "x86_64" in the DOWNLOAD_ARCH variable
+For Apple Silicon use: "aarch64" in the DOWNLOAD_ARCH variable
+
+Set VERSION_DESTINATION_PATH to "/Library/Java/JavaVirtualMachines" for Versions 8, 11, 17, 18, 19, 20, 21, 22 and 23.
+
+Leave empty for 15 and 16.
+
+This recipe defaults to version 23 and aarch64.
+</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.AmazonCorretto</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Amazon Corretto</string>
+        <key>MAJOR_VERSION</key>
+        <string>23</string>
+        <key>DOWNLOAD_ARCH</key>
+        <string>aarch64</string>
+        <key>VERSION_DESTINATION_PATH</key>
+        <string>/Library/Java/JavaVirtualMachines</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>No-cost, multiplatform, production-ready distribution of OpenJDK.</string>
+		<key>developer</key>
+		<string>AMZN Mobile LLC</string>
+		<key>display_name</key>
+		<string>Amazon Corretto</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.7</string>
+	<key>ParentRecipe</key>
+	<string>com.github.dataJAR-recipes.download.Amazon Corretto</string>
+	<key>Process</key>
+	<array>
+        <dict>
+            <key>Processor</key>
+            <string>FlatPkgUnpacker</string>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack/</string>
+                <key>flat_pkg_path</key>
+                <string>%pathname%</string>
+                <key>purge_destination</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>PkgPayloadUnpacker</string>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%%VERSION_DESTINATION_PATH%</string>
+                <key>pkg_payload_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack/amazon-corretto-%MAJOR_VERSION%.jdk.pkg/Payload</string>
+                <key>purge_destination</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>input_plist_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%/Library/Java/JavaVirtualMachines/amazon-corretto-%MAJOR_VERSION%.jdk/Contents/Info.plist</string>
+                <key>plist_version_key</key>
+                <string>CFBundleVersion</string>
+            </dict>
+            <key>Processor</key>
+            <string>Versioner</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>com.amazon.corretto.%MAJOR_VERSION%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string></string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

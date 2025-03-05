@@ -28,6 +28,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/foigus-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/foigus-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/grumpydrew-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/grumpydrew-recipes"
     },
@@ -46,6 +50,10 @@
     {
         "recipe_url": "https://github.com/autopkg/jleggat-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jleggat-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/joshua-d-miller-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/joshua-d-miller-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/jpiel-recipes",
