@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads latest Onyx for macOS Sequoia.
+
+    IMPORTANT: This recipe is for the Sequoia version of Onyx. For whatever reason, v15 is not available as an option in Intune for "minimumSupportedOperatingSystem". As a result I have set it to v14.0. This will allow the app to be installed on macOS 14.0 and later. Make sure you target the correct OS version in your grouping.
+    </string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.Onyx15</string>
+	<key>Input</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+        <key>VERSION</key>
+        <string>15</string>
+		<key>description</key>
+		<string>OnyX is a multifunction utility that you can use to verify the structure of the system files; perform cleaning and computer maintenance tasks; configure parameters in the Finder, Dock, Safari, and some Apple applications; delete caches; remove certain problematic folders and files; rebuild various databases and indexes; and more. It is a reliable application that provides a clean interface to many tasks that would otherwise require complex commands to be typed using a command–line interface.</string>
+		<key>developer</key>
+		<string>Titanium Software</string>
+		<key>display_name</key>
+		<string>Onyx for macOS Sequoia</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.6.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.peshay.download.OnyX</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+                <key>minimumSupportedOperatingSystem</key>
+                <string>v14_0</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
