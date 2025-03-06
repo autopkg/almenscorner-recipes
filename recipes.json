@@ -68,6 +68,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe"
     },
     {
+        "name": "AppCleaner",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppCleaner/AppCleaner.intune.recipe"
+    },
+    {
         "name": "Arc",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
     },
@@ -130,6 +134,10 @@
     {
         "name": "Canva",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Canva/Canva.intune.recipe"
+    },
+    {
+        "name": "Carbon Copy Cloner",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Carbon Copy Cloner/CarbonCopyCloner.intune.recipe"
     },
     {
         "name": "ChatGPT",
@@ -200,6 +208,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Evernote/Evernote.intune.recipe"
     },
     {
+        "name": "ExpressVPN",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ExpressVPN/ExpressVPN.intune.recipe"
+    },
+    {
         "name": "Figma",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Figma/Figma.intune.recipe"
     },
@@ -248,8 +260,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe"
     },
     {
+        "name": "Handbrake",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Handbrake/Handbrake.intune.recipe"
+    },
+    {
         "name": "Hidden Bar",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
+    },
+    {
+        "name": "Inkscape",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe"
     },
     {
         "name": "Insomnia",
@@ -288,6 +308,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LibreOffice/LibreOffice.intune.recipe"
     },
     {
+        "name": "Little Snitch",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Little Snitch/LittleSnitch.intune.recipe"
+    },
+    {
         "name": "Logi Options Plus",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LogiOptionsPlus/LogiOptionsPlus.intune.recipe"
     },
@@ -312,8 +336,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion/Notion.intune.recipe"
     },
     {
+        "name": "OBS",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OBS/OBS.intune.recipe"
+    },
+    {
         "name": "Ollama",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ollama/Ollama.intune.recipe"
+    },
+    {
+        "name": "Onyx for macOS Sequoia",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx15.intune.recipe"
+    },
+    {
+        "name": "Onyx for macOS Sonoma",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx14.intune.recipe"
+    },
+    {
+        "name": "Onyx for macOS Ventura",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx13.intune.recipe"
     },
     {
         "name": "Parsec",
@@ -372,8 +412,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spotify/Spotify.intune.recipe"
     },
     {
+        "name": "Super Duper",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuperDuper/SuperDuper.intune.recipe"
+    },
+    {
         "name": "Support Companion",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SupportCompanion/SupportCompanion.intune.recipe"
+    },
+    {
+        "name": "Syncthing",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Syncthing/Syncthing.intune.recipe"
     },
     {
         "name": "Tailscale",
