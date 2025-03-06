@@ -40,6 +40,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/grumpydrew-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/haircut-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/haircut-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/hansen-m-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/hansen-m-recipes"
     },
