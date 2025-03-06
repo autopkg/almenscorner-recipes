@@ -24,6 +24,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/bnpl-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/ctueck-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/ctueck-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/dataJAR-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
     },
@@ -34,6 +38,10 @@
     {
         "recipe_url": "https://github.com/autopkg/grumpydrew-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/grumpydrew-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/hansen-m-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/hansen-m-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/hjuutilainen-recipes",
@@ -88,8 +96,16 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/novaksam-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/nstrauss-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/nstrauss-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/peetinc-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/peetinc-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/peshay-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/peshay-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/recipes",

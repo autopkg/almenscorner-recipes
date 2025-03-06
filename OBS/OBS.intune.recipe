@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest stable version of OBS for macOS. 
+    
+    A post install script is added that copies the virtual camera plug-in to its needed location to avoid an admin credentials prompt when starting the virtual camera for the first time.
+    </string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.OBS</string>
+	<key>Input</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+        <key>ARCH</key>
+        <string>apple</string>
+		<key>description</key>
+		<string>Free and open source software for video recording and live streaming. Download and start streaming quickly and easily on Windows, Mac or Linux.</string>
+		<key>developer</key>
+		<string>Hugh Bailey</string>
+		<key>display_name</key>
+		<string>OBS</string>
+        <key>postinstall_script</key>
+        <string>IyEvYmluL3NoCiMgY29weSB2aXJ0dWFsIGNhbWVyYSBwbHVnLWluIHRvIGl0cyBuZWVkZWQgbG9jYXRpb24gdG8gYXZvaWQgYW4gYWRtaW4KIyBjcmVkZW50aWFscyBwcm9tcHQgd2hlbiBzdGFydGluZyB0aGUgdmlydHVhbCBjYW1lcmEgZm9yIHRoZSBmaXJzdCB0aW1lCi9iaW4vY3AgLVIgL0FwcGxpY2F0aW9ucy9PQlMuYXBwL0NvbnRlbnRzL1Jlc291cmNlcy9vYnMtbWFjLXZpcnR1YWxjYW0ucGx1Z2luIC9MaWJyYXJ5L0NvcmVNZWRpYUlPL1BsdWctSW5zL0RBTC8=</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.nstrauss.pkg.OBS</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+        <dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pkg_path%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+                <key>postinstall_script</key>
+                <string>%postinstall_script%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
