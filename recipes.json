@@ -100,6 +100,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BBEdit 15/BBEdit15.intune.recipe"
     },
     {
+        "name": "BambuStudio",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BambuStudio/BambuStudio.intune.recipe"
+    },
+    {
         "name": "Bartender",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bartender/Bartender.intune.recipe"
     },
@@ -138,6 +142,10 @@
     {
         "name": "Carbon Copy Cloner",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Carbon Copy Cloner/CarbonCopyCloner.intune.recipe"
+    },
+    {
+        "name": "Charles",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CharlesProxy/CharlesProxy.intune.recipe"
     },
     {
         "name": "ChatGPT",
@@ -180,6 +188,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
     },
     {
+        "name": "Desktoppr",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Desktoppr/Desktoppr.intune.recipe"
+    },
+    {
         "name": "DevToys",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe"
     },
@@ -194,6 +206,10 @@
     {
         "name": "Docker Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe"
+    },
+    {
+        "name": "Elgato Camera Hub",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Camera Hub/ElgatoCameraHub.intune.recipe"
     },
     {
         "name": "Elgato Stream Deck",
@@ -212,6 +228,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ExpressVPN/ExpressVPN.intune.recipe"
     },
     {
+        "name": "Fiddler Everywhere",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Fiddler Everywhere/FiddlerEverywhere.intune.recipe"
+    },
+    {
         "name": "Figma",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Figma/Figma.intune.recipe"
     },
@@ -220,8 +240,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FileZilla/FileZilla.intune.recipe"
     },
     {
+        "name": "Final Draft 13",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Final Draft 13/FinalDraft13.intune.recipe"
+    },
+    {
         "name": "Firefox",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe"
+    },
+    {
+        "name": "FontBase",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe"
+    },
+    {
+        "name": "Foxit PDF Reader",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Foxit/FoxitPDFReader.intune.recipe"
+    },
+    {
+        "name": "Geekbench",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Geekbench/Geekbench.intune.recipe"
     },
     {
         "name": "Gifox",
@@ -264,6 +300,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Handbrake/Handbrake.intune.recipe"
     },
     {
+        "name": "HazeOver",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HazeOver/HazeOver.intune.recipe"
+    },
+    {
         "name": "Hidden Bar",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
     },
@@ -286,6 +326,10 @@
     {
         "name": "Jump Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jump Desktop/JumpDesktop.intune.recipe"
+    },
+    {
+        "name": "Karabiner-Elements",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Karabiner-Elements/Karabiner-Elements.intune.recipe"
     },
     {
         "name": "KeePassXC",
@@ -344,6 +388,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ollama/Ollama.intune.recipe"
     },
     {
+        "name": "OmniFocus",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniFocus4.intune.recipe"
+    },
+    {
         "name": "Onyx for macOS Sequoia",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx15.intune.recipe"
     },
@@ -358,6 +406,22 @@
     {
         "name": "Parsec",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
+    },
+    {
+        "name": "PostgreSQL",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL.intune.recipe"
+    },
+    {
+        "name": "PostgreSQL 14",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL14.intune.recipe"
+    },
+    {
+        "name": "PostgreSQL 15",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL15.intune.recipe"
+    },
+    {
+        "name": "PostgreSQL 16",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL16.intune.recipe"
     },
     {
         "name": "Postman",
@@ -376,6 +440,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-PE.intune.recipe"
     },
     {
+        "name": "Razer Synapse",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Razer Synapse/RazerSynapse.intune.recipe"
+    },
+    {
         "name": "Rectangle",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe"
     },
@@ -390,6 +458,14 @@
     {
         "name": "Santa",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe"
+    },
+    {
+        "name": "Scapple",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scapple.intune.recipe"
+    },
+    {
+        "name": "Scrivener",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scrivener.intune.recipe"
     },
     {
         "name": "Sketch",
@@ -410,6 +486,10 @@
     {
         "name": "Spotify",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spotify/Spotify.intune.recipe"
+    },
+    {
+        "name": "Stats",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stats/Stats.intune.recipe"
     },
     {
         "name": "Super Duper",
@@ -490,6 +570,10 @@
     {
         "name": "Zoom",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zoom/Zoom.intune.recipe"
+    },
+    {
+        "name": "drawio Desktop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Drawio/Drawio.intune.recipe"
     },
     {
         "name": "iMazing",

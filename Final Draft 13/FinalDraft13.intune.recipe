@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current version of Final Draft 13.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.FinalDraft13</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Final Draft 13</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+        <key>description</key>
+            <string>More Tools. More Productivity. More Progress.
+
+Final Draft 13 is the most customizable version of the world’s bestselling screenwriting software. Take your idea to script with easy-to-use tools so you can get more done with your writing sessions and achieve your goals faster.</string>
+        <key>developer</key>
+		<string>Final Draft</string>
+		<key>display_name</key>
+		<string>Final Draft 13</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.1</string>
+	<key>ParentRecipe</key>
+    <string>com.github.dataJAR-recipes.download.Final Draft 13</string>
+    <key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/unzip/Final Draft 13.dmg</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%RECIPE_CACHE_DIR%/unzip/Final Draft 13.dmg</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%RECIPE_CACHE_DIR%/unzip/Final Draft 13.dmg</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

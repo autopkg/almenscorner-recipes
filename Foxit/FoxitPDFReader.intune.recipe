@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current version of Foxit PDF Reader. Auto updates and splash screen will be disabled.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.FoxitPDFReader</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Foxit PDF Reader</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>Industry's most powerful PDF reader. View, annotate, form fill, and sign PDF across desktop, mobile, and web – no matter if you're at the office, home, or on the go.</string>
+		<key>developer</key>
+		<string>Foxit Software Inc</string>
+		<key>display_name</key>
+		<string>Foxit PDF Reader</string>
+        <key>postinstall_script</key>
+        <string>IyEvYmluL3NoCgojIERpc2FibGUgYXV0b21hdGljIGluLXVwZGF0ZXMKL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBSZWFkZXJMaXRlX1VwZGF0ZU1vZGUgLWJvb2wgRkFMU0UKIyBEbyBub3QgdXNlIHNwbGFzaCBzY3JlZW4KL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBQcmVmZXJlbmNlcy5HZW5lcmFsLmJTaG93U3RhcnRQYWdlIC1ib29sIEZBTFNF</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.3.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.wycomco.download.FoxitPDFReader</string>
+	<key>Process</key>
+	<array>
+    	<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%found_filename%/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleID</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%found_filename%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>%bundleID%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+                <key>postinstall_script</key>
+                <string>%postinstall_script%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
