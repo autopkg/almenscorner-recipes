@@ -60,6 +60,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jleggat-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/jlehikoinen-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/jlehikoinen-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/joshua-d-miller-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/joshua-d-miller-recipes"
     },
@@ -130,5 +134,13 @@
     {
         "recipe_url": "https://github.com/autopkg/valdore86-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/valdore86-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/wholtz-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/wholtz-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/wycomco-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/wycomco-recipes"
     }
 ]
