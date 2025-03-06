@@ -208,6 +208,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe"
     },
     {
+        "name": "Dropshare",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dropshare/Dropshare.intune.recipe"
+    },
+    {
+        "name": "Eclipse",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Eclipse/Eclipse.intune.recipe"
+    },
+    {
         "name": "Elgato Camera Hub",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Camera Hub/ElgatoCameraHub.intune.recipe"
     },
@@ -308,6 +316,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
     },
     {
+        "name": "Hide My Bar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hide My Bar/HideMyBar.intune.recipe"
+    },
+    {
         "name": "Inkscape",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe"
     },
@@ -358,6 +370,10 @@
     {
         "name": "Logi Options Plus",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LogiOptionsPlus/LogiOptionsPlus.intune.recipe"
+    },
+    {
+        "name": "Loom",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Loom/Loom.intune.recipe"
     },
     {
         "name": "Maven",
@@ -428,6 +444,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postman/Postman.intune.recipe"
     },
     {
+        "name": "Power Manager",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Power Manager/PowerManager.intune.recipe"
+    },
+    {
         "name": "Privileges",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Privileges/Privileges.intune.recipe"
     },
@@ -490,6 +510,14 @@
     {
         "name": "Stats",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stats/Stats.intune.recipe"
+    },
+    {
+        "name": "Steam",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steam/Steam.intune.recipe"
+    },
+    {
+        "name": "SteelSeries GG",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steelseries GG/SteelseriesGG.intune.recipe"
     },
     {
         "name": "Super Duper",

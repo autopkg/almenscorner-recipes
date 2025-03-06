@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the current release version of Eclipse.
+
+    Use the ARCHITECTURE input variable to specify whether you want to download the
+    Intel ("x86_64") or Apple Silicon ("aarch64") version of Eclipse.
+
+    Use the ECLIPSE_CODE input variable to specify the IDE version.
+    "jee"          Eclipse IDE for Enterprise Java and Web Developers
+    "java"         Eclipse IDE for Java Developers
+    "cpp"          Eclipse IDE for C/C++ Developers
+    "committers"   Eclipse IDE for Eclipse Committers
+    "dsl"          Eclipse IDE for Java and DSL Developers
+    "php"          Eclipse IDE for PHP Developers
+    "embedcpp"     Eclipse IDE for Embedded C/C++ Developers
+    "rcp"          Eclipse IDE for RCP and RAP Developers
+    "modeling"     Eclipse Modeling Tools
+    "scout"        Eclipse IDE for Scout Developers
+    </string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.Eclipse</string>
+	<key>Input</key>
+	<dict>
+        <key>ARCHITECTURE</key>
+        <string>aarch64</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>The essential tools for any Java developer, including a Java IDE, a CVS client, Git client, XML Editor, Mylyn, Maven integration...</string>
+		<key>developer</key>
+		<string>Eclipse Foundation</string>
+		<key>display_name</key>
+		<string>Eclipse</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.homebysix.download.Eclipse</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>%bundleid%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
