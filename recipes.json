@@ -60,6 +60,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/AndroidStudio.intune.recipe"
     },
     {
+        "name": "Angry IP Scanner",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Angry IP Scanner/AngryIPScanner.intune.recipe"
+    },
+    {
         "name": "Anki",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anki/Anki.intune.recipe"
     },
@@ -68,12 +72,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe"
     },
     {
+        "name": "Apache NetBeans",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache NetBeans/ApacheNetBeans.intune.recipe"
+    },
+    {
         "name": "AppCleaner",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppCleaner/AppCleaner.intune.recipe"
     },
     {
         "name": "Arc",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
+    },
+    {
+        "name": "Arduino",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arduino/Arduino.intune.recipe"
     },
     {
         "name": "Asana",
@@ -86,6 +98,10 @@
     {
         "name": "AutoDesk Fusion 360",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoDesk Fusion 360/AutoDeskFusion360.intune.recipe"
+    },
+    {
+        "name": "AutoPkgr",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoPkgr/AutoPkgr.intune.recipe"
     },
     {
         "name": "Azul Zulu OpenJDK 11 LTS",
@@ -212,6 +228,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dropshare/Dropshare.intune.recipe"
     },
     {
+        "name": "Duck Duck Go",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duck Duck Go/DuckDuckGo.intune.recipe"
+    },
+    {
         "name": "Eclipse",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Eclipse/Eclipse.intune.recipe"
     },
@@ -256,6 +276,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe"
     },
     {
+        "name": "Fleet",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Fleet.intune.recipe"
+    },
+    {
         "name": "FontBase",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe"
     },
@@ -282,6 +306,10 @@
     {
         "name": "GitKraken",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axosoft/GitKraken.intune.recipe"
+    },
+    {
+        "name": "GoLand",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/GoLand.intune.recipe"
     },
     {
         "name": "Godot 3",
@@ -318,6 +346,14 @@
     {
         "name": "Hide My Bar",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hide My Bar/HideMyBar.intune.recipe"
+    },
+    {
+        "name": "Hyper",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hyper/Hyper.intune.recipe"
+    },
+    {
+        "name": "IBM Notifier",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IBM/IBMNotifier.intune.recipe"
     },
     {
         "name": "Inkscape",
@@ -384,8 +420,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Azure Storage Explorer/MicrosoftAzureStorageExplorer.intune.recipe"
     },
     {
+        "name": "Minikube",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Minikube/Minikube.intune.recipe"
+    },
+    {
+        "name": "Miro",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Miro/Miro.intune.recipe"
+    },
+    {
         "name": "MongoDB Compass",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MongoDB Compass/MongoDBCompass.intune.recipe"
+    },
+    {
+        "name": "NetSpot",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetSpot/NetSpot.intune.recipe"
     },
     {
         "name": "NordVPN",
@@ -396,8 +444,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion/Notion.intune.recipe"
     },
     {
+        "name": "Notion Calendar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion Calendar/NotionCalendar.intune.recipe"
+    },
+    {
         "name": "OBS",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OBS/OBS.intune.recipe"
+    },
+    {
+        "name": "Obsidian",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Obsidian/Obsidian.intune.recipe"
     },
     {
         "name": "Ollama",
@@ -420,8 +476,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx13.intune.recipe"
     },
     {
+        "name": "OpenJDK",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenJDK/OpenJDK.intune.recipe"
+    },
+    {
+        "name": "Opera",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Opera/Opera.intune.recipe"
+    },
+    {
         "name": "Parsec",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
+    },
+    {
+        "name": "PopSQL",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PopSQL/PopSQL.intune.recipe"
     },
     {
         "name": "PostgreSQL",
@@ -460,12 +528,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-PE.intune.recipe"
     },
     {
+        "name": "Raycast",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Raycast/Raycast.intune.recipe"
+    },
+    {
         "name": "Razer Synapse",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Razer Synapse/RazerSynapse.intune.recipe"
     },
     {
+        "name": "Rclone",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rclone/Rclone.intune.recipe"
+    },
+    {
         "name": "Rectangle",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe"
+    },
+    {
+        "name": "Remote Desktop Manager Free",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Remote Desktop Manager Free/RemoteDesktopManagerFree.intune.recipe"
     },
     {
         "name": "Remote Help",
@@ -528,8 +608,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SupportCompanion/SupportCompanion.intune.recipe"
     },
     {
+        "name": "Surfshark",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Surfshark/Surfshark.intune.recipe"
+    },
+    {
+        "name": "Swift Dialog",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Swift Dialog/SwiftDialog.intune.recipe"
+    },
+    {
         "name": "Syncthing",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Syncthing/Syncthing.intune.recipe"
+    },
+    {
+        "name": "Tabby",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tabby/Tabby.intune.recipe"
     },
     {
         "name": "Tailscale",
@@ -564,6 +656,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/UTM/UTM.intune.recipe"
     },
     {
+        "name": "Unity Hub",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Unity3D/UnityHub.intune.recipe"
+    },
+    {
         "name": "VLC Media Player",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe"
     },
@@ -572,12 +668,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBox/VirtualBox.intune.recipe"
     },
     {
+        "name": "VirtualBuddy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBuddy/VirtualBuddy.intune.recipe"
+    },
+    {
         "name": "Visual Studio Code",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Code/Code.intune.recipe"
     },
     {
         "name": "Vivaldi",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Vivaldi/Vivaldi.intune.recipe"
+    },
+    {
+        "name": "Warp",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Warp/Warp.intune.recipe"
     },
     {
         "name": "Webstorm",
@@ -594,6 +698,10 @@
     {
         "name": "Yubico Authenticator",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe"
+    },
+    {
+        "name": "Zed",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe"
     },
     {
         "name": "Zoom",

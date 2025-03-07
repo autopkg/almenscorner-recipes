@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+    <string>Downloads the latest version of Rclone.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.Rclone</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Rclone</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+        <key>description</key>
+        <string>Rclone is a command line program to sync files to and from Google Drive, Amazon Cloud Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage and Yandex. It&apos;s features include MD5/SHA1 hashes, preserved timestamps, partial and one-way syncs and cross platform syncing.</string>
+        <key>developer</key>
+        <string>Nick Craig-Wood</string>
+		<key>display_name</key>
+		<string>Rclone</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.9</string>
+	<key>ParentRecipe</key>
+	<string>com.github.andrewvalentine.pkg.rclone</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pkg_path%</string>
+				<key>bundleId</key>
+				<string>github.ncw.rclon</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string></string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
