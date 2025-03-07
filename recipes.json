@@ -24,6 +24,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirParrot 3/AirParrot3.intune.recipe"
     },
     {
+        "name": "Airtable",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airtable/Airtable.intune.recipe"
+    },
+    {
         "name": "Airy",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airy/Airy.intune.recipe"
     },
@@ -38,6 +42,10 @@
     {
         "name": "AltTab",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AltTab/AltTab.intune.recipe"
+    },
+    {
+        "name": "Amadine",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BeLight Software/Amadine.intune.recipe"
     },
     {
         "name": "Amazon CLI",
@@ -72,8 +80,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe"
     },
     {
+        "name": "Anydo",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydo/Anydo.intune.recipe"
+    },
+    {
         "name": "Apache NetBeans",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache NetBeans/ApacheNetBeans.intune.recipe"
+    },
+    {
+        "name": "Apidog",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apidog/Apidog.intune.recipe"
     },
     {
         "name": "AppCleaner",
@@ -114,6 +130,10 @@
     {
         "name": "BBEdit 15",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BBEdit 15/BBEdit15.intune.recipe"
+    },
+    {
+        "name": "Badgeify",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Badgeify/Badgeify.intune.recipe"
     },
     {
         "name": "BambuStudio",
@@ -766,6 +786,10 @@
     {
         "name": "Windows App",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/WindowsApp/WindowsApp.intune.recipe"
+    },
+    {
+        "name": "Windsurf",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Codeium/Windsurf.intune.recipe"
     },
     {
         "name": "Wireshark",

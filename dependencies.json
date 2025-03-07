@@ -116,6 +116,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/macprince-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/michalmmac-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/michalmmac-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/mikestechshop-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/mikestechshop-recipes"
     },
