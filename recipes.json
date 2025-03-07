@@ -96,6 +96,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppCleaner/AppCleaner.intune.recipe"
     },
     {
+        "name": "Apparency",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apparency/Apparency.intune.recipe"
+    },
+    {
         "name": "Arc",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
     },
