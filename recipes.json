@@ -124,6 +124,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bartender/Bartender.intune.recipe"
     },
     {
+        "name": "Basecamp 3",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Basecamp 3/Basecamp3.intune.recipe"
+    },
+    {
         "name": "Better Display",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe"
     },
@@ -188,6 +192,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickShare/ClickShare.intune.recipe"
     },
     {
+        "name": "ClickUp",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickUp/ClickUp.intune.recipe"
+    },
+    {
         "name": "Cloudflare WARP",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cloudflare WARP/CloudflareWARP.intune.recipe"
     },
@@ -204,12 +212,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
     },
     {
+        "name": "Datto Drive",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DattoDrive/DattoDrive.intune.recipe"
+    },
+    {
         "name": "Desktoppr",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Desktoppr/Desktoppr.intune.recipe"
     },
     {
         "name": "DevToys",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe"
+    },
+    {
+        "name": "DevUtils",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevUtils/DevUtils.intune.recipe"
     },
     {
         "name": "Discord",
@@ -232,6 +248,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duck Duck Go/DuckDuckGo.intune.recipe"
     },
     {
+        "name": "Duet",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duet/Duet.intune.recipe"
+    },
+    {
         "name": "Eclipse",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Eclipse/Eclipse.intune.recipe"
     },
@@ -242,6 +262,10 @@
     {
         "name": "Elgato Stream Deck",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Stream Deck/Elgato+Stream+Deck.intune.recipe"
+    },
+    {
+        "name": "Epic Games Launcher",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/EpicGames/EpicGamesLauncher.intune.recipe"
     },
     {
         "name": "Escrow Buddy",
@@ -420,6 +444,42 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Azure Storage Explorer/MicrosoftAzureStorageExplorer.intune.recipe"
     },
     {
+        "name": "Microsoft Company Portal",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Company Portal/CompanyPortal.intune.recipe"
+    },
+    {
+        "name": "Microsoft Defender ATP for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Defender ATP/MicrosoftDefenderATP.intune.recipe"
+    },
+    {
+        "name": "Microsoft Edge",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Edge/Edge.intune.recipe"
+    },
+    {
+        "name": "Microsoft Excel for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSExcel2019.intune.recipe"
+    },
+    {
+        "name": "Microsoft OneNote for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOneNote2019.intune.recipe"
+    },
+    {
+        "name": "Microsoft Outlook for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOutlook2019.intune.recipe"
+    },
+    {
+        "name": "Microsoft PowerPoint for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSPowerPoint2019.intune.recipe"
+    },
+    {
+        "name": "Microsoft Teams for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MicrosoftTeams.intune.recipe"
+    },
+    {
+        "name": "Microsoft Word for Mac",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSWord2019.intune.recipe"
+    },
+    {
         "name": "Minikube",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Minikube/Minikube.intune.recipe"
     },
@@ -488,6 +548,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
     },
     {
+        "name": "Podman Desktop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Podman Desktop/PodmanDesktop.intune.recipe"
+    },
+    {
         "name": "PopSQL",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PopSQL/PopSQL.intune.recipe"
     },
@@ -552,6 +616,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftRemoteHelp/MicrosoftRemoteHelp.intune.recipe"
     },
     {
+        "name": "RescueTime",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RescueTime/RescueTime.intune.recipe"
+    },
+    {
         "name": "Rider",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Rider.intune.recipe"
     },
@@ -562,6 +630,10 @@
     {
         "name": "Scapple",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scapple.intune.recipe"
+    },
+    {
+        "name": "Screenflick",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Screenflick/Screenflick.intune.recipe"
     },
     {
         "name": "Scrivener",
@@ -642,6 +714,10 @@
     {
         "name": "The Unarchiver",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/The Unarchiver/TheUnarchiver.intune.recipe"
+    },
+    {
+        "name": "TimeOut",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TimeOut/TimeOut.intune.recipe"
     },
     {
         "name": "Tor",

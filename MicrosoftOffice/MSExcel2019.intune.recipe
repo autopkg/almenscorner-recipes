@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Excel 2019 multilingual update pkg,
+appends the version to the end of the filename, and imports into
+intune.
+
+If this is an update_for something, you may define this in your
+pkginfo Input override below.
+
+CHANNEL, LOCALE_ID, and VERSION are inherited from the .download recipe but can
+still be overridden in an override for this .intune recipe.
+
+CHANNEL can be set to several values in order to get more frequent updates
+that can be used for testing purposes. See the explanations in the 'Channel'
+table at http://macadmins.software/docs/MAU_ManifestServer.pdf. Supported
+values are 'Production', 'InsiderSlow', 'InsiderFast', or a custom UUID to be
+inserted into the Base URL.
+
+LOCALE_ID sets the locale for a descriptive text that will be
+extracted from the Microsoft update metadata. See
+https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx
+for more information about locale IDs.
+
+VERSION supports three values: 'latest', which will download
+the latest full update for the given CHANNEL, 'latest-delta',
+which will download the latest delta update for the given CHANNEL,
+and 'latest-standalone' which will download the latest standalone
+installer for the given CHANNEL. 'latest-standalone' does not support
+'InsiderFast' CHANNEL.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.MSExcel2019</string>
+	<key>Input</key>
+	<dict>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+        <string></string>
+        <key>developer</key>
+        <string>Microsoft</string>
+		<key>display_name</key>
+		<string>Microsoft Excel for Mac</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.download.MSExcel2019</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpack</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>%destination_path%/*.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileFinder</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%destination_path%</string>
+				<key>pkg_payload_path</key>
+				<string>%destination_path%/%found_basename%/Payload</string>
+			</dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
+		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>input_plist_path</key>
+                <string>%destination_path%/Microsoft Excel.app/Contents/Info.plist</string>
+            </dict>
+            <key>Processor</key>
+            <string>Versioner</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%input_plist_path%</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleID</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%destination_path%/Microsoft Excel.app</string>
+				<key>name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
+		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>path_list</key>
+                <array>
+                    <string>%destination_path%</string>
+                </array>
+            </dict>
+            <key>Processor</key>
+            <string>PathDeleter</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>%bundleID%</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%icon_file_path%</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
