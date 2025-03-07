@@ -24,6 +24,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/autopkg-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/blackthroat-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/blackthroat-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/bnpl-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/bnpl-recipes"
     },
@@ -130,6 +134,10 @@
     {
         "recipe_url": "https://github.com/autopkg/nstrauss-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/nstrauss-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/ox-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/ox-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/peetinc-recipes",
