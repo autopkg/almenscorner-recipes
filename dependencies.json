@@ -8,6 +8,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/almenscorner-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/andrewvalentine-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/andrewvalentine-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/apettinen-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/apettinen-recipes"
     },
@@ -24,6 +28,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/bnpl-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/clburlison-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/clburlison-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/ctueck-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/ctueck-recipes"
     },
@@ -34,6 +42,14 @@
     {
         "recipe_url": "https://github.com/autopkg/foigus-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/foigus-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/gilburns-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/gilburns-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/gregneagle-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/gregneagle-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/grumpydrew-recipes",
@@ -56,6 +72,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/homebysix-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/jaharmi-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/jaharmi-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/jc0b-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jc0b-recipes"
     },
@@ -74,6 +94,10 @@
     {
         "recipe_url": "https://github.com/autopkg/jpiel-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/jpiel-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/jps3-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/jps3-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/keeleysam-recipes",
@@ -116,6 +140,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/peshay-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/precursorca-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/precursorca-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/recipes"
     },
@@ -140,11 +168,19 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/valdore86-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/wegotoeleven-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/wegotoeleven-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/wholtz-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/wholtz-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/wycomco-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/wycomco-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/zentralpro-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/zentralpro-recipes"
     }
 ]
