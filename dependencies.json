@@ -44,6 +44,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/dwbergstrom-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/dwbergstrom-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/foigus-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/foigus-recipes"
     },
@@ -140,6 +144,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/n8felton-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/neilmartin83-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/neilmartin83-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/novaksam-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/novaksam-recipes"
     },
@@ -202,6 +210,10 @@
     {
         "recipe_url": "https://github.com/autopkg/wycomco-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/wycomco-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/ygini-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/ygini-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/zentralpro-recipes",
