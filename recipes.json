@@ -296,8 +296,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Datagrip.intune.recipe"
     },
     {
+        "name": "DataSpell",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/DataSpell.intune.recipe"
+    },
+    {
         "name": "Datto Drive",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DattoDrive/DattoDrive.intune.recipe"
+    },
+    {
+        "name": "DeepL",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DeepL/DeepL.intune.recipe"
     },
     {
         "name": "Desktoppr",
@@ -322,6 +330,14 @@
     {
         "name": "Docker Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe"
+    },
+    {
+        "name": "Downie",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Downie/Downie.intune.recipe"
+    },
+    {
+        "name": "DrawBot",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DrawBot/DrawBot.intune.recipe"
     },
     {
         "name": "Dropshare",
@@ -356,6 +372,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Escrow Buddy/EscrowBuddy.intune.recipe"
     },
     {
+        "name": "Etcher",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Etcher/Etcher.intune.recipe"
+    },
+    {
         "name": "Evernote",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Evernote/Evernote.intune.recipe"
     },
@@ -388,6 +408,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Fleet.intune.recipe"
     },
     {
+        "name": "Flux",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Flux/Flux.intune.recipe"
+    },
+    {
         "name": "FontBase",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe"
     },
@@ -396,8 +420,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Foxit/FoxitPDFReader.intune.recipe"
     },
     {
+        "name": "FreeCAD",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeCAD/FreeCAD.intune.recipe"
+    },
+    {
         "name": "Geekbench",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Geekbench/Geekbench.intune.recipe"
+    },
+    {
+        "name": "Gemini",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/Gemini2.intune.recipe"
+    },
+    {
+        "name": "Ghostty",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ghostty/Ghostty.intune.recipe"
     },
     {
         "name": "Gifox",
@@ -414,6 +450,10 @@
     {
         "name": "GitKraken",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axosoft/GitKraken.intune.recipe"
+    },
+    {
+        "name": "Gitfinder",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitfinder/Gitfinder.intune.recipe"
     },
     {
         "name": "GoLand",
@@ -440,6 +480,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe"
     },
     {
+        "name": "HP Easy Admin",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HP/HPEasyAdmin.intune.recipe"
+    },
+    {
+        "name": "Hammerspoon",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hammerspoon/Hammerspoon.intune.recipe"
+    },
+    {
         "name": "Handbrake",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Handbrake/Handbrake.intune.recipe"
     },
@@ -464,6 +512,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IBM/IBMNotifier.intune.recipe"
     },
     {
+        "name": "IINA",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IINA/IINA.intune.recipe"
+    },
+    {
+        "name": "Ice",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ice/Ice.intune.recipe"
+    },
+    {
         "name": "Inkscape",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe"
     },
@@ -472,12 +528,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe"
     },
     {
+        "name": "Insta360 Studio",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insta365 Studio/Insta360Studio.intune.recipe"
+    },
+    {
         "name": "IntelliJ IDEA Community Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-CE.intune.recipe"
     },
     {
         "name": "IntelliJ IDEA Ultimate Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-UE.intune.recipe"
+    },
+    {
+        "name": "Joplin",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Joplin/Joplin.intune.recipe"
     },
     {
         "name": "Jump Desktop",
