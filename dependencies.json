@@ -48,6 +48,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/foigus-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/gerardkok-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/gerardkok-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/gilburns-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/gilburns-recipes"
     },
@@ -128,6 +132,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/moofit-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/mosen-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/mosen-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/n8felton-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/n8felton-recipes"
     },
@@ -178,6 +186,10 @@
     {
         "recipe_url": "https://github.com/autopkg/valdore86-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/valdore86-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/wardsparadox-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/wardsparadox-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/wegotoeleven-recipes",
