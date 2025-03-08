@@ -152,12 +152,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Basecamp 3/Basecamp3.intune.recipe"
     },
     {
+        "name": "Beeper",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Beeper/Beeper.intune.recipe"
+    },
+    {
         "name": "Better Display",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe"
     },
     {
         "name": "Better Touch Tool",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterTouchTool/BetterTouchTool.intune.recipe"
+    },
+    {
+        "name": "BetterMouse",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterMouse/BetterMouse.intune.recipe"
     },
     {
         "name": "Bitwarden",
@@ -168,8 +176,20 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Blender/Blender.intune.recipe"
     },
     {
+        "name": "Boxcryptor",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Boxcryptor/Boxcryptor.intune.recipe"
+    },
+    {
         "name": "Brave",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brave/Brave.intune.recipe"
+    },
+    {
+        "name": "Bruno",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bruno/Bruno.intune.recipe"
+    },
+    {
+        "name": "CLion",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/CLion.intune.recipe"
     },
     {
         "name": "Caffeine",
@@ -178,6 +198,18 @@
     {
         "name": "Cakebrew",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cakebrew/Cakebrew.intune.recipe"
+    },
+    {
+        "name": "Calibre",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calibre/Calibre.intune.recipe"
+    },
+    {
+        "name": "Calmly Writer",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calmly/CalmlyWriter.intune.recipe"
+    },
+    {
+        "name": "Camtasia",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Camtasia/Camtasia.intune.recipe"
     },
     {
         "name": "Canva",
@@ -220,12 +252,28 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickUp/ClickUp.intune.recipe"
     },
     {
+        "name": "Clipy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Clipy/Clipy.intune.recipe"
+    },
+    {
         "name": "Cloudflare WARP",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cloudflare WARP/CloudflareWARP.intune.recipe"
     },
     {
+        "name": "CodeEdit",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeEdit/CodeEdit.intune.recipe"
+    },
+    {
+        "name": "CodeRunner",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeRunner/CodeRunner.intune.recipe"
+    },
+    {
         "name": "CodeWhisperer",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeWhisperer/CodeWhisperer.intune.recipe"
+    },
+    {
+        "name": "Cursor",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cursor/Cursor.intune.recipe"
     },
     {
         "name": "Cyberduck",
@@ -234,6 +282,18 @@
     {
         "name": "DB Browser for SQLite",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
+    },
+    {
+        "name": "DaisyDisk",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DaisyDisk/DaisyDisk.intune.recipe"
+    },
+    {
+        "name": "Dangerzone",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dangerzone/Dangerzone.intune.recipe"
+    },
+    {
+        "name": "DataGrip",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Datagrip.intune.recipe"
     },
     {
         "name": "Datto Drive",
