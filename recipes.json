@@ -696,6 +696,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion Calendar/NotionCalendar.intune.recipe"
     },
     {
+        "name": "Nucleo",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nucleo/Nucleo.intune.recipe"
+    },
+    {
         "name": "OBS",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OBS/OBS.intune.recipe"
     },
@@ -730,6 +734,10 @@
     {
         "name": "Opera",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Opera/Opera.intune.recipe"
+    },
+    {
+        "name": "OrbStack",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OrbStack/OrbStack.intune.recipe"
     },
     {
         "name": "Parsec",
@@ -770,6 +778,10 @@
     {
         "name": "Privileges",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Privileges/Privileges.intune.recipe"
+    },
+    {
+        "name": "ProtonVPN",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ProtonVPN/ProtonVPN.intune.recipe"
     },
     {
         "name": "PyCharm Community Edition",

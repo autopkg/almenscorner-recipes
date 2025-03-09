@@ -20,6 +20,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/apizz-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/arubdesu-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/arubdesu-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/autopkg-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/autopkg-recipes"
     },
