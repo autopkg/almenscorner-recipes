@@ -44,6 +44,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dataJAR-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/download-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/download-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/dwbergstrom-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dwbergstrom-recipes"
     },
