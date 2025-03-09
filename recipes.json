@@ -548,6 +548,14 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jump Desktop/JumpDesktop.intune.recipe"
     },
     {
+        "name": "Jumpcut",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpcut/Jumpcut.intune.recipe"
+    },
+    {
+        "name": "Jumpshare",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpshare/Jumpshare.intune.recipe"
+    },
+    {
         "name": "Karabiner-Elements",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Karabiner-Elements/Karabiner-Elements.intune.recipe"
     },
@@ -556,8 +564,24 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeePassXC/KeePassXC.intune.recipe"
     },
     {
+        "name": "Keka",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keka/Keka.intune.recipe"
+    },
+    {
+        "name": "KeyClu",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeyClu/KeyClu.intune.recipe"
+    },
+    {
+        "name": "Keybase",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keybase/Keybase.intune.recipe"
+    },
+    {
         "name": "Kitty",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kitty/Kitty.intune.recipe"
+    },
+    {
+        "name": "Krisp",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krisp/Krisp.intune.recipe"
     },
     {
         "name": "Krita",
@@ -566,6 +590,14 @@
     {
         "name": "Kubectl",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kubernetes/Kubectl.intune.recipe"
+    },
+    {
+        "name": "LM Studio",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LMStudio/LMStudio.intune.recipe"
+    },
+    {
+        "name": "LangGraph Studio",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LangGraph Studio/LangGraphStudio.intune.recipe"
     },
     {
         "name": "LibreOffice",
@@ -580,8 +612,16 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LogiOptionsPlus/LogiOptionsPlus.intune.recipe"
     },
     {
+        "name": "LookAway",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LookAway/LookAway.intune.recipe"
+    },
+    {
         "name": "Loom",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Loom/Loom.intune.recipe"
+    },
+    {
+        "name": "Maccy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe"
     },
     {
         "name": "Maven",
@@ -854,6 +894,10 @@
     {
         "name": "TeamViewer QuickSupport",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TeamViewer/TeamViewerQS.intune.recipe"
+    },
+    {
+        "name": "Termius",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Termius/Termius.intune.recipe"
     },
     {
         "name": "Terraform",
