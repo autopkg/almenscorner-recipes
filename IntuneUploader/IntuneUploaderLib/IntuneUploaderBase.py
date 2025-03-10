@@ -611,7 +611,7 @@ class IntuneUploaderBase(Processor):
         if missing_assignment:
             for assignment in missing_assignment:
                 # Assign the app to the group
-                if assignment["exclude"] is True:
+                if assignment.get("exclude") is True:
                     odata_type = "#microsoft.graph.exclusionGroupAssignmentTarget"
                 else:
                     odata_type = "#microsoft.graph.groupAssignmentTarget"
