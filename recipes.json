@@ -1,1062 +1,1352 @@
 [
     {
         "name": "1password",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/1password/1password.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/1password/1password.intune.recipe",
+        "description": "The world\u2019s most-loved password manager\n\n1Password is the easiest way to store and use strong passwords. Log in to sites and fill forms securely with a single click."
+    },
+    {
+        "name": "4K Video Downloader",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/4K Video Downloader/4KVideoDownloader.intune.recipe",
+        "description": "4K Video Downloader allows downloading videos, playlists, channels and subtitles from YouTube, Facebook, Vimeo and other video sites in high quality."
+    },
+    {
+        "name": "Abstract",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Abstract/Abstract.intune.recipe",
+        "description": "Abstract is a platform for modern design teams to work together."
     },
     {
         "name": "Acorn",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FlyingMeat/Acorn.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FlyingMeat/Acorn.intune.recipe",
+        "description": "Bitmap image editor"
     },
     {
         "name": "Adobe Creative Cloud",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeCreativeCloudUniversal.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeCreativeCloudUniversal.intune.recipe",
+        "description": "Get the complete toolkit for creativity, including Photoshop, Premiere Pro, Illustrator, Adobe Express, and Acrobat Pro."
     },
     {
         "name": "Adobe Reader",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeReader.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeReader.intune.recipe",
+        "description": "Adobe\u00ae Reader\u00ae is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia."
     },
     {
         "name": "AirFoil",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RougueAmoeba/AirFoil.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RougueAmoeba/AirFoil.intune.recipe",
+        "description": "Send any audio from your Mac to AirPort Express units, Apple TVs, iPhones and iPods Touch, and even other Macs and PCs, all in sync."
     },
     {
         "name": "AirParrot 3",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirParrot 3/AirParrot3.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirParrot 3/AirParrot3.intune.recipe",
+        "description": "Streaming and Mirroring for Windows and macOS\n\nWirelessly mirror your screen or stream media files to a variety of receivers. AirParrot quickly finds available media receivers on your network and uses quick connect to connect directly to any device running Reflector 4. Easily mirror your screen, extend your desktop or stream files to share videos, audio, presentations and much more!"
     },
     {
         "name": "Airtable",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airtable/Airtable.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airtable/Airtable.intune.recipe",
+        "description": "Airtable is a spreadsheet-database hybrid, with the features of a database but applied to a spreadsheet. The fields in an Airtable table are similar to cells in a spreadsheet, but have types such as 'checkbox', 'phone number', and 'drop-down list', and can reference file attachments like images."
     },
     {
         "name": "Airy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airy/Airy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Airy/Airy.intune.recipe",
+        "description": "YouTube Downloader for Mac."
     },
     {
         "name": "Alacritty",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alacritty/Alacritty.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alacritty/Alacritty.intune.recipe",
+        "description": "A cross-platform, GPU-accelerated terminal emulator."
     },
     {
         "name": "Alfred",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alfred/Alfred5.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alfred/Alfred5.intune.recipe",
+        "description": "Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac."
     },
     {
         "name": "AltTab",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AltTab/AltTab.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AltTab/AltTab.intune.recipe",
+        "description": "AltTab brings the power of Windows alt-tab to macOS"
     },
     {
         "name": "Amadine",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BeLight Software/Amadine.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BeLight Software/Amadine.intune.recipe",
+        "description": "The ultimate vector graphics software for Mac, iPad and iPhone."
     },
     {
         "name": "Amazon CLI",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon CLI/AmazonCLI.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon CLI/AmazonCLI.intune.recipe",
+        "description": "The AWS Command Line Interface (CLI) is a unified tool to manage your AWS services, symlinked into your path at /usr/local/bin/aws"
     },
     {
         "name": "Amazon Chime",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Chime/AmazonChime.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Chime/AmazonChime.intune.recipe",
+        "description": "Amazon Chime is a communications service that lets you meet, chat, and place business calls inside and outside your organization, all using a single application."
     },
     {
         "name": "Amazon Corretto",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Corretto/AmazonCorretto.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Corretto/AmazonCorretto.intune.recipe",
+        "description": "No-cost, multiplatform, production-ready distribution of OpenJDK."
     },
     {
         "name": "Amazon Q",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Q/AmazonQ.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Amazon Q/AmazonQ.intune.recipe",
+        "description": "Amazon Q \u2013 Generative AI Assistant\n\nThe most capable generative AI\u2013powered assistant for accelerating software development and leveraging companies internal data"
     },
     {
         "name": "Android Studio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/AndroidStudio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/AndroidStudio.intune.recipe",
+        "description": "Android Studio is the official IDE for Android application development, based on IntelliJ IDEA."
     },
     {
         "name": "Angry IP Scanner",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Angry IP Scanner/AngryIPScanner.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Angry IP Scanner/AngryIPScanner.intune.recipe",
+        "description": "Angry IP Scanner - fast and friendly network scanner"
     },
     {
         "name": "Anki",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anki/Anki.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anki/Anki.intune.recipe",
+        "description": "Anki is a program which makes remembering things easy. Because it's a lot more efficient than traditional study methods, you can either greatly decrease your time spent studying, or greatly increase the amount you learn."
     },
     {
         "name": "Anydesk",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydesk/Anydesk.intune.recipe",
+        "description": "Connect to a computer remotely, be it from the other end of the office or halfway around the world. AnyDesk ensures secure and reliable remote desktop connections for IT professionals and on-the-go individuals alike."
     },
     {
         "name": "Anydo",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydo/Anydo.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anydo/Anydo.intune.recipe",
+        "description": "Easily manage your personal tasks, family projects, and team\u2019s work all in one place. Trusted by +40M people."
     },
     {
         "name": "Apache NetBeans",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache NetBeans/ApacheNetBeans.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache NetBeans/ApacheNetBeans.intune.recipe",
+        "description": "Apache Apache NetBeans\n\nFits the Pieces Together\n\nDevelopment Environment, Tooling Platform and Application Framework."
     },
     {
         "name": "Apidog",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apidog/Apidog.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apidog/Apidog.intune.recipe",
+        "description": "A Real Design-firstAPI Development Platform\n\nDesign. Debug. Test. Document. Mock.\nBuild APIs Faster & Together."
     },
     {
         "name": "AppCleaner",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppCleaner/AppCleaner.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppCleaner/AppCleaner.intune.recipe",
+        "description": "AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps."
     },
     {
         "name": "Apparency",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apparency/Apparency.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apparency/Apparency.intune.recipe",
+        "description": "Apparency is an application for inspecting other applications."
     },
     {
         "name": "Arc",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arc/Arc.intune.recipe",
+        "description": "A new productivity-focused web browser."
     },
     {
         "name": "Arduino",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arduino/Arduino.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arduino/Arduino.intune.recipe",
+        "description": "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.\n\nThis software can be used with any Arduino board.\n        "
     },
     {
         "name": "Asana",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe",
+        "description": "Asana\u2019s native desktop app removes distractions so you can focus on what\u2019s important. Just download according to your OS, login with your email on the web, and you\u2019ll be guided to your new favorite app."
     },
     {
         "name": "Audacity",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Audacity/Audacity.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Audacity/Audacity.intune.recipe",
+        "description": "Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems."
     },
     {
         "name": "AutoDesk Fusion 360",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoDesk Fusion 360/AutoDeskFusion360.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoDesk Fusion 360/AutoDeskFusion360.intune.recipe",
+        "description": "Fusion 360 is the first 3D CAD, CAM, and CAE tool of its kind. It connects your entire product development process in a single cloud-based platform that works on both Mac and PC."
     },
     {
         "name": "AutoPkgr",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoPkgr/AutoPkgr.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AutoPkgr/AutoPkgr.intune.recipe",
+        "description": "AutoPkgr is a free Mac app that makes it easy to install and configure AutoPkg."
     },
     {
         "name": "Azul Zulu OpenJDK 11 LTS",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Azul Zulu OpenJDK 11 LTS/Azul+Zulu+OpenJDK+11+LTS.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Azul Zulu OpenJDK 11 LTS/Azul+Zulu+OpenJDK+11+LTS.intune.recipe",
+        "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK. Azul Zulu is available for a wide range of hardware platforms and operating systems."
     },
     {
         "name": "Azure Data Studio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Azure Data Studio/Azure+Data+Studio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Azure Data Studio/Azure+Data+Studio.intune.recipe",
+        "description": "Azure Data Studio offers a modern editor experience with IntelliSense, code snippets, source control integration, and an integrated terminal. It's engineered with the data platform user in mind, with the built-in charting of query result sets and customizable dashboards.\n\nUse Azure Data Studio to query, design, and manage your databases and data warehouses wherever they are, on your local computer or in the cloud"
     },
     {
         "name": "BBEdit 15",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BBEdit 15/BBEdit15.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BBEdit 15/BBEdit15.intune.recipe",
+        "description": "BBEdit is the leading professional HTML and text editor for macOS. This award-winning product has been crafted to serve the needs of writers, Web authors and software developers, and provides an abundance of features for editing, searching, and manipulation of prose, source code, and textual data."
     },
     {
         "name": "Badgeify",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Badgeify/Badgeify.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Badgeify/Badgeify.intune.recipe",
+        "description": "Add Any App to Your Mac Menu Bar."
     },
     {
         "name": "BambuStudio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BambuStudio/BambuStudio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BambuStudio/BambuStudio.intune.recipe",
+        "description": "Bambu Studio is an open-source, cutting-edge, feature-rich slicing software. It contains project-based workflows, systematically optimized slicing algorithms, and an easy-to-use graphical interface, bringing users an incredibly smooth printing experience."
     },
     {
         "name": "Bartender",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bartender/Bartender.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bartender/Bartender.intune.recipe",
+        "description": "Take control of your menu bar\n\nBartender is an award-winning app for macOS that superpowers your menu bar, giving you total control over your menu bar items, what's displayed, and when, with menu bar items only showing when you need them.\nBartender improves your workflow with quick reveal, search, custom hotkeys and triggers, and lots more."
     },
     {
         "name": "Basecamp 3",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Basecamp 3/Basecamp3.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Basecamp 3/Basecamp3.intune.recipe",
+        "description": "We built Basecamp 3 to work beautifully on your Mac, Macbook and iMac. Keep Basecamp 3 handy in the dock and get notifications right on your desktop."
     },
     {
         "name": "Beeper",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Beeper/Beeper.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Beeper/Beeper.intune.recipe",
+        "description": "Universal chat app powered by Matrix"
     },
     {
         "name": "Better Display",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterDisplay/BetterDisplay.intune.recipe",
+        "description": "BetterDisplay is a truly wonderful tool! It lets you convert your displays to fully scalable screens, manage display configuration overrides, allows brightness and color control, provides XDR/HDR brightness upscaling (extra brightness beyond 100% for compatible XDR or HDR displays on Apple Silicon and Intel Macs - multiple methods available), full dimming to black, helps you create and manage virtual screens for your Mac, create Picture in Picture windows of your displays and gives you a host of other features to manage your display's settings easily from the menu bar. It can even disconnect/reconnect displays on-the-fly!"
     },
     {
         "name": "Better Touch Tool",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterTouchTool/BetterTouchTool.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterTouchTool/BetterTouchTool.intune.recipe",
+        "description": "Customize Multi-Touch trackpad gestures."
     },
     {
         "name": "BetterMouse",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterMouse/BetterMouse.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterMouse/BetterMouse.intune.recipe",
+        "description": "macOS utility app that gives you smooth mouse scrolling, cursor speed control, and powerful mouse/keyboard bindings."
     },
     {
         "name": "Bitwarden",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bitwarden/Bitwarden.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bitwarden/Bitwarden.intune.recipe",
+        "description": "Official app of the open source password manager app Bitwarden. Can be used in conjunction with browser extensions for all major browsers. Can generate strong and unique passwords, store logins, create secure notes, handle passkeys. Some features like TOTP require a paid license or an own server."
     },
     {
         "name": "Blender",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Blender/Blender.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Blender/Blender.intune.recipe",
+        "description": "Blender is the open source, cross platform suite of tools for 3D creation."
     },
     {
         "name": "Boxcryptor",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Boxcryptor/Boxcryptor.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Boxcryptor/Boxcryptor.intune.recipe",
+        "description": "Boxcryptor protects your data in the cloud: in OneDrive, SharePoint, Dropbox, Google Drive and more."
     },
     {
         "name": "Brave",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brave/Brave.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brave/Brave.intune.recipe",
+        "description": "The new Brave browser blocks ads and trackers that slow you down and invade your privacy. Discover a new way of thinking about how the web can work."
     },
     {
         "name": "Bruno",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bruno/Bruno.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bruno/Bruno.intune.recipe",
+        "description": "Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia)"
     },
     {
         "name": "CLion",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/CLion.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/CLion.intune.recipe",
+        "description": "A cross-platform IDE for C and C++"
     },
     {
         "name": "Caffeine",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Caffeine/Caffeine.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Caffeine/Caffeine.intune.recipe",
+        "description": "Caffeine is a tiny open source program that puts an icon in the right side of your menubar. Click it to prevent your Mac from automatically going to sleep, dimming the screen or starting screen savers."
     },
     {
         "name": "Cakebrew",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cakebrew/Cakebrew.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cakebrew/Cakebrew.intune.recipe",
+        "description": "A GUI app that lets you easily manage your Homebrew formulas."
     },
     {
         "name": "Calibre",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calibre/Calibre.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calibre/Calibre.intune.recipe",
+        "description": "Calibre is a free and open source e-book library management application."
     },
     {
         "name": "Calmly Writer",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calmly/CalmlyWriter.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calmly/CalmlyWriter.intune.recipe",
+        "description": "Calmly Writer is an editor designed to focus on what you want to tell, with a simple, unobtrusive and ease-to-use user interface."
     },
     {
         "name": "Camtasia",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Camtasia/Camtasia.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Camtasia/Camtasia.intune.recipe",
+        "description": "A powerful, yet easy-to-use screen recorder, Camtasia helps you create professional videos without having to be a video pro. Easily record your screen movements and actions, or import HD video from a camera or other source. Customize and edit content on both Mac and Windows platforms, and share your videos with viewers on nearly any device."
     },
     {
         "name": "Canva",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Canva/Canva.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Canva/Canva.intune.recipe",
+        "description": "Canva makes it easy to create professional designs and to share or print them."
     },
     {
         "name": "Carbon Copy Cloner",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Carbon Copy Cloner/CarbonCopyCloner.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Carbon Copy Cloner/CarbonCopyCloner.intune.recipe",
+        "description": "Disk and folder cloning utility for OS X."
     },
     {
         "name": "Charles",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CharlesProxy/CharlesProxy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CharlesProxy/CharlesProxy.intune.recipe",
+        "description": "Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information)."
     },
     {
         "name": "ChatGPT",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenAI/ChatGPT.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenAI/ChatGPT.intune.recipe",
+        "description": "ChatGPT Desktop Application."
     },
     {
         "name": "Chef Workstation",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Chef/ChefWorkstation.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Chef/ChefWorkstation.intune.recipe",
+        "description": ""
     },
     {
         "name": "Cisco Jabber",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cisco/Jabber.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cisco/Jabber.intune.recipe",
+        "description": "Collaborate anywhere, on any device\nMobility doesn\u2019t have to limit productivity. Cisco Jabber delivers instant messaging, voice and video calls, voice messaging, desktop sharing, conferencing, and presence. Find the right people, see whether and how they\u2019re available, and collaborate more effectively."
     },
     {
         "name": "Citrix Workspace",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Citrix/CitrixWorkspace.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Citrix/CitrixWorkspace.intune.recipe",
+        "description": "Citrix Workspace is an easy-to-install client software that lets you access enterprise data, applications and desktops from any computing device including smartphones, tablets and PCs. Workers today typically use multiple computing devices and crave a consistent computing experience across all of them. Organizations everywhere are struggling to cope with the rapid proliferation of these devices and give users the mobile, high-definition experience they demand. Working in tandem with a Citrix-enabled IT infrastructure, Citrix Workspace gives workers consistent, secure, high-performance access from any device without introducing layers of management complexity for IT."
     },
     {
         "name": "Claude",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anthropic/Claude.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Anthropic/Claude.intune.recipe",
+        "description": "Your AI partner on desktop. Fast, focused, and designed for deep work."
     },
     {
         "name": "CleanMyMac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/CleanMyMac3.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/CleanMyMac3.intune.recipe",
+        "description": "Delete files that waste your disk space."
     },
     {
         "name": "ClickShare",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickShare/ClickShare.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickShare/ClickShare.intune.recipe",
+        "description": "ClickShare, wireless presentation and conferencing technology, creates understanding between people by freeing them to interact easily and naturally."
     },
     {
         "name": "ClickUp",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickUp/ClickUp.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ClickUp/ClickUp.intune.recipe",
+        "description": "Organize your tasks, docs, and goals to improve your time management."
     },
     {
         "name": "Clipy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Clipy/Clipy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Clipy/Clipy.intune.recipe",
+        "description": "Clipy is a Clipboard extension app for macOS."
     },
     {
         "name": "Cloudflare WARP",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cloudflare WARP/CloudflareWARP.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cloudflare WARP/CloudflareWARP.intune.recipe",
+        "description": "The Cloudflare WARP client allows individuals and organizations to have a faster, more secure, and more private experience online.\n\nThe WARP client sits between your device and the Internet, and has several connection modes to better suit different needs."
     },
     {
         "name": "CodeEdit",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeEdit/CodeEdit.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeEdit/CodeEdit.intune.recipe",
+        "description": "CodeEdit App for macOS \u2013 Elevate your code editing experience. Open source, free forever."
     },
     {
         "name": "CodeRunner",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeRunner/CodeRunner.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeRunner/CodeRunner.intune.recipe",
+        "description": "CodeRunner is the easiest way to write code on your Mac. You can run code in almost any language instantly, and you'll be surprised by the powerful set of features in such a lightweight and easy-to-use editor."
     },
     {
         "name": "CodeWhisperer",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeWhisperer/CodeWhisperer.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeWhisperer/CodeWhisperer.intune.recipe",
+        "description": "Edit HTML code and text on your Mac."
     },
     {
         "name": "Cursor",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cursor/Cursor.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cursor/Cursor.intune.recipe",
+        "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI."
     },
     {
         "name": "Cyberduck",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cyberduck/Cyberduck.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cyberduck/Cyberduck.intune.recipe",
+        "description": "With an easy to use interface, connect to FTP, SFTP, WebDAV, Amazon S3, Google Storage, Windows Azure, Rackspace Cloud Files and even Google Docs."
     },
     {
         "name": "DB Browser for SQLite",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DB Browser for SQLite/DB+Browser+for+SQLite.intune.recipe",
+        "description": "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
     },
     {
         "name": "DaisyDisk",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DaisyDisk/DaisyDisk.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DaisyDisk/DaisyDisk.intune.recipe",
+        "description": "Take a different look at your disk. See what's on your Mac and recover disk space every time you need it."
     },
     {
         "name": "Dangerzone",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dangerzone/Dangerzone.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dangerzone/Dangerzone.intune.recipe",
+        "description": "Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF."
     },
     {
         "name": "DataGrip",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Datagrip.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Datagrip.intune.recipe",
+        "description": "Meet DataGrip, our database IDE that is tailored to suit the specific needs of professional SQL developers."
     },
     {
         "name": "DataSpell",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/DataSpell.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/DataSpell.intune.recipe",
+        "description": "JetBrains DataSpell: Essential tools for data analysts."
     },
     {
         "name": "Datto Drive",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DattoDrive/DattoDrive.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DattoDrive/DattoDrive.intune.recipe",
+        "description": "Cloud and local sync and share service from Datto and ownCloud Inc."
     },
     {
         "name": "DeepL",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DeepL/DeepL.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DeepL/DeepL.intune.recipe",
+        "description": "The World\u2019s Best Machine Translation DeepL\u2019s neural networks are able to capture even the slightest nuances and reproduce them in translation unlike any other service."
     },
     {
         "name": "Desktoppr",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Desktoppr/Desktoppr.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Desktoppr/Desktoppr.intune.recipe",
+        "description": "Simple command line tool which can read and set the desktop picture"
     },
     {
         "name": "DevToys",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevToys/DevToys.intune.recipe",
+        "description": "DevToys helps with daily development tasks by offering a bundle of tiny tools designed to do quick, specific tiny tasks. No need to use many untrustworthy websites to simply decode a text or compress an image. With Smart Detection, the app intuitively selects the best tool for the data on your clipboard."
     },
     {
         "name": "DevUtils",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevUtils/DevUtils.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevUtils/DevUtils.intune.recipe",
+        "description": "47+ hand crafted developer tools for your everyday tasks whenever you need it.\n\nFully customizable and configurable."
     },
     {
         "name": "Discord",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Discord/Discord.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Discord/Discord.intune.recipe",
+        "description": "Discord is a freeware proprietary VoIP application designed for gaming communities. Discord runs on Microsoft Windows, macOS, Android, iOS, Linux, and in a web browser. In December 2016, the developers announced that Discord had over 25 million users."
     },
     {
         "name": "DisplayLink Manager",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DisplayLink Manager/DisplayLinkManager.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DisplayLink Manager/DisplayLinkManager.intune.recipe",
+        "description": "DisplayLink Manager is a new way to enable your DisplayLink dock, adapter or monitor on macOS platforms. It's an application that combines our latest driver with features that streamline the setup of mutliple displays up to 4K."
     },
     {
         "name": "Docker Desktop",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe",
+        "description": "Docker Desktop \u2013 the fastest way to containerize applications."
     },
     {
         "name": "Downie",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Downie/Downie.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Downie/Downie.intune.recipe",
+        "description": " Download YouTube videos."
     },
     {
         "name": "DrawBot",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DrawBot/DrawBot.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DrawBot/DrawBot.intune.recipe",
+        "description": "DrawBot is an open source application for OS X that allows users to write simple Python scripts to generate two-dimensional graphics."
     },
     {
         "name": "Dropshare",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dropshare/Dropshare.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dropshare/Dropshare.intune.recipe",
+        "description": "Secure file-sharing tool."
     },
     {
         "name": "Duck Duck Go",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duck Duck Go/DuckDuckGo.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duck Duck Go/DuckDuckGo.intune.recipe",
+        "description": "Chrome-like keyword search for Safari."
     },
     {
         "name": "Duet",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duet/Duet.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duet/Duet.intune.recipe",
+        "description": "Use your iPad as an external display."
     },
     {
         "name": "Eclipse",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Eclipse/Eclipse.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Eclipse/Eclipse.intune.recipe",
+        "description": "The essential tools for any Java developer, including a Java IDE, a CVS client, Git client, XML Editor, Mylyn, Maven integration..."
     },
     {
         "name": "Elgato Camera Hub",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Camera Hub/ElgatoCameraHub.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Camera Hub/ElgatoCameraHub.intune.recipe",
+        "description": "Unleash your webcam\u2019s full potential."
     },
     {
         "name": "Elgato Stream Deck",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Stream Deck/Elgato+Stream+Deck.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Stream Deck/Elgato+Stream+Deck.intune.recipe",
+        "description": "You are creating quality content backed by the best tech on the planet. But you want to do more. With Stream Deck, unleash your creative genius and make waves across Twitch and YouTube. All while focusing on what matters most: your audience."
     },
     {
         "name": "Elgato WaveLink",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Wave Link/ElgatoWaveLink.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Wave Link/ElgatoWaveLink.intune.recipe",
+        "description": "Mozilla Elgato Wave Link is a free and open source web browser."
     },
     {
         "name": "Epic Games Launcher",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/EpicGames/EpicGamesLauncher.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/EpicGames/EpicGamesLauncher.intune.recipe",
+        "description": "The Epic Games Launcher is used to download and launch binary versions of the Unreal Engine 4 (as opposed to the engine source code from GitHub), as well as serve as a location to download additional content and view news and blog posts."
     },
     {
         "name": "Escrow Buddy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Escrow Buddy/EscrowBuddy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Escrow Buddy/EscrowBuddy.intune.recipe",
+        "description": "Escrow Buddy is a tool used by MDM administrators to ensure a valid FileVault recovery key is escrowed for your Mac."
     },
     {
         "name": "Etcher",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Etcher/Etcher.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Etcher/Etcher.intune.recipe",
+        "description": "Burn images to SD cards and USB drives, safely and easily."
     },
     {
         "name": "Evernote",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Evernote/Evernote.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Evernote/Evernote.intune.recipe",
+        "description": "Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web."
     },
     {
         "name": "ExpressVPN",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ExpressVPN/ExpressVPN.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ExpressVPN/ExpressVPN.intune.recipe",
+        "description": "The VPN that just works."
     },
     {
         "name": "Fiddler Everywhere",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Fiddler Everywhere/FiddlerEverywhere.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Fiddler Everywhere/FiddlerEverywhere.intune.recipe",
+        "description": "Never Be Confined by Limitations When Debugging HTTP(S) Traffic. Amplify your debugging efforts with a Web Debugging Proxy for any device or platform. Fiddler Everywhere is a pathway for all."
     },
     {
         "name": "Figma",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Figma/Figma.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Figma/Figma.intune.recipe",
+        "description": "Design, prototype, and gather feedback all in one place with Figma."
     },
     {
         "name": "FileZilla",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FileZilla/FileZilla.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FileZilla/FileZilla.intune.recipe",
+        "description": "FileZilla is a fast and reliable cross-platform FTP, FTPS and SFTP client."
     },
     {
         "name": "Final Draft 13",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Final Draft 13/FinalDraft13.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Final Draft 13/FinalDraft13.intune.recipe",
+        "description": "More Tools. More Productivity. More Progress.\n\nFinal Draft 13 is the most customizable version of the world\u2019s bestselling screenwriting software. Take your idea to script with easy-to-use tools so you can get more done with your writing sessions and achieve your goals faster."
     },
     {
         "name": "Firefox",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe",
+        "description": "Mozilla Firefox is a free and open source web browser."
     },
     {
         "name": "Fleet",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Fleet.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Fleet.intune.recipe",
+        "description": "Fleet is a code editor designed for simplicity, combining a clean UI, AI capabilities, and an essential set of built-in features for most major languages."
     },
     {
         "name": "Flux",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Flux/Flux.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Flux/Flux.intune.recipe",
+        "description": "f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.\n\nTell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically."
+    },
+    {
+        "name": "Foldr",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Foldr/Foldr.intune.recipe",
+        "description": "Foldr for your macOS Finder. A single location to access your files whether on premise or in the cloud. No waiting. No syncing. No fuss."
     },
     {
         "name": "FontBase",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe",
+        "description": "FontBase is the font manager of the new generation, built by designers, for designers."
     },
     {
         "name": "Foxit PDF Reader",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Foxit/FoxitPDFReader.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Foxit/FoxitPDFReader.intune.recipe",
+        "description": "Industry's most powerful PDF reader. View, annotate, form fill, and sign PDF across desktop, mobile, and web \u2013 no matter if you're at the office, home, or on the go."
     },
     {
         "name": "FreeCAD",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeCAD/FreeCAD.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeCAD/FreeCAD.intune.recipe",
+        "description": "FreeCAD is a general purpose feature-based, parametric 3D modeler for CAD, MCAD, CAx, CAE and PLM, aimed directly at mechanical engineering and product design but also fits a wider range of uses in engineering, such as architecture or other engineering specialties. It is 100% Open Source (LGPL2+ license) and extremely modular, allowing for very advanced extension and customization."
+    },
+    {
+        "name": "FreeMind",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeMind/FreeMind.intune.recipe",
+        "description": "OpenSource MindMapper."
     },
     {
         "name": "Geekbench",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Geekbench/Geekbench.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Geekbench/Geekbench.intune.recipe",
+        "description": "Geekbench 6, the latest major upgrade to Primate Labs\u2019 easy-to-use cross-platform benchmark, is now available for download. Geekbench 6 allows you to measure your system\u2019s power more accurately than ever before."
     },
     {
         "name": "Gemini",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/Gemini2.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/Gemini2.intune.recipe",
+        "description": "Locate and eliminate duplicate and similar files."
     },
     {
         "name": "Ghostty",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ghostty/Ghostty.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ghostty/Ghostty.intune.recipe",
+        "description": "Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
     },
     {
         "name": "Gifox",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gifox/Gifox.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gifox/Gifox.intune.recipe",
+        "description": "Delightful GIF Recording and Sharing App."
     },
     {
         "name": "Git",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Git/Git.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Git/Git.intune.recipe",
+        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
     },
     {
         "name": "GitHub Desktop",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GitHub/GitHubDesktop.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GitHub/GitHubDesktop.intune.recipe",
+        "description": "Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow."
     },
     {
         "name": "GitKraken",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axosoft/GitKraken.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axosoft/GitKraken.intune.recipe",
+        "description": "Axosoft GitKraken is a cross-platform Git client with efficiency, elegance and reliability at the core. It was made for devs by devs."
     },
     {
         "name": "Gitfinder",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitfinder/Gitfinder.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitfinder/Gitfinder.intune.recipe",
+        "description": "A fast and lightweight Git client for Mac with Finder integration."
+    },
+    {
+        "name": "Gitpod",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitpod/Gitpod.intune.recipe",
+        "description": "Gitpod Desktop is the fastest and easiest way to run and recreate cloud development environments locally. It is currently available for Apple silicon users."
     },
     {
         "name": "GoLand",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/GoLand.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/GoLand.intune.recipe",
+        "description": "GoLand is a cross-platform IDE built specially for Go developers."
     },
     {
         "name": "Godot 3",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Godot 3/Godot+3.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Godot 3/Godot+3.intune.recipe",
+        "description": "Godot provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.\n\nGodot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code."
     },
     {
         "name": "Godot 4",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Godot 4/Godot+4.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Godot 4/Godot+4.intune.recipe",
+        "description": "The game engine you've been waiting for.\n\nThe Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games."
     },
     {
         "name": "Google Chrome",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/GoogleChromePkg.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/GoogleChromePkg.intune.recipe",
+        "description": "Chrome is a fast, simple, and secure web browser, built for the modern web."
     },
     {
         "name": "Google Chrome",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/GoogleChrome.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/GoogleChrome.intune.recipe",
+        "description": "Chrome is a fast, simple, and secure web browser, built for the modern web."
     },
     {
         "name": "Grammarly",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe",
+        "description": "App and web service for correcting grammatical issues and detecting plagarism."
     },
     {
         "name": "HP Easy Admin",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HP/HPEasyAdmin.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HP/HPEasyAdmin.intune.recipe",
+        "description": "HP Easy Admin is a macOS application tool that enables education and enterprise administrators to directly download HP printing and/or scanning solutions to use for remote distribution."
     },
     {
         "name": "Hammerspoon",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hammerspoon/Hammerspoon.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hammerspoon/Hammerspoon.intune.recipe",
+        "description": "Staggeringly powerful OS X desktop automation with Lua"
     },
     {
         "name": "Handbrake",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Handbrake/Handbrake.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Handbrake/Handbrake.intune.recipe",
+        "description": "HandBrake is a tool for converting video from nearly any format to a selection of modern, widely supported codecs"
     },
     {
         "name": "HazeOver",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HazeOver/HazeOver.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HazeOver/HazeOver.intune.recipe",
+        "description": "App that hides distractions and allows you to focus on your current task."
     },
     {
         "name": "Hidden Bar",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe",
+        "description": "An ultra-light MacOS utility that helps hide menu bar icons."
     },
     {
         "name": "Hide My Bar",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hide My Bar/HideMyBar.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hide My Bar/HideMyBar.intune.recipe",
+        "description": "A macOS app to turn off the Touch Bar at will."
     },
     {
         "name": "Hyper",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hyper/Hyper.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hyper/Hyper.intune.recipe",
+        "description": "A highly extensible terminal emulator, built on Electron."
     },
     {
         "name": "IBM Notifier",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IBM/IBMNotifier.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IBM/IBMNotifier.intune.recipe",
+        "description": "macOS agent used to display custom notifications and alerts to the end user."
     },
     {
         "name": "IINA",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IINA/IINA.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/IINA/IINA.intune.recipe",
+        "description": "The modern video player for macOS."
     },
     {
         "name": "Ice",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ice/Ice.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ice/Ice.intune.recipe",
+        "description": "Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available."
     },
     {
         "name": "Inkscape",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe",
+        "description": "Vector graphics application."
     },
     {
         "name": "Insomnia",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe",
+        "description": "Explore REST and GraphQL APIs."
     },
     {
         "name": "Insta360 Studio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insta365 Studio/Insta360Studio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insta365 Studio/Insta360Studio.intune.recipe",
+        "description": "Insta360 Studio allows users to edit videos and photos shot on ONE X, EVO and GO. It contains the Insta360 Plugin for Adobe Premiere Pro."
     },
     {
         "name": "IntelliJ IDEA Community Edition",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-CE.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-CE.intune.recipe",
+        "description": "Capable and ergonomic Java IDE\n\nhttps://www.jetbrains.com/idea"
     },
     {
         "name": "IntelliJ IDEA Ultimate Edition",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-UE.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-UE.intune.recipe",
+        "description": "Capable and ergonomic Java IDE\n\nhttps://www.jetbrains.com/idea"
     },
     {
         "name": "Joplin",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Joplin/Joplin.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Joplin/Joplin.intune.recipe",
+        "description": "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device."
     },
     {
         "name": "Jump Desktop",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jump Desktop/JumpDesktop.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jump Desktop/JumpDesktop.intune.recipe",
+        "description": "Jump Desktop is a secure and reliable remote desktop app that lets you connect to any computer, anywhere in the world."
     },
     {
         "name": "Jumpcut",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpcut/Jumpcut.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpcut/Jumpcut.intune.recipe",
+        "description": "Minimalist clipboard management for macOS"
     },
     {
         "name": "Jumpshare",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpshare/Jumpshare.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpshare/Jumpshare.intune.recipe",
+        "description": "Capture and share anything - screen recordings, GIFs, and screenshots - or upload files, all with instantly shareable links to bring clarity, save time, and boost productivity."
     },
     {
         "name": "Karabiner-Elements",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Karabiner-Elements/Karabiner-Elements.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Karabiner-Elements/Karabiner-Elements.intune.recipe",
+        "description": "Karabiner-Elements is a powerful utility for keyboard customization on macOS."
     },
     {
         "name": "KeePassXC",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeePassXC/KeePassXC.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeePassXC/KeePassXC.intune.recipe",
+        "description": "KeePassXC is a community fork of KeePassX with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager."
     },
     {
         "name": "Keka",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keka/Keka.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keka/Keka.intune.recipe",
+        "description": "Keka is a free file archiver for macOS."
     },
     {
         "name": "KeyClu",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeyClu/KeyClu.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KeyClu/KeyClu.intune.recipe",
+        "description": "Simple and handy overview of applications shortcuts. Easy to use: just press \u2318 twice and hold to see the list."
     },
     {
         "name": "Keybase",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keybase/Keybase.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Keybase/Keybase.intune.recipe",
+        "description": "Keybase is a free, open source security app. It's also a public directory of people.\n\nThe Keybase app helps you perform cryptographically-secure operations with people you know on the Internet: chatting, file sharing, even publishing public documents. It's all easier and safer with Keybase.\n\nThe Keybase app is improving every day. To get started, download the app, create an account, and connect one or more of your social identities."
     },
     {
         "name": "Kitty",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kitty/Kitty.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kitty/Kitty.intune.recipe",
+        "description": "Cross-platform, fast, feature-rich, GPU based terminal."
     },
     {
         "name": "Klokki",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Klokki/Klokki.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Klokki/Klokki.intune.recipe",
+        "description": "Automatic time-tracking solution for freelancers and makers. Remove the need to start or pause a timer."
     },
     {
         "name": "Krisp",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krisp/Krisp.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krisp/Krisp.intune.recipe",
+        "description": "Mute background noise in any communication app."
     },
     {
         "name": "Krita",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krita/Krita.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krita/Krita.intune.recipe",
+        "description": "Krita is a professional FREE and open source painting program."
     },
     {
         "name": "Kubectl",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kubernetes/Kubectl.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kubernetes/Kubectl.intune.recipe",
+        "description": "The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs."
     },
     {
         "name": "LM Studio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LMStudio/LMStudio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LMStudio/LMStudio.intune.recipe",
+        "description": "Your local AI toolkit. Download and run Llama, DeepSeek, Mistral, Phi on your computer."
     },
     {
         "name": "LangGraph Studio",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LangGraph Studio/LangGraphStudio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LangGraph Studio/LangGraphStudio.intune.recipe",
+        "description": "LangGraph Studio offers a new way to develop LLM applications by providing a specialized agent IDE that enables visualization, interaction, and debugging of complex agentic applications."
     },
     {
         "name": "LibreOffice",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LibreOffice/LibreOffice.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LibreOffice/LibreOffice.intune.recipe",
+        "description": "LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base."
     },
     {
         "name": "Little Snitch",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Little Snitch/LittleSnitch.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Little Snitch/LittleSnitch.intune.recipe",
+        "description": "Little Snitch is a host-based application firewall for macOS."
     },
     {
         "name": "Logi Options Plus",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LogiOptionsPlus/LogiOptionsPlus.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LogiOptionsPlus/LogiOptionsPlus.intune.recipe",
+        "description": "Easier and more productive is the goal. How you do it is up to you. The Logi Options+ App enables you to customize all your supported devices including mice, keyboards, lights, webcams, touchpads, presentation remotes, and MX Creative Console. Get more done with the easy-to-use Options+ App."
     },
     {
         "name": "LookAway",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LookAway/LookAway.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LookAway/LookAway.intune.recipe",
+        "description": "LookAway is a smart break reminder that helps reduce eye strain, digital fatigue, and maintain better posture\u2014so you can end your day feeling fresh, not drained."
     },
     {
         "name": "Loom",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Loom/Loom.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Loom/Loom.intune.recipe",
+        "description": "Say it with video! Loom is the most effective way to get your message across, no matter where you work."
     },
     {
         "name": "Maccy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe",
+        "description": "Lightweight clipboard manager for macOS"
     },
     {
         "name": "Maven",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache/Maven.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache/Maven.intune.recipe",
+        "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information."
     },
     {
         "name": "MenuBar Stats",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MenuBar Stats 3/MenuBarStats3.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MenuBar Stats 3/MenuBarStats3.intune.recipe",
+        "description": "Advanced Mac system monitor."
     },
     {
         "name": "Micro Snitch",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Micro Snitch/MicroSnitch.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Micro Snitch/MicroSnitch.intune.recipe",
+        "description": "Ever wondered if an application records audio through your Mac\u2019s built-in microphone without your knowledge? Or if the camera captures video for no good reason?\n\nWith Micro Snitch there\u2019s no doubt anymore. This ultra-light menu bar application operates inconspicuously in the background. It monitors and reports any microphone and camera activity to help you figure out if someone\u2019s spying on you."
     },
     {
         "name": "Microsoft AutoUpdate",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Auto Update/MicrosoftAutoUpdate.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Auto Update/MicrosoftAutoUpdate.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Azure Storage Explorer",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Azure Storage Explorer/MicrosoftAzureStorageExplorer.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Azure Storage Explorer/MicrosoftAzureStorageExplorer.intune.recipe",
+        "description": "Upload, download, and manage Azure blobs, files, queues, and tables, as well as Azure Cosmos DB and Azure Data Lake Storage entities. Easily access virtual machine disks, and work with either Azure Resource Manager or classic storage accounts. Manage and configure cross-origin resource sharing rules."
     },
     {
         "name": "Microsoft Company Portal",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Company Portal/CompanyPortal.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Company Portal/CompanyPortal.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Defender ATP for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Defender ATP/MicrosoftDefenderATP.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Defender ATP/MicrosoftDefenderATP.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Edge",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Edge/Edge.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Edge/Edge.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Excel for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSExcel2019.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSExcel2019.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft OneNote for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOneNote2019.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOneNote2019.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Outlook for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOutlook2019.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSOutlook2019.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft PowerPoint for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSPowerPoint2019.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSPowerPoint2019.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Teams for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MicrosoftTeams.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MicrosoftTeams.intune.recipe",
+        "description": ""
     },
     {
         "name": "Microsoft Word for Mac",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSWord2019.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftOffice/MSWord2019.intune.recipe",
+        "description": ""
     },
     {
         "name": "Minikube",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Minikube/Minikube.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Minikube/Minikube.intune.recipe",
+        "description": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit."
     },
     {
         "name": "Miro",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Miro/Miro.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Miro/Miro.intune.recipe",
+        "description": "The online collaborative whiteboard platform to bring teams together, anytime, anywhere."
     },
     {
         "name": "MongoDB Compass",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MongoDB Compass/MongoDBCompass.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MongoDB Compass/MongoDBCompass.intune.recipe",
+        "description": "Compass. The GUI for MongoDB.\n\nCompass is an interactive tool for querying, optimizing, and analyzing your MongoDB data. Get key insights, drag and drop to build pipelines, and more."
     },
     {
         "name": "NetSpot",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetSpot/NetSpot.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetSpot/NetSpot.intune.recipe",
+        "description": "Wireless survey tool."
     },
     {
         "name": "NordVPN",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NordVPN/NordVPN.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NordVPN/NordVPN.intune.recipe",
+        "description": "Get the fastest VPN in the world and enjoy a smooth, safe, and private connection on your Mac. NordVPN\u2019s easy-to-use app will protect all your connected devices from snoopers tracking what you do online.\n\nEven if you think you have nothing to hide \u2014 no one likes to be watched. That\u2019s why you need a VPN to protect your privacy and keep your online data safe."
     },
     {
         "name": "Notion",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion/Notion.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion/Notion.intune.recipe",
+        "description": "A unified workspace for modern teams."
     },
     {
         "name": "Notion Calendar",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion Calendar/NotionCalendar.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Notion Calendar/NotionCalendar.intune.recipe",
+        "description": "It\u2019s time.\n\nAll of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life."
     },
     {
         "name": "Nucleo",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nucleo/Nucleo.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nucleo/Nucleo.intune.recipe",
+        "description": "Nucleo is a beautiful library of 30231 icons, and a powerful application to collect, customize and export all your icons."
     },
     {
         "name": "OBS",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OBS/OBS.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OBS/OBS.intune.recipe",
+        "description": "Free and open source software for video recording and live streaming. Download and start streaming quickly and easily on Windows, Mac or Linux."
     },
     {
         "name": "Obsidian",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Obsidian/Obsidian.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Obsidian/Obsidian.intune.recipe",
+        "description": "A second brain, for you, forever. Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
     },
     {
         "name": "Ollama",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ollama/Ollama.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ollama/Ollama.intune.recipe",
+        "description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models."
     },
     {
         "name": "OmniFocus",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniFocus4.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniFocus4.intune.recipe",
+        "description": "OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done\u00ae system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do."
     },
     {
         "name": "Onyx for macOS Sequoia",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx15.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx15.intune.recipe",
+        "description": "OnyX is a multifunction utility that you can use to verify the structure of the system files; perform cleaning and computer maintenance tasks; configure parameters in the Finder, Dock, Safari, and some Apple applications; delete caches; remove certain problematic folders and files; rebuild various databases and indexes; and more. It is a reliable application that provides a clean interface to many tasks that would otherwise require complex commands to be typed using a command\u2013line interface."
     },
     {
         "name": "Onyx for macOS Sonoma",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx14.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx14.intune.recipe",
+        "description": "OnyX is a multifunction utility that you can use to verify the structure of the system files; perform cleaning and computer maintenance tasks; configure parameters in the Finder, Dock, Safari, and some Apple applications; delete caches; remove certain problematic folders and files; rebuild various databases and indexes; and more. It is a reliable application that provides a clean interface to many tasks that would otherwise require complex commands to be typed using a command\u2013line interface."
     },
     {
         "name": "Onyx for macOS Ventura",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx13.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Onyx/Onyx13.intune.recipe",
+        "description": "OnyX is a multifunction utility that you can use to verify the structure of the system files; perform cleaning and computer maintenance tasks; configure parameters in the Finder, Dock, Safari, and some Apple applications; delete caches; remove certain problematic folders and files; rebuild various databases and indexes; and more. It is a reliable application that provides a clean interface to many tasks that would otherwise require complex commands to be typed using a command\u2013line interface."
     },
     {
         "name": "OpenJDK",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenJDK/OpenJDK.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OpenJDK/OpenJDK.intune.recipe",
+        "description": "OpenJDK is a free and open-source implementation of the Java Platform, Standard Edition."
     },
     {
         "name": "Opera",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Opera/Opera.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Opera/Opera.intune.recipe",
+        "description": "Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers."
     },
     {
         "name": "OrbStack",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OrbStack/OrbStack.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OrbStack/OrbStack.intune.recipe",
+        "description": "OrbStack is a fast, light, and simple way to run containers and Linux machines on macOS. It's a supercharged alternative to Docker Desktop and WSL, all in one easy-to-use app."
     },
     {
         "name": "PDF Expert",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PDF Expert/PDFExpert.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PDF Expert/PDFExpert.intune.recipe",
+        "description": "PDF Expert helps you to edit, annotate, sign and organize your PDFs."
     },
     {
         "name": "Parsec",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe",
+        "description": "With Parsec, you can play PC games from anywhere on any device. Parsec lets you play over the internet from your own gaming PC or access a cloud gaming PC."
     },
     {
         "name": "Podman Desktop",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Podman Desktop/PodmanDesktop.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Podman Desktop/PodmanDesktop.intune.recipe",
+        "description": "A graphical tool for Podman and developing on containers and Kubernetes"
     },
     {
         "name": "PopSQL",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PopSQL/PopSQL.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PopSQL/PopSQL.intune.recipe",
+        "description": "Edit databases and organize queries by project or department."
     },
     {
         "name": "PostgreSQL",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL.intune.recipe",
+        "description": "PostgreSQL database system packaged by EnterpriseDB.com.\n\nThis installer includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases, and StackBuilder; a package manager that can be used to download and install additional PostgreSQL tools and drivers. Stackbuilder includes management, integration, migration, replication, geospatial, connectors and other tools. "
     },
     {
         "name": "PostgreSQL 14",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL14.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL14.intune.recipe",
+        "description": "PostgreSQL 14 database system packaged by EnterpriseDB.com.\n\nThis installer includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases, and StackBuilder; a package manager that can be used to download and install additional PostgreSQL tools and drivers. Stackbuilder includes management, integration, migration, replication, geospatial, connectors and other tools. "
     },
     {
         "name": "PostgreSQL 15",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL15.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL15.intune.recipe",
+        "description": "PostgreSQL 15 database system packaged by EnterpriseDB.com.\n\nThis installer includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases, and StackBuilder; a package manager that can be used to download and install additional PostgreSQL tools and drivers. Stackbuilder includes management, integration, migration, replication, geospatial, connectors and other tools. "
     },
     {
         "name": "PostgreSQL 16",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL16.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PostgreSQL/PostgreSQL16.intune.recipe",
+        "description": "PostgreSQL 16 database system packaged by EnterpriseDB.com.\n\nThis installer includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases, and StackBuilder; a package manager that can be used to download and install additional PostgreSQL tools and drivers. Stackbuilder includes management, integration, migration, replication, geospatial, connectors and other tools. "
     },
     {
         "name": "Postman",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postman/Postman.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postman/Postman.intune.recipe",
+        "description": "Create and send any HTTP request using the awesome Postman request builder. Write your own test cases to validate response data, response times, and more!"
     },
     {
         "name": "Power Manager",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Power Manager/PowerManager.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Power Manager/PowerManager.intune.recipe",
+        "description": "Power Manager lets you automate sophisticated tasks and improve your Mac's power management."
     },
     {
         "name": "Powershell",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Powershell/Powershell.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Powershell/Powershell.intune.recipe",
+        "description": "PowerShell Core is a cross-platform (Windows, Linux, and macOS) automation and configuration tool/framework that works well with your existing tools and is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models. It includes a command-line shell, an associated scripting language and a framework for processing cmdlets."
     },
     {
         "name": "Privileges",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Privileges/Privileges.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Privileges/Privileges.intune.recipe",
+        "description": "Privileges.app for macOS is designed to allow users to work as a standard user for day-to-day use, by providing a quick and easy way to get administrator rights when needed. When you do need admin rights, you can get them by clicking on the Privileges icon in your Dock."
     },
     {
         "name": "ProtonVPN",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ProtonVPN/ProtonVPN.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ProtonVPN/ProtonVPN.intune.recipe",
+        "description": "An easy-to-use VPN app for Mac"
     },
     {
         "name": "PyCharm Community Edition",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-CE.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-CE.intune.recipe",
+        "description": "Python IDE for professional developers\n\nhttps://www.jetbrains.com/pycharm"
     },
     {
         "name": "PyCharm Professional Edition",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-PE.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-PE.intune.recipe",
+        "description": "Python IDE for professional developers\n\nhttps://www.jetbrains.com/pycharm"
     },
     {
         "name": "Raycast",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Raycast/Raycast.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Raycast/Raycast.intune.recipe",
+        "description": "Supercharged productivity\n\nRaycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more."
     },
     {
         "name": "Razer Synapse",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Razer Synapse/RazerSynapse.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Razer Synapse/RazerSynapse.intune.recipe",
+        "description": "Razer Synapse is our unified configuration software that allows you to rebind controls or assign macros to any of your Razer peripherals and saves all your settings automatically to the cloud."
     },
     {
         "name": "Rclone",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rclone/Rclone.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rclone/Rclone.intune.recipe",
+        "description": "Rclone is a command line program to sync files to and from Google Drive, Amazon Cloud Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage and Yandex. It's features include MD5/SHA1 hashes, preserved timestamps, partial and one-way syncs and cross platform syncing."
     },
     {
         "name": "Rectangle",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe",
+        "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas."
     },
     {
         "name": "Remote Desktop Manager Free",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Remote Desktop Manager Free/RemoteDesktopManagerFree.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Remote Desktop Manager Free/RemoteDesktopManagerFree.intune.recipe",
+        "description": "Remote Desktop Manager Free Edition\n\nRemote Connections and Passwords. Everywhere.\n\nFor individual users who don't need to share remote connections and privileged passwords with other IT professionals."
     },
     {
         "name": "Remote Help",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftRemoteHelp/MicrosoftRemoteHelp.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MicrosoftRemoteHelp/MicrosoftRemoteHelp.intune.recipe",
+        "description": "Remote Help is a cloud-based solution for secure help desk connections with role-based access controls. With the connection, your support staff can remote connect to your device."
     },
     {
         "name": "RescueTime",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RescueTime/RescueTime.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RescueTime/RescueTime.intune.recipe",
+        "description": "Web-based time management tool that tracks the activities and duration of a user's computer usage."
     },
     {
         "name": "Rider",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Rider.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Rider.intune.recipe",
+        "description": "A cross-platform .NET IDE based on the IntelliJ platform and ReSharper\n\nhttps://www.jetbrains.com/rider"
     },
     {
         "name": "Rotato",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rotato/Rotato.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rotato/Rotato.intune.recipe",
+        "description": "3D mockup images and movies in minutes."
     },
     {
         "name": "Santa",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe",
+        "description": "Santa keeps track of binaries or app bundles that are naughty and nice."
     },
     {
         "name": "Scapple",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scapple.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scapple.intune.recipe",
+        "description": "Free-form mind mapping tool."
     },
     {
         "name": "Screenflick",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Screenflick/Screenflick.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Screenflick/Screenflick.intune.recipe",
+        "description": "Providing the power and features to communicate your screen experience."
     },
     {
         "name": "Scrivener",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scrivener.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scrivener.intune.recipe",
+        "description": "Project management and word processing tool for writers."
     },
     {
         "name": "Shottr",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Shottr/Shottr.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Shottr/Shottr.intune.recipe",
+        "description": "Shottr is a small, fast, human-sized screenshot app built for those who care about pixels. It was crafted with Swift, optimized for M1, and is distributed for free."
     },
     {
         "name": "Sketch",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BohemianCoding/Sketch.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BohemianCoding/Sketch.intune.recipe",
+        "description": "Sketch gives you the power, flexibility and speed you always wanted in a lightweight and easy-to-use package. Finally you can focus on what you do best: Design."
     },
     {
         "name": "Slack",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe",
+        "description": "Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go."
     },
     {
         "name": "Snagit",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snagit/Snagit.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snagit/Snagit.intune.recipe",
+        "description": "Screen capture utility."
     },
     {
         "name": "Splashtop Business",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Splashtop/SplashtopBusiness.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Splashtop/SplashtopBusiness.intune.recipe",
+        "description": "Install the Splashtop Business app on the Mac you want to remote from."
     },
     {
         "name": "Spline",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spline/Spline.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spline/Spline.intune.recipe",
+        "description": "Spline, a place to design and collaborate in 3D."
     },
     {
         "name": "Spotify",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spotify/Spotify.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spotify/Spotify.intune.recipe",
+        "description": "Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels."
     },
     {
         "name": "Stats",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stats/Stats.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stats/Stats.intune.recipe",
+        "description": "macOS system monitor in your menu bar."
     },
     {
         "name": "Steam",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steam/Steam.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steam/Steam.intune.recipe",
+        "description": "Steam is the ultimate destination for playing, discussing, and creating games."
     },
     {
         "name": "SteelSeries GG",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steelseries GG/SteelseriesGG.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steelseries GG/SteelseriesGG.intune.recipe",
+        "description": "SteelSeries GG helps create better connections with your gear, your people and your game."
     },
     {
         "name": "Super Duper",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuperDuper/SuperDuper.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuperDuper/SuperDuper.intune.recipe",
+        "description": "Advanced disk cloning/recovery utility."
     },
     {
         "name": "Support Companion",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SupportCompanion/SupportCompanion.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SupportCompanion/SupportCompanion.intune.recipe",
+        "description": "Support Companion is a macOS helper application, designed to empower end-users by providing them with quick and easy access to crucial information and actions."
     },
     {
         "name": "Surfshark",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Surfshark/Surfshark.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Surfshark/Surfshark.intune.recipe",
+        "description": "Secure your digital life"
     },
     {
         "name": "Suspicious Package",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuspiciousPackage/SuspiciousPackage.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuspiciousPackage/SuspiciousPackage.intune.recipe",
+        "description": "Peek inside macOS Installer packages, see what they install, what they do, and more."
     },
     {
         "name": "Swift Dialog",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Swift Dialog/SwiftDialog.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Swift Dialog/SwiftDialog.intune.recipe",
+        "description": "swiftDialog is an admin utility app for macOS 11+ written in SwiftUI that displays a popup dialog, displaying the content to your users that you want to display"
     },
     {
         "name": "Syncthing",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Syncthing/Syncthing.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Syncthing/Syncthing.intune.recipe",
+        "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet."
     },
     {
         "name": "Tabby",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tabby/Tabby.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tabby/Tabby.intune.recipe",
+        "description": "Tabby is an alternative to Windows' standard terminal (conhost), PowerShell ISE, PuTTY, macOS Terminal.app and iTerm."
     },
     {
         "name": "Tailscale",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tailscale/Tailscale.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tailscale/Tailscale.intune.recipe",
+        "description": "A secure network that just works - Zero config VPN. Installs on any device in minutes, manages firewall rules for you, and works from anywhere."
     },
     {
         "name": "TeamViewer",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TeamViewer/TeamViewer.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TeamViewer/TeamViewer.intune.recipe",
+        "description": "All-In-One Solution for Remote Access and Support over the Internet."
     },
     {
         "name": "TeamViewer QuickSupport",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TeamViewer/TeamViewerQS.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TeamViewer/TeamViewerQS.intune.recipe",
+        "description": "All-In-One Solution for Remote Access and Support over the Internet."
     },
     {
         "name": "Termius",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Termius/Termius.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Termius/Termius.intune.recipe",
+        "description": "Termius is a portable server management system that works for you in any situation."
     },
     {
         "name": "Terraform",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HashiCorp/Terraform.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HashiCorp/Terraform.intune.recipe",
+        "description": "Terraform provides a common configuration to launch infrastructure \u2014 from physical and virtual servers to email and DNS providers. Once launched, Terraform safely and efficiently changes infrastructure as the configuration is evolved. Simple file based configuration gives you a single view of your entire infrastructure."
     },
     {
         "name": "The Unarchiver",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/The Unarchiver/TheUnarchiver.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/The Unarchiver/TheUnarchiver.intune.recipe",
+        "description": "The Unarchiver is a much more capable replacement for \"Archive Utility.app\", the built-in archive unpacker program on Mac OS X. The Unarchiver is designed to handle many more formats than Archive Utility, and to better fit in with the design of the Finder."
     },
     {
         "name": "TimeOut",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TimeOut/TimeOut.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TimeOut/TimeOut.intune.recipe",
+        "description": "Time Out is a break reminder tool with micro-breaks"
     },
     {
         "name": "Tor",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tor/Tor.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tor/Tor.intune.recipe",
+        "description": "Web browser that anonymizes your activity using peer-to-peer networks."
     },
     {
         "name": "Tunnelblick",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tunnelblick/Tunnelblick.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tunnelblick/Tunnelblick.intune.recipe",
+        "description": "Tunnelblick is a Mac app that lets you easily connect to OpenVPN."
     },
     {
         "name": "UTM",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/UTM/UTM.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/UTM/UTM.intune.recipe",
+        "description": "Virtual machines for iOS and macOS"
     },
     {
         "name": "Unity Hub",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Unity3D/UnityHub.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Unity3D/UnityHub.intune.recipe",
+        "description": "A second brain, for you, forever. Unity Hub is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
     },
     {
         "name": "VLC Media Player",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe",
+        "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
     },
     {
         "name": "VirtualBox",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBox/VirtualBox.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBox/VirtualBox.intune.recipe",
+        "description": "VirtualBox is a general-purpose full virtualization software for x86_64 hardware (with version 7.1 additionally for macOS/Arm), targeted at laptop, desktop, server and embedded use."
     },
     {
         "name": "VirtualBuddy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBuddy/VirtualBuddy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VirtualBuddy/VirtualBuddy.intune.recipe",
+        "description": "VirtualBuddy can virtualize macOS 12 and later on Apple Silicon, with the goal of offering features that are useful to developers who need to test their apps on multiple versions of macOS, especially betas."
     },
     {
         "name": "Visual Studio Code",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Code/Code.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Code/Code.intune.recipe",
+        "description": "Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)."
     },
     {
         "name": "Vivaldi",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Vivaldi/Vivaldi.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Vivaldi/Vivaldi.intune.recipe",
+        "description": "A browser for our friends."
     },
     {
         "name": "Warp",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Warp/Warp.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Warp/Warp.intune.recipe",
+        "description": "Fast Terminal app based in Rust."
     },
     {
         "name": "Webstorm",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Webstorm.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Webstorm.intune.recipe",
+        "description": "The smartest JavaScript IDE\n\nhttps://www.jetbrains.com/webstorm"
     },
     {
         "name": "Windows App",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/WindowsApp/WindowsApp.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/WindowsApp/WindowsApp.intune.recipe",
+        "description": "Windows App is your gateway to Azure Virtual Desktop, Windows 365, Microsoft Dev Box, Remote Desktop Services, and remote PCs, securely connecting you to Windows devices and apps."
     },
     {
         "name": "Windsurf",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Codeium/Windsurf.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Codeium/Windsurf.intune.recipe",
+        "description": "Agentic IDE powered by AI Flow paradigm"
     },
     {
         "name": "Wireshark",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Wireshark/Wireshark.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Wireshark/Wireshark.intune.recipe",
+        "description": "Wireshark is a network protocol analyzer."
     },
     {
         "name": "Yubico Authenticator",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe",
+        "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
     },
     {
         "name": "Zed",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe",
+        "description": "Lightweight, responsive text editor and integrated development environment (IDE)."
     },
     {
         "name": "Zoom",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zoom/Zoom.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zoom/Zoom.intune.recipe",
+        "description": "The Zoom app provides cloud-hosted video conferencing, plus online meetings and group messaging."
     },
     {
         "name": "drawio Desktop",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Drawio/Drawio.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Drawio/Drawio.intune.recipe",
+        "description": "drawio-desktop is a diagrams.net desktop app based on Electron."
     },
     {
         "name": "iMazing",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazing/iMazing.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazing/iMazing.intune.recipe",
+        "description": "iOS device manager."
     },
     {
         "name": "iMazing Profile Editor",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazingProfileEditor/iMazingProfileEditor.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazingProfileEditor/iMazingProfileEditor.intune.recipe",
+        "description": "iMazing Profile Editor lets users create, modify, and also digitally sign configuration profiles with a friendly user interface instead of manually coding them in XML."
     },
     {
         "name": "iTerm2",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iTerm2/iTerm2.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iTerm2/iTerm2.intune.recipe",
+        "description": "iTerm2 is a replacement for Terminal and the successor to iTerm. It works on Macs with macOS 10.14 or newer. iTerm2 brings the terminal into the modern age with features you never knew you always wanted."
     },
     {
         "name": "mitmproxy",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mitmproxy/Mitmproxy.intune.recipe"
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mitmproxy/Mitmproxy.intune.recipe",
+        "description": "mitmproxy is a free and open source interactive HTTPS proxy."
     }
 ]

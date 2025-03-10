@@ -46,6 +46,7 @@ def process_recipe_file(file_path, file_name):
             {
                 "name": name,
                 "recipe_url": recipe_url,
+                "description": plist_data["Input"]["description"],
             }
         )
 
