@@ -232,6 +232,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Chef/ChefWorkstation.intune.recipe"
     },
     {
+        "name": "Cisco Jabber",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cisco/Jabber.intune.recipe"
+    },
+    {
         "name": "Citrix Workspace",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Citrix/CitrixWorkspace.intune.recipe"
     },
@@ -362,6 +366,10 @@
     {
         "name": "Elgato Stream Deck",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Stream Deck/Elgato+Stream+Deck.intune.recipe"
+    },
+    {
+        "name": "Elgato WaveLink",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Wave Link/ElgatoWaveLink.intune.recipe"
     },
     {
         "name": "Epic Games Launcher",
@@ -580,6 +588,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kitty/Kitty.intune.recipe"
     },
     {
+        "name": "Klokki",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Klokki/Klokki.intune.recipe"
+    },
+    {
         "name": "Krisp",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krisp/Krisp.intune.recipe"
     },
@@ -626,6 +638,18 @@
     {
         "name": "Maven",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache/Maven.intune.recipe"
+    },
+    {
+        "name": "MenuBar Stats",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MenuBar Stats 3/MenuBarStats3.intune.recipe"
+    },
+    {
+        "name": "Micro Snitch",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Micro Snitch/MicroSnitch.intune.recipe"
+    },
+    {
+        "name": "Microsoft AutoUpdate",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Microsoft Auto Update/MicrosoftAutoUpdate.intune.recipe"
     },
     {
         "name": "Microsoft Azure Storage Explorer",
@@ -740,6 +764,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OrbStack/OrbStack.intune.recipe"
     },
     {
+        "name": "PDF Expert",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PDF Expert/PDFExpert.intune.recipe"
+    },
+    {
         "name": "Parsec",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe"
     },
@@ -774,6 +802,10 @@
     {
         "name": "Power Manager",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Power Manager/PowerManager.intune.recipe"
+    },
+    {
+        "name": "Powershell",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Powershell/Powershell.intune.recipe"
     },
     {
         "name": "Privileges",
@@ -824,6 +856,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Rider.intune.recipe"
     },
     {
+        "name": "Rotato",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rotato/Rotato.intune.recipe"
+    },
+    {
         "name": "Santa",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe"
     },
@@ -840,6 +876,10 @@
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LiteratureAndLatte/Scrivener.intune.recipe"
     },
     {
+        "name": "Shottr",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Shottr/Shottr.intune.recipe"
+    },
+    {
         "name": "Sketch",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BohemianCoding/Sketch.intune.recipe"
     },
@@ -854,6 +894,10 @@
     {
         "name": "Splashtop Business",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Splashtop/SplashtopBusiness.intune.recipe"
+    },
+    {
+        "name": "Spline",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spline/Spline.intune.recipe"
     },
     {
         "name": "Spotify",
@@ -882,6 +926,10 @@
     {
         "name": "Surfshark",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Surfshark/Surfshark.intune.recipe"
+    },
+    {
+        "name": "Suspicious Package",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SuspiciousPackage/SuspiciousPackage.intune.recipe"
     },
     {
         "name": "Swift Dialog",
@@ -1006,5 +1054,9 @@
     {
         "name": "iTerm2",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iTerm2/iTerm2.intune.recipe"
+    },
+    {
+        "name": "mitmproxy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mitmproxy/Mitmproxy.intune.recipe"
     }
 ]
