@@ -56,6 +56,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/dwbergstrom-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/faumac-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/faumac-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/foigus-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/foigus-recipes"
     },
