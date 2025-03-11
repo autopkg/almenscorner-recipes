@@ -370,6 +370,11 @@
         "description": "DB Browser for SQLite is a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite."
     },
     {
+        "name": "DBeaver Community Edition",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DBeaver/DBeaverCE.intune.recipe",
+        "description": "Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc."
+    },
+    {
         "name": "DaisyDisk",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DaisyDisk/DaisyDisk.intune.recipe",
         "description": "Take a different look at your disk. See what's on your Mac and recover disk space every time you need it."
@@ -543,6 +548,11 @@
         "name": "FontBase",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FontBase/FontBase.intune.recipe",
         "description": "FontBase is the font manager of the new generation, built by designers, for designers."
+    },
+    {
+        "name": "Fork",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Fork/Fork.intune.recipe",
+        "description": "Fork is a fast and friendly git client for Mac"
     },
     {
         "name": "Foxit PDF Reader",
@@ -815,6 +825,11 @@
         "description": "Say it with video! Loom is the most effective way to get your message across, no matter where you work."
     },
     {
+        "name": "MAMP",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MAMP/MAMP.intune.recipe",
+        "description": "MAMP installs a local server environment with Apache, PHP and MySQL"
+    },
+    {
         "name": "Maccy",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe",
         "description": "Lightweight clipboard manager for macOS"
@@ -905,9 +920,24 @@
         "description": "Compass. The GUI for MongoDB.\n\nCompass is an interactive tool for querying, optimizing, and analyzing your MongoDB data. Get key insights, drag and drop to build pipelines, and more."
     },
     {
+        "name": "Multipass",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Multipass/Multipass.intune.recipe",
+        "description": "Multipass is a lightweight VM manager for Linux, Windows and macOS. It's designed for developers who want to spin up a fresh Ubuntu environment with a single command."
+    },
+    {
         "name": "NetSpot",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetSpot/NetSpot.intune.recipe",
         "description": "Wireless survey tool."
+    },
+    {
+        "name": "NoMachine",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NoMachine/NoMachine.intune.recipe",
+        "description": "Go from your desktop to any NoMachine-enabled computer at the speed of light. Thanks to our NX technology, NoMachine is the fastest and highest quality remote desktop you have ever tried. Get to any computer in the world in just a few clicks! Take what's important where you go and share with who you want! NoMachine is your own personal server, private and secure. Did we say NoMachine is free? No strings attached."
+    },
+    {
+        "name": "Node.js LTS",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Node JS LTS/NodeJSLTS.intune.recipe",
+        "description": "NodeLTS.js\u00ae is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications."
     },
     {
         "name": "NordVPN",
@@ -1020,6 +1050,11 @@
         "description": "PostgreSQL 16 database system packaged by EnterpriseDB.com.\n\nThis installer includes the PostgreSQL server, pgAdmin; a graphical tool for managing and developing your databases, and StackBuilder; a package manager that can be used to download and install additional PostgreSQL tools and drivers. Stackbuilder includes management, integration, migration, replication, geospatial, connectors and other tools. "
     },
     {
+        "name": "Postico",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postico/Postico.intune.recipe",
+        "description": "Postico will look familiar to anyone who has used a Mac before. Just connect to a database and begin working with tables and views. Start with the basics and learn about advanced features of PostgreSQL as you go along."
+    },
+    {
         "name": "Postman",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Postman/Postman.intune.recipe",
         "description": "Create and send any HTTP request using the awesome Postman request builder. Write your own test cases to validate response data, response times, and more!"
@@ -1053,6 +1088,11 @@
         "name": "PyCharm Professional Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-PE.intune.recipe",
         "description": "Python IDE for professional developers\n\nhttps://www.jetbrains.com/pycharm"
+    },
+    {
+        "name": "Python 3",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Python3/Python3.intune.recipe",
+        "description": "Python is a programming language that lets you work quickly and integrate systems more effectively."
     },
     {
         "name": "Raycast",
@@ -1138,6 +1178,11 @@
         "name": "Snagit",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snagit/Snagit.intune.recipe",
         "description": "Screen capture utility."
+    },
+    {
+        "name": "SourceTree",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SourceTree/SourceTree.intune.recipe",
+        "description": "SourceTree is a free Mercurial and Git client for Windows and Mac that provides a graphical interface for your Hg and Git repositories."
     },
     {
         "name": "Splashtop Business",
@@ -1245,6 +1290,11 @@
         "description": "Web browser that anonymizes your activity using peer-to-peer networks."
     },
     {
+        "name": "Tower",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tower/Tower.intune.recipe",
+        "description": "Version control with Git made easy."
+    },
+    {
         "name": "Tunnelblick",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tunnelblick/Tunnelblick.intune.recipe",
         "description": "Tunnelblick is a Mac app that lets you easily connect to OpenVPN."
@@ -1263,6 +1313,11 @@
         "name": "VLC Media Player",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe",
         "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+    },
+    {
+        "name": "Vagrant",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HashiCorp/Vagrant.intune.recipe",
+        "description": "Create and configure lightweight, reproducible, and portable development environments."
     },
     {
         "name": "VirtualBox",

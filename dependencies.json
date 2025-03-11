@@ -192,6 +192,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/rtrouton-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/scriptingosx-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/scriptingosx-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/smithjw-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/smithjw-recipes"
     },
