@@ -20,6 +20,11 @@
         "description": "Bitmap image editor"
     },
     {
+        "name": "ActivityWatch",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ActivityWatch/ActivityWatch.intune.recipe",
+        "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused."
+    },
+    {
         "name": "Adobe Creative Cloud",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeCreativeCloudUniversal.intune.recipe",
         "description": "Get the complete toolkit for creativity, including Photoshop, Premiere Pro, Illustrator, Adobe Express, and Acrobat Pro."
@@ -775,6 +780,11 @@
         "description": "Automatic time-tracking solution for freelancers and makers. Remove the need to start or pause a timer."
     },
     {
+        "name": "Knox Meeting",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Knox Meeting/KnoxMeeting.intune.recipe",
+        "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused."
+    },
+    {
         "name": "Krisp",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Krisp/Krisp.intune.recipe",
         "description": "Mute background noise in any communication app."
@@ -1110,6 +1120,11 @@
         "description": "Rclone is a command line program to sync files to and from Google Drive, Amazon Cloud Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage and Yandex. It's features include MD5/SHA1 hashes, preserved timestamps, partial and one-way syncs and cross platform syncing."
     },
     {
+        "name": "RealVNC Viewer",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RealVNC/RealVNCViewer.intune.recipe",
+        "description": "VNC enables you to remotely access and control your devices wherever you are in the world, whenever you need to."
+    },
+    {
         "name": "Rectangle",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe",
         "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas."
@@ -1248,6 +1263,16 @@
         "name": "Tabby",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tabby/Tabby.intune.recipe",
         "description": "Tabby is an alternative to Windows' standard terminal (conhost), PowerShell ISE, PuTTY, macOS Terminal.app and iTerm."
+    },
+    {
+        "name": "Tableau Public",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tableau/TableauPublic.intune.recipe",
+        "description": "Data in. Brilliance out. Visualize and Share Your Data in Minutes."
+    },
+    {
+        "name": "Tableau Reader",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tableau/TableauReader.intune.recipe",
+        "description": "Tableau Reader is a free desktop application that you can use to open and view visualizations built in Tableau Desktop. With Tableau Reader you\u2019ll be able to open and interact with visualizations built with Tableau Desktop, data included. You can filter, drill-down and view details of the data as far as the author allows."
     },
     {
         "name": "Tailscale",
