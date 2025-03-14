@@ -25,7 +25,7 @@
 	<string>com.github.homebysix.download.Dropshare</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

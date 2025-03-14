@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>mitmproxy is a free and open source interactive HTTPS proxy.</string>
-        <key>developer</key>
-        <string>Mitmproxy Project</string>
+		<string>mitmproxy is a free and open source interactive HTTPS proxy.</string>
+		<key>developer</key>
+		<string>Mitmproxy Project</string>
 		<key>display_name</key>
 		<string>mitmproxy</string>
 	</dict>
@@ -27,17 +27,17 @@
 	<string>com.github.almenscorner.download.Mitmproxy</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/downloads/%NAME%.app</string>
-            </dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.app</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

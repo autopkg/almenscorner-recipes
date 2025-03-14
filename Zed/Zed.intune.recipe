@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Zed.
+	<string>Downloads the latest version of Zed.
 
 Valid values for ARCH include:
 - x86_64 (Intel)
@@ -16,18 +16,18 @@ Valid values for BRANCH include:
 	<string>com.github.almenscorner.intune.Zed</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>aarch64</string>
+		<key>ARCH</key>
+		<string>aarch64</string>
 		<key>NAME</key>
 		<string>Zed</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>Lightweight, responsive text editor and integrated development environment (IDE).</string>
-        <key>developer</key>
-        <string>Zed Industries</string>
+		<key>description</key>
+		<string>Lightweight, responsive text editor and integrated development environment (IDE).</string>
+		<key>developer</key>
+		<string>Zed Industries</string>
 		<key>display_name</key>
 		<string>Zed</string>
 	</dict>
@@ -37,7 +37,7 @@ Valid values for BRANCH include:
 	<string>com.github.almenscorner.download.Zed</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

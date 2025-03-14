@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Shottr is a small, fast, human-sized screenshot app built for those who care about pixels. It was crafted with Swift, optimized for M1, and is distributed for free.</string>
-        <key>developer</key>
-        <string>Electric Endeavors LLC</string>
+		<string>Shottr is a small, fast, human-sized screenshot app built for those who care about pixels. It was crafted with Swift, optimized for M1, and is distributed for free.</string>
+		<key>developer</key>
+		<string>Electric Endeavors LLC</string>
 		<key>display_name</key>
 		<string>Shottr</string>
 	</dict>

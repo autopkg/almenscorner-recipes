@@ -8,18 +8,18 @@
 	<string>com.github.almenscorner.intune.Fork</string>
 	<key>Input</key>
 	<dict>
-        <key>os</key>
-        <string>macos</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Fork is a fast and friendly git client for Mac</string>
-        <key>developer</key>
-        <string>Dan Pristupov</string>
+		<string>Fork is a fast and friendly git client for Mac</string>
+		<key>developer</key>
+		<string>Dan Pristupov</string>
 		<key>display_name</key>
 		<string>Fork</string>
+		<key>os</key>
+		<string>macos</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0</string>

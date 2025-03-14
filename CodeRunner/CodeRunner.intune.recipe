@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>CodeRunner is the easiest way to write code on your Mac. You can run code in almost any language instantly, and you'll be surprised by the powerful set of features in such a lightweight and easy-to-use editor.</string>
-        <key>developer</key>
-        <string>Nikolai Krill</string>
+		<string>CodeRunner is the easiest way to write code on your Mac. You can run code in almost any language instantly, and you'll be surprised by the powerful set of features in such a lightweight and easy-to-use editor.</string>
+		<key>developer</key>
+		<string>Nikolai Krill</string>
 		<key>display_name</key>
 		<string>CodeRunner</string>
 	</dict>
@@ -27,18 +27,18 @@
 	<string>io.github.hjuutilainen.download.CodeRunner2</string>
 	<key>Process</key>
 	<array>
-    	<dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

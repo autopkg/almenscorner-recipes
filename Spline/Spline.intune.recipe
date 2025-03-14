@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Spline, a place to design and collaborate in 3D.</string>
-        <key>developer</key>
-        <string>Spline, Inc.</string>
+		<string>Spline, a place to design and collaborate in 3D.</string>
+		<key>developer</key>
+		<string>Spline, Inc.</string>
 		<key>display_name</key>
 		<string>Spline</string>
 	</dict>
@@ -27,17 +27,17 @@
 	<string>com.github.almenscorner.download.Spline</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_root</key>
-                <string>%destination_path%/Spline.app</string>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%destination_path%/Spline.app</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

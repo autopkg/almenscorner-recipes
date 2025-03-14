@@ -13,21 +13,21 @@
 	<string>1.0.0</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>https://formulae.brew.sh/api/cask/elgato-wave-link.json</string>
-                <key>re_pattern</key>
-                <string>https://edge.elgato.com/egc/macos/wavelink/\S.*?/WaveLink_\S.*?.pkg</string>
-                <key>re_flags</key>
-                <array>
-                    <string>MULTILINE</string>
-                </array>
-            </dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_flags</key>
+				<array>
+					<string>MULTILINE</string>
+				</array>
+				<key>re_pattern</key>
+				<string>https://edge.elgato.com/egc/macos/wavelink/\S.*?/WaveLink_\S.*?.pkg</string>
+				<key>url</key>
+				<string>https://formulae.brew.sh/api/cask/elgato-wave-link.json</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

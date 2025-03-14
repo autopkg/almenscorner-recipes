@@ -27,16 +27,16 @@
 	<string>com.github.autopkg.mikestechshop.download.JumpDesktop</string>
 	<key>Process</key>
 	<array>
-    	<dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%destination_path%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%destination_path%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>

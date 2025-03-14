@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>LangGraph Studio offers a new way to develop LLM applications by providing a specialized agent IDE that enables visualization, interaction, and debugging of complex agentic applications.</string>
-        <key>developer</key>
-        <string>langchain</string>
+		<string>LangGraph Studio offers a new way to develop LLM applications by providing a specialized agent IDE that enables visualization, interaction, and debugging of complex agentic applications.</string>
+		<key>developer</key>
+		<string>langchain</string>
 		<key>display_name</key>
 		<string>LangGraph Studio</string>
 	</dict>

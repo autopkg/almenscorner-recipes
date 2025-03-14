@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the latest version of Steam and imports it into Munki.
-    
-NOTE: This simply installs Steam.app to /Applications, upon first launch the Steam update process will download about 180 MB of assets to complete the installation. 
+	<key>Description</key>
+	<string>Downloads the latest version of Steam and imports it into Munki.
+
+NOTE: This simply installs Steam.app to /Applications, upon first launch the Steam update process will download about 180 MB of assets to complete the installation.
 These support files are downloaded to ~/Library/Application Support/Steam for the current user opening the app. These assets must be downloaded for each user on the system.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Steam</string>
@@ -18,8 +18,8 @@ These support files are downloaded to ~/Library/Application Support/Steam for th
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Steam is the ultimate destination for playing, discussing, and creating games.</string>
- 		<key>developer</key>
+		<string>Steam is the ultimate destination for playing, discussing, and creating games.</string>
+		<key>developer</key>
 		<string>Valve Software</string>
 		<key>display_name</key>
 		<string>Steam</string>
@@ -35,13 +35,13 @@ These support files are downloaded to ~/Library/Application Support/Steam for th
 			<dict>
 				<key>info_path</key>
 				<string>%pathname%/%NAME%.app/Contents/Info.plist</string>
-                <key>plist_keys</key>
-                <dict>
-                    <key>CFBundleVersion</key>
-                    <string>version</string>
-                    <key>CFBundleIdentifier</key>
-                    <string>bundleid</string>
-                </dict>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleid</string>
+					<key>CFBundleVersion</key>
+					<string>version</string>
+				</dict>
 			</dict>
 			<key>Processor</key>
 			<string>PlistReader</string>

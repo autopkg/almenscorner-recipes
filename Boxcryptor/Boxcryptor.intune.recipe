@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Boxcryptor protects your data in the cloud: in OneDrive, SharePoint, Dropbox, Google Drive and more.</string>
-        <key>developer</key>
-        <string>Secomba GmbH i.L.</string>
+		<string>Boxcryptor protects your data in the cloud: in OneDrive, SharePoint, Dropbox, Google Drive and more.</string>
+		<key>developer</key>
+		<string>Secomba GmbH i.L.</string>
 		<key>display_name</key>
 		<string>Boxcryptor</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.grumpydrew.download.Boxcryptor</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

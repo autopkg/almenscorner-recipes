@@ -8,18 +8,18 @@
 	<string>com.github.almenscorner.intune.DBeaverCE</string>
 	<key>Input</key>
 	<dict>
-        <key>os</key>
-        <string>macos</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.</string>
-        <key>developer</key>
-        <string>DBeaver Corp</string>
+		<string>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.</string>
+		<key>developer</key>
+		<string>DBeaver Corp</string>
 		<key>display_name</key>
 		<string>DBeaver Community Edition</string>
+		<key>os</key>
+		<string>macos</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0</string>

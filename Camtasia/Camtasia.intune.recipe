@@ -15,8 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A powerful, yet easy-to-use screen recorder, Camtasia helps you create professional videos without having to be a video pro. Easily record your screen movements and actions, or import HD video from a camera or other source. Customize and edit content on both Mac and Windows platforms, and share your videos with viewers on nearly any device.</string>        <key>developer</key>
-        <string>TechSmith</string>
+		<string>A powerful, yet easy-to-use screen recorder, Camtasia helps you create professional videos without having to be a video pro. Easily record your screen movements and actions, or import HD video from a camera or other source. Customize and edit content on both Mac and Windows platforms, and share your videos with viewers on nearly any device.</string>
+		<key>developer</key>
+		<string>TechSmith</string>
 		<key>display_name</key>
 		<string>Camtasia</string>
 	</dict>
@@ -26,7 +27,7 @@
 	<string>com.github.jps3.download.Camtasia</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

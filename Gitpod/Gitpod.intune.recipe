@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Gitpod Desktop is the fastest and easiest way to run and recreate cloud development environments locally. It is currently available for Apple silicon users.</string>
-        <key>developer</key>
-        <string>Filip Tronicek</string>
+		<string>Gitpod Desktop is the fastest and easiest way to run and recreate cloud development environments locally. It is currently available for Apple silicon users.</string>
+		<key>developer</key>
+		<string>Filip Tronicek</string>
 		<key>display_name</key>
 		<string>Gitpod</string>
 	</dict>

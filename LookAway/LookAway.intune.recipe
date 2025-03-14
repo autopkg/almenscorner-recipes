@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>LookAway is a smart break reminder that helps reduce eye strain, digital fatigue, and maintain better posture—so you can end your day feeling fresh, not drained.</string>
-        <key>developer</key>
-        <string>Mystical Bits, LLC</string>
+		<string>LookAway is a smart break reminder that helps reduce eye strain, digital fatigue, and maintain better posture—so you can end your day feeling fresh, not drained.</string>
+		<key>developer</key>
+		<string>Mystical Bits, LLC</string>
 		<key>display_name</key>
 		<string>LookAway</string>
 	</dict>

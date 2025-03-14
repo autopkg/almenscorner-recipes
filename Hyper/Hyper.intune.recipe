@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A highly extensible terminal emulator, built on Electron.</string>
-        <key>developer</key>
-        <string>Guillermo Rauch</string>
+		<string>A highly extensible terminal emulator, built on Electron.</string>
+		<key>developer</key>
+		<string>Guillermo Rauch</string>
 		<key>display_name</key>
 		<string>Hyper</string>
 	</dict>

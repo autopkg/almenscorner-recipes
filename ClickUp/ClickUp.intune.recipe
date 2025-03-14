@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Organize your tasks, docs, and goals to improve your time management.</string>
-        <key>developer</key>
-        <string>Mango Technologies, Inc.</string>
+		<string>Organize your tasks, docs, and goals to improve your time management.</string>
+		<key>developer</key>
+		<string>Mango Technologies, Inc.</string>
 		<key>display_name</key>
 		<string>ClickUp</string>
 	</dict>

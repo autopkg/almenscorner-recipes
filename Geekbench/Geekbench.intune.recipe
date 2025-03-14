@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Geekbench 6, the latest major upgrade to Primate Labs’ easy-to-use cross-platform benchmark, is now available for download. Geekbench 6 allows you to measure your system’s power more accurately than ever before.</string>
+		<string>Geekbench 6, the latest major upgrade to Primate Labs’ easy-to-use cross-platform benchmark, is now available for download. Geekbench 6 allows you to measure your system’s power more accurately than ever before.</string>
 		<key>developer</key>
 		<string>Primate Labs</string>
 		<key>display_name</key>
@@ -27,17 +27,17 @@
 	<string>com.github.dataJAR-recipes.download.Geekbench 6</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

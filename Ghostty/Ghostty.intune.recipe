@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</string>
-        <key>developer</key>
-        <string>Mitchell Hashimoto</string>
+		<string>Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.</string>
+		<key>developer</key>
+		<string>Mitchell Hashimoto</string>
 		<key>display_name</key>
 		<string>Ghostty</string>
 	</dict>
@@ -34,7 +34,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

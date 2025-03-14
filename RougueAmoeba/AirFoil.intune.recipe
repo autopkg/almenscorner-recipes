@@ -27,7 +27,7 @@
 	<string>com.github.homebysix.pkg.AirFoil</string>
 	<key>Process</key>
 	<array>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

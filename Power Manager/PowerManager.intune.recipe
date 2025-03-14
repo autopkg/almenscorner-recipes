@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Power Manager lets you automate sophisticated tasks and improve your Mac's power management.</string>
- 		<key>developer</key>
-		 <string>Dragon Systems Software Limited</string>
+		<string>Power Manager lets you automate sophisticated tasks and improve your Mac's power management.</string>
+		<key>developer</key>
+		<string>Dragon Systems Software Limited</string>
 		<key>display_name</key>
 		<string>Power Manager</string>
 	</dict>
@@ -27,49 +27,49 @@
 	<string>com.github.dataJAR-recipes.download.PowerManager</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpacked</string>
-                <key>flat_pkg_path</key>
-                <string>%pathname%</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications</string>
-                <key>pkg_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpacked/Power Manager Application.pkg/Payload</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>info_path</key>
-                <string>%destination_path%/%NAME%.app/Contents/Info.plist</string>
-                <key>plist_keys</key>
-                <dict>
-                    <key>CFBundleShortVersionString</key>
-                    <string>version</string>
-                    <key>CFBundleIdentifier</key>
-                    <string>bundleid</string>
-                </dict>
-            </dict>
-            <key>Processor</key>
-            <string>PlistReader</string>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
 		</dict>
-        <dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/Applications</string>
+				<key>pkg_payload_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked/Power Manager Application.pkg/Payload</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%destination_path%/%NAME%.app/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleid</string>
+					<key>CFBundleShortVersionString</key>
+					<string>version</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

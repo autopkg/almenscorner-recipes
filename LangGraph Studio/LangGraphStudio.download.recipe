@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>LangGraph Studio offers a new way to develop LLM applications by providing a specialized agent IDE that enables visualization, interaction, and debugging of complex agentic applications.
-    
+
 Set PRERELEASE to a non-empty string to download prereleases, either
 via Input in an override or via the -k option,
 i.e.: `-k PRERELEASE=yes`</string>
@@ -28,10 +28,10 @@ i.e.: `-k PRERELEASE=yes`</string>
 				<string>LangGraph-Studio-\S.*?-universal.dmg</string>
 				<key>github_repo</key>
 				<string>langchain-ai/langgraph-studio</string>
-				<key>sort_by_highest_tag_names</key>
-				<string>True</string>
 				<key>include_prereleases</key>
 				<string>%PRERELEASE%</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>

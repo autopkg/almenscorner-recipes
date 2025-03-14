@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Remote Desktop Manager Free.</string>
+	<string>Downloads the latest version of Remote Desktop Manager Free.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.RemoteDesktopManagerFree</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-            <string>Remote Desktop Manager Free Edition
+		<string>Remote Desktop Manager Free Edition
 
 Remote Connections and Passwords. Everywhere.
 
@@ -31,7 +31,7 @@ For individual users who don't need to share remote connections and privileged p
 	<string>com.github.dataJAR-recipes.download.Remote Desktop Manager Free</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

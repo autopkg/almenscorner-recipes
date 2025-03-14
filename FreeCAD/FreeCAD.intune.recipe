@@ -8,16 +8,16 @@
 	<string>com.github.almenscorner.intune.FreeCAD</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>arm64</string>
+		<key>ARCH</key>
+		<string>arm64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>FreeCAD is a general purpose feature-based, parametric 3D modeler for CAD, MCAD, CAx, CAE and PLM, aimed directly at mechanical engineering and product design but also fits a wider range of uses in engineering, such as architecture or other engineering specialties. It is 100% Open Source (LGPL2+ license) and extremely modular, allowing for very advanced extension and customization.</string>        
-        <key>developer</key>
-        <string>The FreeCAD Team.</string>
+		<string>FreeCAD is a general purpose feature-based, parametric 3D modeler for CAD, MCAD, CAx, CAE and PLM, aimed directly at mechanical engineering and product design but also fits a wider range of uses in engineering, such as architecture or other engineering specialties. It is 100% Open Source (LGPL2+ license) and extremely modular, allowing for very advanced extension and customization.</string>
+		<key>developer</key>
+		<string>The FreeCAD Team.</string>
 		<key>display_name</key>
 		<string>FreeCAD</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.dataJAR-recipes.download.FreeCAD</string>
 	<key>Process</key>
 	<array>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Foldr for your macOS Finder. A single location to access your files whether on premise or in the cloud. No waiting. No syncing. No fuss.</string>
-        <key>developer</key>
-        <string>Minnow IT</string>
+		<string>Foldr for your macOS Finder. A single location to access your files whether on premise or in the cloud. No waiting. No syncing. No fuss.</string>
+		<key>developer</key>
+		<string>Minnow IT</string>
 		<key>display_name</key>
 		<string>Foldr</string>
 	</dict>

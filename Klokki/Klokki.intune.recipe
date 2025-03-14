@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Automatic time-tracking solution for freelancers and makers. Remove the need to start or pause a timer.</string>
-        <key>developer</key>
-        <string>Stas Moor</string>
+		<string>Automatic time-tracking solution for freelancers and makers. Remove the need to start or pause a timer.</string>
+		<key>developer</key>
+		<string>Stas Moor</string>
 		<key>display_name</key>
 		<string>Klokki</string>
 	</dict>

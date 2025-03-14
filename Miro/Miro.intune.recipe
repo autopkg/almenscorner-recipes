@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Miro.</string>
+	<string>Downloads the latest version of Miro.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Miro</string>
 	<key>Input</key>
@@ -14,10 +14,10 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
+		<key>description</key>
 		<string>The online collaborative whiteboard platform to bring teams together, anytime, anywhere.</string>
-        <key>developer</key>
-        <string>Miro</string>
+		<key>developer</key>
+		<string>Miro</string>
 		<key>display_name</key>
 		<string>Miro</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.dataJAR-recipes.download.Miro</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

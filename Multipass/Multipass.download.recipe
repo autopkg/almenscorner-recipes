@@ -30,10 +30,10 @@ i.e.: `-k PRERELEASE=yes`</string>
 				<string>multipass-\S.*?\+mac-Darwin.pkg</string>
 				<key>github_repo</key>
 				<string>canonical/multipass</string>
-				<key>sort_by_highest_tag_names</key>
-				<string>True</string>
 				<key>include_prereleases</key>
 				<string>%PRERELEASE%</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>

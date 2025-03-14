@@ -39,15 +39,15 @@
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%pathname%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
 	</array>
 </dict>
 </plist>

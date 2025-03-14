@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Minikube. Defaults to downloading darwin-arm64 (Silicon) build, use ARCHITECTURE to download other builds (like darwin-amd64)</string>
+	<string>Downloads the latest version of Minikube. Defaults to downloading darwin-arm64 (Silicon) build, use ARCHITECTURE to download other builds (like darwin-amd64)</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Minikube</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCHITECTURE</key>
-        <string>darwin-arm64</string>
+		<key>ARCHITECTURE</key>
+		<string>darwin-arm64</string>
 		<key>NAME</key>
 		<string>Minikube</string>
 		<key>categories</key>
@@ -17,7 +17,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.</string>
+		<string>minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit.</string>
 		<key>developer</key>
 		<string>Kubernetes.io</string>
 		<key>display_name</key>

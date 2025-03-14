@@ -15,13 +15,13 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Keybase is a free, open source security app. It's also a public directory of people.
+		<string>Keybase is a free, open source security app. It's also a public directory of people.
 
 The Keybase app helps you perform cryptographically-secure operations with people you know on the Internet: chatting, file sharing, even publishing public documents. It's all easier and safer with Keybase.
 
 The Keybase app is improving every day. To get started, download the app, create an account, and connect one or more of your social identities.</string>
-        <key>developer</key>
-        <string>Keybase</string>
+		<key>developer</key>
+		<string>Keybase</string>
 		<key>display_name</key>
 		<string>Keybase</string>
 	</dict>

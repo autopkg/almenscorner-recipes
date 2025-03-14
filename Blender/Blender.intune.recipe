@@ -8,10 +8,10 @@
 	<string>com.github.almenscorner.intune.Blender</string>
 	<key>Input</key>
 	<dict>
+		<key>ARCHITECTURE</key>
+		<string>arm64</string>
 		<key>NAME</key>
 		<string>Blender</string>
-        <key>ARCHITECTURE</key>
-        <string>arm64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>

@@ -18,16 +18,16 @@
 	<key>Process</key>
 	<array>
 		<dict>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>https://formulae.brew.sh/api/cask/beeper.json</string>
-                <key>re_pattern</key>
-                <string>https:\/\/download\.todesktop\.com\/[^\/]+\/Beeper%20[^\s]+-(?:%ARCH%)-mac\.zip</string>
-            </dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-        </dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>https:\/\/download\.todesktop\.com\/[^\/]+\/Beeper%20[^\s]+-(?:%ARCH%)-mac\.zip</string>
+				<key>url</key>
+				<string>https://formulae.brew.sh/api/cask/beeper.json</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -43,17 +43,17 @@
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>archive_path</key>
-                <string>%pathname%</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%</string>
-            </dict>
-            <key>Processor</key>
-            <string>Unarchiver</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>archive_path</key>
+				<string>%pathname%</string>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -65,26 +65,26 @@
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/Beeper.app</string>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%dmg_path%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/Beeper.app</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%dmg_path%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
 	</array>
 </dict>
 </plist>

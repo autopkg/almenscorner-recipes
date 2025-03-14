@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>3D mockup images and movies in minutes.</string>
-        <key>developer</key>
-        <string>Rotato</string>
+		<string>3D mockup images and movies in minutes.</string>
+		<key>developer</key>
+		<string>Rotato</string>
 		<key>display_name</key>
 		<string>Rotato</string>
 	</dict>

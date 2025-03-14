@@ -18,16 +18,16 @@
 	<key>Process</key>
 	<array>
 		<dict>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>https://formulae.brew.sh/api/cask/windsurf.json</string>
-                <key>re_pattern</key>
-                <string>https:\/\/windsurf-stable\.codeiumdata\.com\/darwin-(?:%ARCH%)-dmg\/[^"]+\.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-        </dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>https:\/\/windsurf-stable\.codeiumdata\.com\/darwin-(?:%ARCH%)-dmg\/[^"]+\.dmg</string>
+				<key>url</key>
+				<string>https://formulae.brew.sh/api/cask/windsurf.json</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -54,15 +54,15 @@
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%pathname%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
 	</array>
 </dict>
 </plist>

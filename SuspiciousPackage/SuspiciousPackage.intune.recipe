@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Peek inside macOS Installer packages, see what they install, what they do, and more.</string>
-        <key>developer</key>
-        <string>Mothers Ruin Software</string>
+		<string>Peek inside macOS Installer packages, see what they install, what they do, and more.</string>
+		<key>developer</key>
+		<string>Mothers Ruin Software</string>
 		<key>display_name</key>
 		<string>Suspicious Package</string>
 	</dict>

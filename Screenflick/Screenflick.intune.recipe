@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Providing the power and features to communicate your screen experience.</string>
-        <key>developer</key>
-        <string>Araelium</string>
+		<string>Providing the power and features to communicate your screen experience.</string>
+		<key>developer</key>
+		<string>Araelium</string>
 		<key>display_name</key>
 		<string>Screenflick</string>
 	</dict>
@@ -25,16 +25,16 @@
 	<string>com.github.foigus.download.Screenflick</string>
 	<key>Process</key>
 	<array>
-        <dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>

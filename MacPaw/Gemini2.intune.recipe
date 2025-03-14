@@ -8,16 +8,16 @@
 	<string>com.github.almenscorner.intune.Gemini</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>arm64</string>
+		<key>ARCH</key>
+		<string>arm64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>Locate and eliminate duplicate and similar files.</string>
-        <key>developer</key>
-        <string>MacPaw Inc.</string>
+		<key>description</key>
+		<string>Locate and eliminate duplicate and similar files.</string>
+		<key>developer</key>
+		<string>MacPaw Inc.</string>
 		<key>display_name</key>
 		<string>Gemini</string>
 	</dict>
@@ -36,7 +36,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

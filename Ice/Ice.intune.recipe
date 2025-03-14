@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.</string>
-        <key>developer</key>
-        <string>Jordan Baird</string>
+		<string>Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.</string>
+		<key>developer</key>
+		<string>Jordan Baird</string>
 		<key>display_name</key>
 		<string>Ice</string>
 	</dict>
@@ -26,8 +26,6 @@
 	<key>Process</key>
 	<array>
 		<dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -35,6 +33,8 @@
 				<key>dmg_root</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
@@ -45,7 +45,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

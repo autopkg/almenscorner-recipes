@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>LookAway is a smart break reminder that helps reduce eye strain, digital fatigue, and maintain better posture—so you can end your day feeling fresh, not drained.
-    
+
 Set PRERELEASE to a non-empty string to download prereleases, either
 via Input in an override or via the -k option,
 i.e.: `-k PRERELEASE=yes`</string>
@@ -28,10 +28,10 @@ i.e.: `-k PRERELEASE=yes`</string>
 				<string>LookAway.dmg</string>
 				<key>github_repo</key>
 				<string>mysticalbits/lookaway-releases</string>
-				<key>sort_by_highest_tag_names</key>
-				<string>True</string>
 				<key>include_prereleases</key>
 				<string>%PRERELEASE%</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>

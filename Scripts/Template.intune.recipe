@@ -14,7 +14,7 @@
 				<key>group_id</key>
 				<string>xxxx-xxxxx-xxxxxx-xxxxxx</string>
 				<key>intent</key>
-				<string></string> <!-- Empty string means include, to exclude a group, set string to 'exclude' -->
+				<string></string>
 			</dict>
 		</array>
 		<key>description</key>

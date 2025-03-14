@@ -15,8 +15,8 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Project management and word processing tool for writers.</string>
-        <key>developer</key>
+		<string>Project management and word processing tool for writers.</string>
+		<key>developer</key>
 		<string>Literature &amp; Latte, Ltd.</string>
 		<key>display_name</key>
 		<string>Scrivener</string>
@@ -24,10 +24,10 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-    <string>com.github.homebysix.download.Scrivener</string>
-    <key>Process</key>
+	<string>com.github.homebysix.download.Scrivener</string>
+	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

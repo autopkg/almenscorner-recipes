@@ -14,9 +14,9 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>macOS system monitor in your menu bar.</string>
-        <key>developer</key>
+		<key>description</key>
+		<string>macOS system monitor in your menu bar.</string>
+		<key>developer</key>
 		<string>Serhiy Mytrovtsiy</string>
 		<key>display_name</key>
 		<string>Stats</string>
@@ -24,8 +24,8 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-    <string>com.github.kevinmcox.download.Stats</string>
-    <key>Process</key>
+	<string>com.github.kevinmcox.download.Stats</string>
+	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>

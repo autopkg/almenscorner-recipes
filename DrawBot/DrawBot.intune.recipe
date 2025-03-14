@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>DrawBot is an open source application for OS X that allows users to write simple Python scripts to generate two-dimensional graphics.</string>
-        <key>developer</key>
-        <string>DrawBot</string>
+		<string>DrawBot is an open source application for OS X that allows users to write simple Python scripts to generate two-dimensional graphics.</string>
+		<key>developer</key>
+		<string>DrawBot</string>
 		<key>display_name</key>
 		<string>DrawBot</string>
 	</dict>
@@ -34,17 +34,17 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>source_path</key>
-                <string>%pathname%/DrawBot.app/Contents/Resources/icon_left_0.png</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/appicon.png</string>
-            </dict>
-            <key>Processor</key>
-            <string>Copier</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/appicon.png</string>
+				<key>source_path</key>
+				<string>%pathname%/DrawBot.app/Contents/Resources/icon_left_0.png</string>
+			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

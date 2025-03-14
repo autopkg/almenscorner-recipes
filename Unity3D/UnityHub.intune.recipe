@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Unity Hub.</string>
+	<string>Downloads the latest version of Unity Hub.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.UnityHub</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A second brain, for you, forever. Unity Hub is a powerful knowledge base that works on top of a local folder of plain text Markdown files.</string>
+		<string>A second brain, for you, forever. Unity Hub is a powerful knowledge base that works on top of a local folder of plain text Markdown files.</string>
 		<key>developer</key>
 		<string>Unity Hub</string>
 		<key>display_name</key>

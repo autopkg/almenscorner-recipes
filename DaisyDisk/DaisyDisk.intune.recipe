@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Take a different look at your disk. See what's on your Mac and recover disk space every time you need it.</string>
-        <key>developer</key>
-        <string>Software Ambience Corp.</string>
+		<string>Take a different look at your disk. See what's on your Mac and recover disk space every time you need it.</string>
+		<key>developer</key>
+		<string>Software Ambience Corp.</string>
 		<key>display_name</key>
 		<string>DaisyDisk</string>
 	</dict>
@@ -27,18 +27,18 @@
 	<string>io.github.hjuutilainen.download.DaisyDisk</string>
 	<key>Process</key>
 	<array>
-    	<dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

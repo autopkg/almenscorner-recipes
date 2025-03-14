@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Web-based time management tool that tracks the activities and duration of a user's computer usage.</string>
-        <key>developer</key>
-        <string>RescueTime, Inc</string>
+		<string>Web-based time management tool that tracks the activities and duration of a user's computer usage.</string>
+		<key>developer</key>
+		<string>RescueTime, Inc</string>
 		<key>display_name</key>
 		<string>RescueTime</string>
 	</dict>
@@ -25,16 +25,16 @@
 	<string>com.github.blackthroat.download.RescueTime</string>
 	<key>Process</key>
 	<array>
-        <dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>

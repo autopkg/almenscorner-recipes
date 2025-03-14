@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Abstract is a platform for modern design teams to work together.</string>
-        <key>developer</key>
-        <string>Elastic Projects</string>
+		<string>Abstract is a platform for modern design teams to work together.</string>
+		<key>developer</key>
+		<string>Elastic Projects</string>
 		<key>display_name</key>
 		<string>Abstract</string>
 	</dict>

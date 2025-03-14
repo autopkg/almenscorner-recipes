@@ -65,6 +65,11 @@
         "description": "Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac."
     },
     {
+        "name": "Algodoo",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Algodoo/Algodoo.intune.recipe",
+        "description": "Algodooo gives you the opportunity to play with physics. Use your own hands and simple drawing tools to design, construct and explore the world of physics.\n\nSounds like an interesting idea? Algodooo is that program."
+    },
+    {
         "name": "AltTab",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AltTab/AltTab.intune.recipe",
         "description": "AltTab brings the power of Windows alt-tab to macOS"
@@ -268,6 +273,11 @@
         "name": "Calibre",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Calibre/Calibre.intune.recipe",
         "description": "Calibre is a free and open source e-book library management application."
+    },
+    {
+        "name": "Callbar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Callbar/Callbar.intune.recipe",
+        "description": "Talkdesk Callbar may be the tool you rely on most. It\u2019s where you\u2019ll do everything from making and receiving customer calls, adding post-call notes, setting your availability and more. Thankfully, Callbar is incredibly easy to use, even if you\u2019re brand new to call center software."
     },
     {
         "name": "Calmly Writer",
@@ -1120,6 +1130,11 @@
         "description": "Rclone is a command line program to sync files to and from Google Drive, Amazon Cloud Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Cloudfiles, Google Cloud Storage and Yandex. It's features include MD5/SHA1 hashes, preserved timestamps, partial and one-way syncs and cross platform syncing."
     },
     {
+        "name": "RealVNC Server",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RealVNC/RealVNCServer.intune.recipe",
+        "description": "VNC enables you to remotely access and control your devices wherever you are in the world, whenever you need to."
+    },
+    {
         "name": "RealVNC Viewer",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RealVNC/RealVNCViewer.intune.recipe",
         "description": "VNC enables you to remotely access and control your devices wherever you are in the world, whenever you need to."
@@ -1383,6 +1398,11 @@
         "name": "Windsurf",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Codeium/Windsurf.intune.recipe",
         "description": "Agentic IDE powered by AI Flow paradigm"
+    },
+    {
+        "name": "Wirecast",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Wirecast/Wirecast.intune.recipe",
+        "description": "Easily stream professional-looking video with Wirecast"
     },
     {
         "name": "Wireshark",

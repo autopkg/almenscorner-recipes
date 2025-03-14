@@ -14,9 +14,9 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).</string>
-        <key>developer</key>
+		<key>description</key>
+		<string>Charles is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).</string>
+		<key>developer</key>
 		<string>XK72</string>
 		<key>display_name</key>
 		<string>Charles</string>
@@ -24,8 +24,8 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-    <string>com.github.autopkg.arubdesu.download.CharlesProxy</string>
-    <key>Process</key>
+	<string>com.github.autopkg.arubdesu.download.CharlesProxy</string>
+	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>

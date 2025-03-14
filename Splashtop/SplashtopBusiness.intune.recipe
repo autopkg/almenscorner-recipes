@@ -30,15 +30,15 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/payload/</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/SplasthtopBusiness.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/payload/</string>
 			</dict>
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

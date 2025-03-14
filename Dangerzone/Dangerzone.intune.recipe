@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF.</string>
-        <key>developer</key>
-        <string>freedomofpress</string>
+		<string>Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF.</string>
+		<key>developer</key>
+		<string>freedomofpress</string>
 		<key>display_name</key>
 		<string>Dangerzone</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.almenscorner.download.Dangerzone</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

@@ -14,12 +14,12 @@ Downloads arm64 version by default. Set ARCH to "x64" to download x64 version.
 	<string>com.github.almenscorner.download.DevToys</string>
 	<key>Input</key>
 	<dict>
-		<key>NAME</key>
-		<string>DevToys</string>
 		<key>ARCH</key>
 		<string>arm64</string>
-        <key>PRERELEASE</key>
-        <string></string>
+		<key>NAME</key>
+		<string>DevToys</string>
+		<key>PRERELEASE</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -32,10 +32,10 @@ Downloads arm64 version by default. Set ARCH to "x64" to download x64 version.
 				<string>devtoys_osx_%ARCH%.zip</string>
 				<key>github_repo</key>
 				<string>DevToys-app/DevToys</string>
-				<key>sort_by_highest_tag_names</key>
-				<string>True</string>
 				<key>include_prereleases</key>
 				<string>%PRERELEASE%</string>
+				<key>sort_by_highest_tag_names</key>
+				<string>True</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>
@@ -53,17 +53,17 @@ Downloads arm64 version by default. Set ARCH to "x64" to download x64 version.
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>archive_path</key>
-                <string>%pathname%</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/DevToys</string>
-            </dict>
-            <key>Processor</key>
-            <string>Unarchiver</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>archive_path</key>
+				<string>%pathname%</string>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/DevToys</string>
+			</dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

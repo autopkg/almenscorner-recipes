@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Apparency is an application for inspecting other applications.</string>
-        <key>developer</key>
-        <string>Mothers Ruin Software</string>
+		<string>Apparency is an application for inspecting other applications.</string>
+		<key>developer</key>
+		<string>Mothers Ruin Software</string>
 		<key>display_name</key>
 		<string>Apparency</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.kevinmcox.download.Apparency</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

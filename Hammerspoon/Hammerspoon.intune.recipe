@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Staggeringly powerful OS X desktop automation with Lua</string>
-        <key>developer</key>
-        <string>Chris jones</string>
+		<string>Staggeringly powerful OS X desktop automation with Lua</string>
+		<key>developer</key>
+		<string>Chris jones</string>
 		<key>display_name</key>
 		<string>Hammerspoon</string>
 	</dict>
@@ -25,7 +25,7 @@
 	<string>com.github.jaharmi.download.Hammerspoon</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -45,7 +45,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
