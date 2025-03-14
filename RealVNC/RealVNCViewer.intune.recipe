@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>VNC enables you to remotely access and control your devices wherever you are in the world, whenever you need to.</string>
-        <key>developer</key>
-        <string>RealVNC</string>
+		<string>VNC enables you to remotely access and control your devices wherever you are in the world, whenever you need to.</string>
+		<key>developer</key>
+		<string>RealVNC</string>
 		<key>display_name</key>
 		<string>RealVNC Viewer</string>
 	</dict>
@@ -40,7 +40,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%p</string>
+				<string>%pathname%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
