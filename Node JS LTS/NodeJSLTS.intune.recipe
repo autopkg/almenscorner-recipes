@@ -11,16 +11,16 @@
 	<string>com.github.almenscorner.intune.NodeJSLTS</string>
 	<key>Input</key>
 	<dict>
-        <key>MAJOR_VERSION</key>
-        <string>23</string>
+		<key>MAJOR_VERSION</key>
+		<string>23</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>NodeLTS.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</string>
-        <key>developer</key>
-        <string>Node.js Foundation</string>
+		<string>NodeLTS.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</string>
+		<key>developer</key>
+		<string>Node.js Foundation</string>
 		<key>display_name</key>
 		<string>Node.js LTS</string>
 	</dict>
@@ -30,7 +30,7 @@
 	<string>com.github.dataJAR-recipes.download.nodejslts</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
@@ -43,28 +43,28 @@
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>source_path</key>
-                <string>%destination_path%/Resources/osx_installer_logo.png</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/nodejslts.png</string>
-            </dict>
-            <key>Processor</key>
-            <string>Copier</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>path_list</key>
-                <array>
-                    <string>%RECIPE_CACHE_DIR%/unpacked</string>
-                </array>
-            </dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/nodejslts.png</string>
+				<key>source_path</key>
+				<string>%destination_path%/Resources/osx_installer_logo.png</string>
+			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>path_list</key>
+				<array>
+					<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

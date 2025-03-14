@@ -15,8 +15,8 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Free-form mind mapping tool.</string>
-        <key>developer</key>
+		<string>Free-form mind mapping tool.</string>
+		<key>developer</key>
 		<string>Literature &amp; Latte, Ltd.</string>
 		<key>display_name</key>
 		<string>Scapple</string>
@@ -24,10 +24,10 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-    <string>com.github.homebysix.download.Scapple</string>
-    <key>Process</key>
+	<string>com.github.homebysix.download.Scapple</string>
+	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

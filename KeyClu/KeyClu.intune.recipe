@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Simple and handy overview of applications shortcuts. Easy to use: just press ⌘ twice and hold to see the list.</string>
-        <key>developer</key>
-        <string>Anze</string>
+		<string>Simple and handy overview of applications shortcuts. Easy to use: just press ⌘ twice and hold to see the list.</string>
+		<key>developer</key>
+		<string>Anze</string>
 		<key>display_name</key>
 		<string>KeyClu</string>
 	</dict>

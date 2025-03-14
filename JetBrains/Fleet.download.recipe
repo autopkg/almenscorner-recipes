@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest version of JetBrains Fleet.
-    
+
     Supported values for ARCH include:
     - aarch64 (Default, Apple Silicon)
     - x64 (Intel)
@@ -13,41 +13,41 @@
 	<string>com.github.almenscorner.download.Fleet</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>aarch64</string>
+		<key>ARCH</key>
+		<string>aarch64</string>
 		<key>NAME</key>
 		<string>Fleet</string>
+		<key>SEARCH_PATTERN</key>
+		<string>macos_%ARCH%.*?"(https://download.jetbrains.com/fleet/installers/macos_%ARCH%/Fleet-[^"]+\.dmg)"</string>
 		<key>SEARCH_URL</key>
-        <string>https://data.services.jetbrains.com/products</string>
-        <key>SEARCH_PATTERN</key>
-        <string>macos_%ARCH%.*?"(https://download.jetbrains.com/fleet/installers/macos_%ARCH%/Fleet-[^"]+\.dmg)"</string>
+		<string>https://data.services.jetbrains.com/products</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
 	<key>Process</key>
 	<array>
- 		<dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>%SEARCH_URL%</string>
-                <key>re_pattern</key>
-                <string>%SEARCH_PATTERN%</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>%match%</string>
-                <key>filename</key>
-                <string>%NAME%.dmg</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>%SEARCH_PATTERN%</string>
+				<key>url</key>
+				<string>%SEARCH_URL%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>%match%</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
 		<dict>
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>

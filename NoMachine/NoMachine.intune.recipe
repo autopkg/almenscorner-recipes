@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Go from your desktop to any NoMachine-enabled computer at the speed of light. Thanks to our NX technology, NoMachine is the fastest and highest quality remote desktop you have ever tried. Get to any computer in the world in just a few clicks! Take what's important where you go and share with who you want! NoMachine is your own personal server, private and secure. Did we say NoMachine is free? No strings attached.</string>
-        <key>developer</key>
-        <string>NoMachine</string>
+		<string>Go from your desktop to any NoMachine-enabled computer at the speed of light. Thanks to our NX technology, NoMachine is the fastest and highest quality remote desktop you have ever tried. Get to any computer in the world in just a few clicks! Take what's important where you go and share with who you want! NoMachine is your own personal server, private and secure. Did we say NoMachine is free? No strings attached.</string>
+		<key>developer</key>
+		<string>NoMachine</string>
 		<key>display_name</key>
 		<string>NoMachine</string>
 	</dict>
@@ -28,40 +28,40 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>flat_pkg_path</key>
-				<string>%pkg_path%</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack</string>
+				<key>flat_pkg_path</key>
+				<string>%pkg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_payload_path</key>
-                <string>%destination_path%/nxplayer.pkg/Payload</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%</string>
-            </dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>info_path</key>
-                <string>%destination_path%/Applications/NoMachine.app/Contents/Info.plist</string>
-                <key>plist_keys</key>
-                <dict>
-                    <key>CFBundleIdentifier</key>
-                    <string>bundleID</string>
-                </dict>
-            </dict>
-            <key>Processor</key>
-            <string>PlistReader</string>
-        </dict>
-        <dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%</string>
+				<key>pkg_payload_path</key>
+				<string>%destination_path%/nxplayer.pkg/Payload</string>
+			</dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%destination_path%/Applications/NoMachine.app/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleID</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
@@ -72,18 +72,18 @@
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>path_list</key>
-                <array>
-                    <string>%RECIPE_CACHE_DIR%/unpack</string>
-                    <string>%RECIPE_CACHE_DIR%/Applications</string>
-                </array>
-            </dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>path_list</key>
+				<array>
+					<string>%RECIPE_CACHE_DIR%/unpack</string>
+					<string>%RECIPE_CACHE_DIR%/Applications</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

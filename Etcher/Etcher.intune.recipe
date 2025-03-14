@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Burn images to SD cards and USB drives, safely and easily.</string>
-        <key>developer</key>
-        <string>balena.io</string>
+		<string>Burn images to SD cards and USB drives, safely and easily.</string>
+		<key>developer</key>
+		<string>balena.io</string>
 		<key>display_name</key>
 		<string>Etcher</string>
 	</dict>
@@ -34,7 +34,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

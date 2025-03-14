@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Simple command line tool which can read and set the desktop picture</string>
+		<string>Simple command line tool which can read and set the desktop picture</string>
 		<key>developer</key>
 		<string>scriptingosx</string>
 		<key>display_name</key>

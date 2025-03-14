@@ -15,8 +15,8 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>FontBase is the font manager of the new generation, built by designers, for designers.</string>
-        <key>developer</key>
+		<string>FontBase is the font manager of the new generation, built by designers, for designers.</string>
+		<key>developer</key>
 		<string>Dominik Levitsky Studio</string>
 		<key>display_name</key>
 		<string>FontBase</string>

@@ -8,6 +8,8 @@
 	<string>com.github.almenscorner.intune.AdobeCreativeCloudInstallerUniversal</string>
 	<key>Input</key>
 	<dict>
+		<key>bundleid</key>
+		<string>com.adobe.AdobeCreativeCloudInstallerUniversal</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
@@ -18,8 +20,6 @@
 		<string>Adobe</string>
 		<key>display_name</key>
 		<string>Adobe Creative Cloud</string>
-		<key>bundleid</key>
-		<string>com.adobe.AdobeCreativeCloudInstallerUniversal</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>

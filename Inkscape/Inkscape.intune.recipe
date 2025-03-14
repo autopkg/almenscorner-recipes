@@ -8,12 +8,12 @@
 	<string>com.github.almenscorner.intune.Inkscape</string>
 	<key>Input</key>
 	<dict>
+		<key>ARCHITECTURE</key>
+		<string>dmg-arm64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>ARCHITECTURE</key>
-        <string>dmg-arm64</string>  
 		<key>description</key>
 		<string>Vector graphics application.</string>
 		<key>developer</key>

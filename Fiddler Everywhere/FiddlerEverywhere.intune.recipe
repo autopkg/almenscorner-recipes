@@ -14,9 +14,9 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>Never Be Confined by Limitations When Debugging HTTP(S) Traffic. Amplify your debugging efforts with a Web Debugging Proxy for any device or platform. Fiddler Everywhere is a pathway for all.</string>
-        <key>developer</key>
+		<key>description</key>
+		<string>Never Be Confined by Limitations When Debugging HTTP(S) Traffic. Amplify your debugging efforts with a Web Debugging Proxy for any device or platform. Fiddler Everywhere is a pathway for all.</string>
+		<key>developer</key>
 		<string>Progress Software Corporation</string>
 		<key>display_name</key>
 		<string>Fiddler Everywhere</string>
@@ -24,8 +24,8 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.Fiddler Everywhere</string>
-    <key>Process</key>
+	<string>com.github.dataJAR-recipes.download.Fiddler Everywhere</string>
+	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>

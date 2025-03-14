@@ -15,11 +15,11 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Ever wondered if an application records audio through your Mac’s built-in microphone without your knowledge? Or if the camera captures video for no good reason?
+		<string>Ever wondered if an application records audio through your Mac’s built-in microphone without your knowledge? Or if the camera captures video for no good reason?
 
 With Micro Snitch there’s no doubt anymore. This ultra-light menu bar application operates inconspicuously in the background. It monitors and reports any microphone and camera activity to help you figure out if someone’s spying on you.</string>
-        <key>developer</key>
-        <string>Objective Development Software GmbH</string>
+		<key>developer</key>
+		<string>Objective Development Software GmbH</string>
 		<key>display_name</key>
 		<string>Micro Snitch</string>
 	</dict>

@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.</string>
-        <key>developer</key>
-        <string>Erik Bjareholt</string>
+		<string>The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.</string>
+		<key>developer</key>
+		<string>Erik Bjareholt</string>
 		<key>display_name</key>
 		<string>ActivityWatch</string>
 	</dict>

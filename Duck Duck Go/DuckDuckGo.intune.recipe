@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Duck Duck Go.</string>
+	<string>Downloads the latest version of Duck Duck Go.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.DuckDuckGo</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Chrome-like keyword search for Safari.</string>
+		<string>Chrome-like keyword search for Safari.</string>
 		<key>developer</key>
 		<string>Duck Duck Go</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.gilburns.download.DuckDuckGo</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

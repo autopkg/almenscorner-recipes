@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever.</string>
-        <key>developer</key>
-        <string>Austin Condiff</string>
+		<string>CodeEdit App for macOS – Elevate your code editing experience. Open source, free forever.</string>
+		<key>developer</key>
+		<string>Austin Condiff</string>
 		<key>display_name</key>
 		<string>CodeEdit</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.macprince.download.CodeEdit</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Obsidian.</string>
+	<string>Downloads the latest version of Obsidian.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Obsidian</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A second brain, for you, forever. Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.</string>
+		<string>A second brain, for you, forever. Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.</string>
 		<key>developer</key>
 		<string>Obsidian</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>io.github.hjuutilainen.download.Obsidian</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

@@ -14,11 +14,11 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-            <string>More Tools. More Productivity. More Progress.
+		<key>description</key>
+		<string>More Tools. More Productivity. More Progress.
 
 Final Draft 13 is the most customizable version of the world’s bestselling screenwriting software. Take your idea to script with easy-to-use tools so you can get more done with your writing sessions and achieve your goals faster.</string>
-        <key>developer</key>
+		<key>developer</key>
 		<string>Final Draft</string>
 		<key>display_name</key>
 		<string>Final Draft 13</string>
@@ -26,8 +26,8 @@ Final Draft 13 is the most customizable version of the world’s bestselling scr
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.Final Draft 13</string>
-    <key>Process</key>
+	<string>com.github.dataJAR-recipes.download.Final Draft 13</string>
+	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>

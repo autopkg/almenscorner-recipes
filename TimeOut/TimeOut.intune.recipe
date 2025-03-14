@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Time Out is a break reminder tool with micro-breaks</string>
-        <key>developer</key>
-        <string>Dejal</string>
+		<string>Time Out is a break reminder tool with micro-breaks</string>
+		<key>developer</key>
+		<string>Dejal</string>
 		<key>display_name</key>
 		<string>TimeOut</string>
 	</dict>
@@ -25,16 +25,16 @@
 	<string>uk.ac.ox.orchard.download.TimeOut</string>
 	<key>Process</key>
 	<array>
-        <dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>

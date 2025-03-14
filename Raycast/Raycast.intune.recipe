@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Raycast.</string>
+	<string>Downloads the latest version of Raycast.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Raycast</string>
 	<key>Input</key>
@@ -12,14 +12,14 @@
 		<string>Raycast</string>
 		<key>categories</key>
 		<array>
-		    <string>Productivity</string>
+			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>Supercharged productivity
+		<key>description</key>
+		<string>Supercharged productivity
 
 Raycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more.</string>
-        <key>developer</key>
-        <string>Raycast Technologies Inc</string>
+		<key>developer</key>
+		<string>Raycast Technologies Inc</string>
 		<key>display_name</key>
 		<string>Raycast</string>
 	</dict>
@@ -29,7 +29,7 @@ Raycast is a blazingly fast, totally extendable launcher. It lets you complete t
 	<string>com.github.dataJAR-recipes.download.Raycast</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

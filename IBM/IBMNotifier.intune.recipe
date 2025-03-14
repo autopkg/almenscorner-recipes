@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of IBM Notifier.</string>
+	<string>Downloads the latest version of IBM Notifier.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.IBMNotifier</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>macOS agent used to display custom notifications and alerts to the end user.</string>
+		<string>macOS agent used to display custom notifications and alerts to the end user.</string>
 		<key>developer</key>
 		<string>IBM</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.precursorca.download.IBMNotifier</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -38,7 +38,7 @@
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

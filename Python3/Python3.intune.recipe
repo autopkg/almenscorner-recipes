@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Python is a programming language that lets you work quickly and integrate systems more effectively.</string>
-        <key>developer</key>
-        <string>Python Software Foundation</string>
+		<string>Python is a programming language that lets you work quickly and integrate systems more effectively.</string>
+		<key>developer</key>
+		<string>Python Software Foundation</string>
 		<key>display_name</key>
 		<string>Python 3</string>
 	</dict>
@@ -28,36 +28,36 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>flat_pkg_path</key>
-				<string>%pathname%</string>
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/unpack</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
 			</dict>
 			<key>Processor</key>
 			<string>FlatPkgUnpacker</string>
 		</dict>
 		<dict>
-            <key>Arguments</key>
-            <dict>
-                <key>source_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/Resources/background.jpg</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/Python3.png</string>
-            </dict>
-            <key>Processor</key>
-            <string>Copier</string>
-        </dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>path_list</key>
-                <array>
-                    <string>%RECIPE_CACHE_DIR%/unpack</string>
-                </array>
-            </dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-        </dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/Python3.png</string>
+				<key>source_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpack/Resources/background.jpg</string>
+			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>path_list</key>
+				<array>
+					<string>%RECIPE_CACHE_DIR%/unpack</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

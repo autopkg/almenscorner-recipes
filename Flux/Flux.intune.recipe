@@ -13,11 +13,11 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.
+		<string>f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.
 
 Tell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically.</string>
-        <key>developer</key>
-        <string>f.lux Software LLC</string>
+		<key>developer</key>
+		<string>f.lux Software LLC</string>
 		<key>display_name</key>
 		<string>Flux</string>
 	</dict>
@@ -27,17 +27,17 @@ Tell f.lux what kind of lighting you have, and where you live. Then forget about
 	<string>com.github.keeleysam.recipes.Flux.download</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -47,7 +47,7 @@ Tell f.lux what kind of lighting you have, and where you live. Then forget about
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

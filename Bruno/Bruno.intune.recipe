@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia)</string>
-        <key>developer</key>
-        <string>Anoop MD</string>
+		<string>Opensource IDE For Exploring and Testing Api's (lightweight alternative to postman/insomnia)</string>
+		<key>developer</key>
+		<string>Anoop MD</string>
 		<key>display_name</key>
 		<string>Bruno</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.n8felton.download.Bruno</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

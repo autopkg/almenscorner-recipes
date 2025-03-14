@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>SourceTree is a free Mercurial and Git client for Windows and Mac that provides a graphical interface for your Hg and Git repositories.</string>
-        <key>developer</key>
-        <string>Atlassian</string>
+		<string>SourceTree is a free Mercurial and Git client for Windows and Mac that provides a graphical interface for your Hg and Git repositories.</string>
+		<key>developer</key>
+		<string>Atlassian</string>
 		<key>display_name</key>
 		<string>SourceTree</string>
 	</dict>
@@ -27,16 +27,16 @@
 	<string>io.github.hjuutilainen.download.SourceTree</string>
 	<key>Process</key>
 	<array>
-    	<dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
+		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 				<key>dmg_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>

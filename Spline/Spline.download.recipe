@@ -4,12 +4,10 @@
 <dict>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.download.Spline</string>
-    <key>description</key>
-    <string>Downloads the latest version of Spline. To download for Intel, override ARCH to x64.</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>arm64</string>
+		<key>ARCH</key>
+		<string>arm64</string>
 		<key>NAME</key>
 		<string>Spline</string>
 	</dict>
@@ -17,17 +15,17 @@
 	<string>1.0.0</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>https://docs.spline.design/doc/download-spline-for-desktop/docnmXhE0peg</string>
-                <key>re_pattern</key>
-                <string>https://cdn.spline.design/_assets/Spline-\S.*?-%ARCH%.mac.zip</string>
-            </dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>https://cdn.spline.design/_assets/Spline-\S.*?-%ARCH%.mac.zip</string>
+				<key>url</key>
+				<string>https://docs.spline.design/doc/download-spline-for-desktop/docnmXhE0peg</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -37,17 +35,17 @@
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>archive_path</key>
-                <string>%pathname%</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/downloads</string>
-            </dict>
-            <key>Processor</key>
-            <string>Unarchiver</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>archive_path</key>
+				<string>%pathname%</string>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads</string>
+			</dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
+		</dict>
 		<dict>
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
@@ -64,5 +62,7 @@
 			<string>CodeSignatureVerifier</string>
 		</dict>
 	</array>
+	<key>description</key>
+	<string>Downloads the latest version of Spline. To download for Intel, override ARCH to x64.</string>
 </dict>
 </plist>

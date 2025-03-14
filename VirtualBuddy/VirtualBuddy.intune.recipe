@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of VirtualBuddy.</string>
+	<string>Downloads the latest version of VirtualBuddy.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.VirtualBuddy</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH_TYPE</key>
-        <string>arm64</string>
+		<key>ARCH_TYPE</key>
+		<string>arm64</string>
 		<key>NAME</key>
 		<string>VirtualBuddy</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>VirtualBuddy can virtualize macOS 12 and later on Apple Silicon, with the goal of offering features that are useful to developers who need to test their apps on multiple versions of macOS, especially betas.</string>
-        <key>developer</key>
-        <string>insidegui </string>
+		<key>description</key>
+		<string>VirtualBuddy can virtualize macOS 12 and later on Apple Silicon, with the goal of offering features that are useful to developers who need to test their apps on multiple versions of macOS, especially betas.</string>
+		<key>developer</key>
+		<string>insidegui </string>
 		<key>display_name</key>
 		<string>VirtualBuddy</string>
 	</dict>
@@ -29,7 +29,7 @@
 	<string>com.github.wegotoeleven-recipes.download.VirtualBuddy</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Collaborate anywhere, on any device
+		<string>Collaborate anywhere, on any device
 Mobility doesn’t have to limit productivity. Cisco Jabber delivers instant messaging, voice and video calls, voice messaging, desktop sharing, conferencing, and presence. Find the right people, see whether and how they’re available, and collaborate more effectively.</string>
 		<key>developer</key>
 		<string>Cisco Systems Inc.</string>
@@ -28,7 +28,7 @@ Mobility doesn’t have to limit productivity. Cisco Jabber delivers instant mes
 	<string>com.github.ahousseini-recipes.pkg.CiscoJabber</string>
 	<key>Process</key>
 	<array>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>destination_path</key>
@@ -61,7 +61,7 @@ Mobility doesn’t have to limit productivity. Cisco Jabber delivers instant mes
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>path_list</key>

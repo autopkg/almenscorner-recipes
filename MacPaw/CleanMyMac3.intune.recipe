@@ -25,7 +25,7 @@
 	<string>com.github.homebysix.download.CleanMyMac3</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

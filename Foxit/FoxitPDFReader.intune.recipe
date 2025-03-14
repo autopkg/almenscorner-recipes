@@ -20,8 +20,8 @@
 		<string>Foxit Software Inc</string>
 		<key>display_name</key>
 		<string>Foxit PDF Reader</string>
-        <key>postinstall_script</key>
-        <string>IyEvYmluL3NoCgojIERpc2FibGUgYXV0b21hdGljIGluLXVwZGF0ZXMKL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBSZWFkZXJMaXRlX1VwZGF0ZU1vZGUgLWJvb2wgRkFMU0UKIyBEbyBub3QgdXNlIHNwbGFzaCBzY3JlZW4KL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBQcmVmZXJlbmNlcy5HZW5lcmFsLmJTaG93U3RhcnRQYWdlIC1ib29sIEZBTFNF</string>
+		<key>postinstall_script</key>
+		<string>IyEvYmluL3NoCgojIERpc2FibGUgYXV0b21hdGljIGluLXVwZGF0ZXMKL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBSZWFkZXJMaXRlX1VwZGF0ZU1vZGUgLWJvb2wgRkFMU0UKIyBEbyBub3QgdXNlIHNwbGFzaCBzY3JlZW4KL3Vzci9iaW4vZGVmYXVsdHMgd3JpdGUgIi9MaWJyYXJ5L1ByZWZlcmVuY2VzL2NvbS5mb3hpdC1zb2Z0d2FyZS5Gb3hpdCBQREYgUmVhZGVyIiBQcmVmZXJlbmNlcy5HZW5lcmFsLmJTaG93U3RhcnRQYWdlIC1ib29sIEZBTFNF</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
@@ -29,7 +29,7 @@
 	<string>com.github.wycomco.download.FoxitPDFReader</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>info_path</key>
@@ -69,12 +69,12 @@
 				<string>%display_name%</string>
 				<key>icon</key>
 				<string>%icon_file_path%</string>
+				<key>postinstall_script</key>
+				<string>%postinstall_script%</string>
 				<key>publisher</key>
 				<string>%developer%</string>
 				<key>version</key>
 				<string>%version%</string>
-                <key>postinstall_script</key>
-                <string>%postinstall_script%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>

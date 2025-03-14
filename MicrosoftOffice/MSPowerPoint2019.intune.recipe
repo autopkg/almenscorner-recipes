@@ -39,9 +39,9 @@ installer for the given CHANNEL. 'latest-standalone' does not support
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string></string>
-        <key>developer</key>
-        <string>Microsoft</string>
+		<string></string>
+		<key>developer</key>
+		<string>Microsoft</string>
 		<key>display_name</key>
 		<string>Microsoft PowerPoint for Mac</string>
 	</dict>
@@ -82,15 +82,15 @@ installer for the given CHANNEL. 'latest-standalone' does not support
 			<key>Processor</key>
 			<string>PkgPayloadUnpacker</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%destination_path%/Microsoft PowerPoint.app/Contents/Info.plist</string>
-            </dict>
-            <key>Processor</key>
-            <string>Versioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%destination_path%/Microsoft PowerPoint.app/Contents/Info.plist</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -116,17 +116,17 @@ installer for the given CHANNEL. 'latest-standalone' does not support
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>path_list</key>
-                <array>
-                    <string>%destination_path%</string>
-                </array>
-            </dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>path_list</key>
+				<array>
+					<string>%destination_path%</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

@@ -4,15 +4,15 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads latest Basecamp 3 Mac app.
-    
+
     By default the arm version is downloaded. To download the x86 version, set ARCH to an empty value
     </string>
 	<key>Identifier</key>
 	<string>com.github.autopkg.almenscorner.download.Basecamp3</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>_arm64</string>
+		<key>ARCH</key>
+		<string>_arm64</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://bc3-desktop.s3.amazonaws.com/mac%ARCH%/basecamp3%ARCH%.dmg</string>
 		<key>NAME</key>

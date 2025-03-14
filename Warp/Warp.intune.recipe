@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Warp.</string>
+	<string>Downloads the latest version of Warp.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Warp</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Fast Terminal app based in Rust.</string>
+		<string>Fast Terminal app based in Rust.</string>
 		<key>developer</key>
 		<string>Denver Technologies</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.homebysix.download.Warp</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

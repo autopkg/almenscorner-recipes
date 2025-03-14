@@ -14,9 +14,9 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>App that hides distractions and allows you to focus on your current task.</string>
-        <key>developer</key>
+		<key>description</key>
+		<string>App that hides distractions and allows you to focus on your current task.</string>
+		<key>developer</key>
 		<string>Maxim Ananov</string>
 		<key>display_name</key>
 		<string>HazeOver</string>
@@ -24,10 +24,10 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-    <string>com.github.homebysix.download.HazeOver</string>
-    <key>Process</key>
+	<string>com.github.homebysix.download.HazeOver</string>
+	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

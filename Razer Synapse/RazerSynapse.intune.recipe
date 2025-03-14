@@ -14,9 +14,9 @@
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-         <string>Razer Synapse is our unified configuration software that allows you to rebind controls or assign macros to any of your Razer peripherals and saves all your settings automatically to the cloud.</string>
-        <key>developer</key>
+		<key>description</key>
+		<string>Razer Synapse is our unified configuration software that allows you to rebind controls or assign macros to any of your Razer peripherals and saves all your settings automatically to the cloud.</string>
+		<key>developer</key>
 		<string>Razer</string>
 		<key>display_name</key>
 		<string>Razer Synapse</string>
@@ -24,96 +24,96 @@
 	<key>MinimumVersion</key>
 	<string>2.7</string>
 	<key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.Razer Synapse</string>
-    <key>Process</key>
+	<string>com.github.dataJAR-recipes.download.Razer Synapse</string>
+	<key>Process</key>
 	<array>
-        <dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
-            <key>Arguments</key>
-            <dict>
-                <key>flat_pkg_path</key>
-                <string>%pathname%/Razer Synapse.pkg</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack/Build.pkg/Payload</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/pkgroot/</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>FlatPkgUnpacker</string>
-            <key>Arguments</key>
-            <dict>
-                <key>flat_pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/pkgroot/Razer Synapse.pkg</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/payload</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgPayloadUnpacker</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_payload_path</key>
-                <string>%RECIPE_CACHE_DIR%/payload/razerSynapse.pkg/Payload</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications</string>
-                <key>purge_destination</key>
-                <true/>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PlistReader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>info_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/Razer Synapse.app/Contents/Info.plist</string>
-                <key>plist_keys</key>
-                <dict>
-                    <key>CFBundleVersion</key>
-                    <string>version</string>
-                    <key>CFBundleIdentifier</key>
-                    <string>bundleid</string>
-                </dict>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>MunkiPkginfoMerger</string>
-            <key>Arguments</key>
-            <dict>
-                <key>additional_pkginfo</key>
-                <dict>
-                    <key>version</key>
-                    <string>%version%</string>
-                </dict>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>PkgCopier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>source_pkg</key>
-                <string>%pathname%/Razer Synapse.pkg</string>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpack</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%/Razer Synapse.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/pkgroot/</string>
+				<key>pkg_payload_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpack/Build.pkg/Payload</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/payload</string>
+				<key>flat_pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/pkgroot/Razer Synapse.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/Applications</string>
+				<key>pkg_payload_path</key>
+				<string>%RECIPE_CACHE_DIR%/payload/razerSynapse.pkg/Payload</string>
+				<key>purge_destination</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>PkgPayloadUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>info_path</key>
+				<string>%RECIPE_CACHE_DIR%/Applications/Razer Synapse.app/Contents/Info.plist</string>
+				<key>plist_keys</key>
+				<dict>
+					<key>CFBundleIdentifier</key>
+					<string>bundleid</string>
+					<key>CFBundleVersion</key>
+					<string>version</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>PlistReader</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>additional_pkginfo</key>
+				<dict>
+					<key>version</key>
+					<string>%version%</string>
+				</dict>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiPkginfoMerger</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.pkg</string>
+				<key>source_pkg</key>
+				<string>%pathname%/Razer Synapse.pkg</string>
+			</dict>
+			<key>Processor</key>
+			<string>PkgCopier</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -125,20 +125,20 @@
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
-            <key>Processor</key>
-            <string>PathDeleter</string>
-            <key>Arguments</key>
-            <dict>
-                <key>path_list</key>
-                <array>
-                    <string>%RECIPE_CACHE_DIR%/Applications/</string>
-                    <string>%RECIPE_CACHE_DIR%/payload/</string>
-                    <string>%RECIPE_CACHE_DIR%/pkgroot/</string>
-                    <string>%RECIPE_CACHE_DIR%/unpack/</string>
-                </array>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>path_list</key>
+				<array>
+					<string>%RECIPE_CACHE_DIR%/Applications/</string>
+					<string>%RECIPE_CACHE_DIR%/payload/</string>
+					<string>%RECIPE_CACHE_DIR%/pkgroot/</string>
+					<string>%RECIPE_CACHE_DIR%/unpack/</string>
+				</array>
+			</dict>
+			<key>Processor</key>
+			<string>PathDeleter</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

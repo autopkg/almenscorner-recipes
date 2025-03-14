@@ -13,8 +13,8 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>JetBrains DataSpell: Essential tools for data analysts.</string>
- 		<key>developer</key>
+		<string>JetBrains DataSpell: Essential tools for data analysts.</string>
+		<key>developer</key>
 		<string>JetBrains</string>
 		<key>display_name</key>
 		<string>DataSpell</string>

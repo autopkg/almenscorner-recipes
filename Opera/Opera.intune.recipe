@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Opera.</string>
+	<string>Downloads the latest version of Opera.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Opera</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
+		<string>Opera products enable more than 350 million internet consumers to discover and connect with the content and services that matter most to them, no matter what device, network or location. In turn, we help advertisers reach the audiences that build value for their businesses. Opera also delivers products and services to more than 120 operators around the world, enabling them to provide a faster, more economical and better network experience to their subscribers.</string>
 		<key>developer</key>
 		<string>Opera</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.keeleysam.recipes.Opera.download</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

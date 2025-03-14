@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A macOS app to turn off the Touch Bar at will.</string>
+		<string>A macOS app to turn off the Touch Bar at will.</string>
 		<key>developer</key>
 		<string>Clement Rousseau</string>
 		<key>display_name</key>

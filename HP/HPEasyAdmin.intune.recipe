@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>HP Easy Admin is a macOS application tool that enables education and enterprise administrators to directly download HP printing and/or scanning solutions to use for remote distribution.</string>
-        <key>developer</key>
-        <string>HP</string>
+		<string>HP Easy Admin is a macOS application tool that enables education and enterprise administrators to directly download HP printing and/or scanning solutions to use for remote distribution.</string>
+		<key>developer</key>
+		<string>HP</string>
 		<key>display_name</key>
 		<string>HP Easy Admin</string>
 	</dict>
@@ -62,7 +62,7 @@
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
@@ -84,7 +84,7 @@
 			<key>Processor</key>
 			<string>PathDeleter</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

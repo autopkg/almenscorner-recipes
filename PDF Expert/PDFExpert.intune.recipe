@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>PDF Expert helps you to edit, annotate, sign and organize your PDFs.</string>
-        <key>developer</key>
-        <string>Readdle Limited</string>
+		<string>PDF Expert helps you to edit, annotate, sign and organize your PDFs.</string>
+		<key>developer</key>
+		<string>Readdle Limited</string>
 		<key>display_name</key>
 		<string>PDF Expert</string>
 	</dict>
@@ -27,17 +27,17 @@
 	<string>com.github.faumac.download.pdfexpert</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_root</key>
-                <string>%destination_path%/%NAME%.app</string>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-            </dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%destination_path%/%NAME%.app</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

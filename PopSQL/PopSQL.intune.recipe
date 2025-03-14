@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of PopSQL.</string>
+	<string>Downloads the latest version of PopSQL.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.PopSQL</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Edit databases and organize queries by project or department.</string>
+		<string>Edit databases and organize queries by project or department.</string>
 		<key>developer</key>
 		<string>Rahil Sondhi</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.gilburns.download.PopSQL</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

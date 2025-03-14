@@ -24,8 +24,8 @@
 	<string>com.github.almenscorner.intune.Eclipse</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCHITECTURE</key>
-        <string>aarch64</string>
+		<key>ARCHITECTURE</key>
+		<string>aarch64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>

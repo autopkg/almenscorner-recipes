@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Arduino.</string>
+	<string>Downloads the latest version of Arduino.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Arduino</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH_TYPE</key>
-        <string>arm64</string>
+		<key>ARCH_TYPE</key>
+		<string>arm64</string>
 		<key>NAME</key>
 		<string>Arduino</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>description</key>
-        <string>The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.
+		<key>description</key>
+		<string>The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.
 
 This software can be used with any Arduino board.
         </string>
@@ -32,7 +32,7 @@ This software can be used with any Arduino board.
 	<string>com.github.jps3.download.Arduino</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

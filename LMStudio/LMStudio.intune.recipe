@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Your local AI toolkit. Download and run Llama, DeepSeek, Mistral, Phi on your computer.</string>
-        <key>developer</key>
-        <string>LM Studio</string>
+		<string>Your local AI toolkit. Download and run Llama, DeepSeek, Mistral, Phi on your computer.</string>
+		<key>developer</key>
+		<string>LM Studio</string>
 		<key>display_name</key>
 		<string>LM Studio</string>
 	</dict>

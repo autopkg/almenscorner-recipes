@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>MAMP installs a local server environment with Apache, PHP and MySQL</string>
-        <key>developer</key>
-        <string>Appsolute GmbH</string>
+		<string>MAMP installs a local server environment with Apache, PHP and MySQL</string>
+		<key>developer</key>
+		<string>Appsolute GmbH</string>
 		<key>display_name</key>
 		<string>MAMP</string>
 	</dict>
@@ -66,15 +66,15 @@
 			<key>Processor</key>
 			<string>PkgPayloadUnpacker</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>input_plist_path</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/MAMP PRO.app/Contents/Info.plist</string>
-            </dict>
-            <key>Processor</key>
-            <string>Versioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%RECIPE_CACHE_DIR%/Applications/MAMP PRO.app/Contents/Info.plist</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
@@ -86,7 +86,7 @@
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>path_list</key>

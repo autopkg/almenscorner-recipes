@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of Angry IP Scanner.</string>
+	<string>Downloads the latest version of Angry IP Scanner.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.AngryIPScanner</string>
 	<key>Input</key>
@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Angry IP Scanner - fast and friendly network scanner</string>
-        <key>developer</key>
-        <string>Anton Keks</string>
+		<string>Angry IP Scanner - fast and friendly network scanner</string>
+		<key>developer</key>
+		<string>Anton Keks</string>
 		<key>display_name</key>
 		<string>Angry IP Scanner</string>
 	</dict>
@@ -27,7 +27,7 @@
 	<string>com.github.clburlison.download.AngryIPScanner</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>archive_path</key>
@@ -51,7 +51,7 @@
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

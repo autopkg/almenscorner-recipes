@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Use your iPad as an external display.</string>
-        <key>developer</key>
-        <string>Rahul Dewan</string>
+		<string>Use your iPad as an external display.</string>
+		<key>developer</key>
+		<string>Rahul Dewan</string>
 		<key>display_name</key>
 		<string>Duet</string>
 	</dict>

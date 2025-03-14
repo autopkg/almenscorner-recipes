@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Capture and share anything - screen recordings, GIFs, and screenshots - or upload files, all with instantly shareable links to bring clarity, save time, and boost productivity.</string>
-        <key>developer</key>
-        <string>Jumpshare</string>
+		<string>Capture and share anything - screen recordings, GIFs, and screenshots - or upload files, all with instantly shareable links to bring clarity, save time, and boost productivity.</string>
+		<key>developer</key>
+		<string>Jumpshare</string>
 		<key>display_name</key>
 		<string>Jumpshare</string>
 	</dict>

@@ -85,24 +85,24 @@
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>mode</key>
-                <string>777</string>
-                <key>resource_path</key>
-                <string>%RECIPE_CACHE_DIR%/unpack</string>
-            </dict>
-            <key>Processor</key>
-            <string>com.github.grahampugh.recipes.commonprocessors/ChangeModeOwner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>mode</key>
+				<string>777</string>
+				<key>resource_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpack</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.recipes.commonprocessors/ChangeModeOwner</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>path_list</key>
 				<array>
-                    <string>%RECIPE_CACHE_DIR%/unpack</string>
-                </array>
+					<string>%RECIPE_CACHE_DIR%/unpack</string>
+				</array>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.smithjw.processors/FriendlyPathDeleter</string>

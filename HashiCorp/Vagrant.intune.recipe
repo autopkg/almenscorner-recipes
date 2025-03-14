@@ -8,16 +8,16 @@
 	<string>com.github.almenscorner.intune.Vagrant</string>
 	<key>Input</key>
 	<dict>
-    	<key>DOWNLOAD_ARCH</key>
+		<key>DOWNLOAD_ARCH</key>
 		<string>arm64</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Create and configure lightweight, reproducible, and portable development environments.</string>
-        <key>developer</key>
-        <string>HashiCorp</string>
+		<string>Create and configure lightweight, reproducible, and portable development environments.</string>
+		<key>developer</key>
+		<string>HashiCorp</string>
 		<key>display_name</key>
 		<string>Vagrant</string>
 	</dict>
@@ -30,25 +30,25 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>pkg_path</key>
+				<string>%RECIPE_CACHE_DIR%/Vagrant.pkg</string>
 				<key>source_pkg</key>
 				<string>%pathname%/*.pkg</string>
-                <key>pkg_path</key>
-                <string>%RECIPE_CACHE_DIR%/Vagrant.pkg</string>
 			</dict>
 			<key>Processor</key>
 			<string>PkgCopier</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>source_path</key>
-                <string>%pathname%/.background.png</string>
-                <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/vagrant.png</string>
-            </dict>
-            <key>Processor</key>
-            <string>Copier</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/vagrant.png</string>
+				<key>source_path</key>
+				<string>%pathname%/.background.png</string>
+			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

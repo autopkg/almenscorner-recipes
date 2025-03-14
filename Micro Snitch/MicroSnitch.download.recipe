@@ -13,17 +13,17 @@
 	<string>1.0.0</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>url</key>
-                <string>https://www.obdev.at/products/microsnitch/download.html</string>
-                <key>re_pattern</key>
-                <string>https://www.obdev.at/downloads/MicroSnitch/MicroSnitch-\S.*?.dmg</string>      
-            </dict>
-            <key>Processor</key>
-            <string>URLTextSearcher</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>https://www.obdev.at/downloads/MicroSnitch/MicroSnitch-\S.*?.dmg</string>
+				<key>url</key>
+				<string>https://www.obdev.at/products/microsnitch/download.html</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

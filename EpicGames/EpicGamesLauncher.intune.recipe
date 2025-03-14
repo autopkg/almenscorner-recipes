@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>The Epic Games Launcher is used to download and launch binary versions of the Unreal Engine 4 (as opposed to the engine source code from GitHub), as well as serve as a location to download additional content and view news and blog posts.</string>
-        <key>developer</key>
-        <string>Epic Games, Inc.</string>
+		<string>The Epic Games Launcher is used to download and launch binary versions of the Unreal Engine 4 (as opposed to the engine source code from GitHub), as well as serve as a location to download additional content and view news and blog posts.</string>
+		<key>developer</key>
+		<string>Epic Games, Inc.</string>
 		<key>display_name</key>
 		<string>Epic Games Launcher</string>
 	</dict>

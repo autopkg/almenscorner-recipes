@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>The World’s Best Machine Translation DeepL’s neural networks are able to capture even the slightest nuances and reproduce them in translation unlike any other service.</string>
-        <key>developer</key>
-        <string>Linguee</string>
+		<string>The World’s Best Machine Translation DeepL’s neural networks are able to capture even the slightest nuances and reproduce them in translation unlike any other service.</string>
+		<key>developer</key>
+		<string>Linguee</string>
 		<key>display_name</key>
 		<string>DeepL</string>
 	</dict>

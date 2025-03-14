@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Termius is a portable server management system that works for you in any situation.</string>
-        <key>developer</key>
-        <string>Crystalnix</string>
+		<string>Termius is a portable server management system that works for you in any situation.</string>
+		<key>developer</key>
+		<string>Crystalnix</string>
 		<key>display_name</key>
 		<string>Termius</string>
 	</dict>

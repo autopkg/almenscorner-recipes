@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>An easy-to-use VPN app for Mac</string>
-        <key>developer</key>
-        <string>ProtonVPN AG</string>
+		<string>An easy-to-use VPN app for Mac</string>
+		<key>developer</key>
+		<string>ProtonVPN AG</string>
 		<key>display_name</key>
 		<string>ProtonVPN</string>
 	</dict>

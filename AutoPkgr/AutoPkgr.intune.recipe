@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of AutoPkgr.</string>
+	<string>Downloads the latest version of AutoPkgr.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.AutoPkgr</string>
 	<key>Input</key>
@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>AutoPkgr is a free Mac app that makes it easy to install and configure AutoPkg.</string>
+		<string>AutoPkgr is a free Mac app that makes it easy to install and configure AutoPkg.</string>
 		<key>developer</key>
 		<string>Linde Group, Inc.</string>
 		<key>display_name</key>
@@ -27,7 +27,7 @@
 	<string>com.github.homebysix.download.AutoPkgr</string>
 	<key>Process</key>
 	<array>
-    	<dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

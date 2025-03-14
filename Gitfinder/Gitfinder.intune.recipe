@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A fast and lightweight Git client for Mac with Finder integration.</string>
-        <key>developer</key>
-        <string>ZigZag</string>
+		<string>A fast and lightweight Git client for Mac with Finder integration.</string>
+		<key>developer</key>
+		<string>ZigZag</string>
 		<key>display_name</key>
 		<string>Gitfinder</string>
 	</dict>
@@ -34,7 +34,7 @@
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>

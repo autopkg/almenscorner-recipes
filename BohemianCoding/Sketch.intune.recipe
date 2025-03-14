@@ -51,7 +51,7 @@
 			<key>Processor</key>
 			<string>DmgCreator</string>
 		</dict>
-        <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>

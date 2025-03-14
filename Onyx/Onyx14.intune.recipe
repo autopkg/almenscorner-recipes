@@ -8,12 +8,12 @@
 	<string>com.github.almenscorner.intune.Onyx14</string>
 	<key>Input</key>
 	<dict>
+		<key>VERSION</key>
+		<string>14</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
-        <key>VERSION</key>
-        <string>14</string>
 		<key>description</key>
 		<string>OnyX is a multifunction utility that you can use to verify the structure of the system files; perform cleaning and computer maintenance tasks; configure parameters in the Finder, Dock, Safari, and some Apple applications; delete caches; remove certain problematic folders and files; rebuild various databases and indexes; and more. It is a reliable application that provides a clean interface to many tasks that would otherwise require complex commands to be typed using a command–line interface.</string>
 		<key>developer</key>
@@ -62,12 +62,12 @@
 				<string>%display_name%</string>
 				<key>icon</key>
 				<string>%icon_file_path%</string>
+				<key>minimumSupportedOperatingSystem</key>
+				<string>v14_0</string>
 				<key>publisher</key>
 				<string>%developer%</string>
 				<key>version</key>
 				<string>%version%</string>
-                <key>minimumSupportedOperatingSystem</key>
-                <string>v14_0</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>

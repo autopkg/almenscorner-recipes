@@ -29,17 +29,17 @@ Godot is completely free and open source under the very permissive MIT license. 
 	<string>com.github.dataJAR-recipes.download.Godot 3</string>
 	<key>Process</key>
 	<array>
-        <dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_root</key>
-                <string>%pkgroot%/Applications/</string>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-            </dict>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%pkgroot%/Applications/</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

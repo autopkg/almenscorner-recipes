@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OpenSource MindMapper.</string>
-        <key>developer</key>
-        <string>FreeMind.org</string>
+		<string>OpenSource MindMapper.</string>
+		<key>developer</key>
+		<string>FreeMind.org</string>
 		<key>display_name</key>
 		<string>FreeMind</string>
 	</dict>

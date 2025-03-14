@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-    <string>Downloads the latest version of OpenJDK. Set ARCHITECTURE "x64" to download the Intel or "aarch64" for Apple Silicon.</string>
+	<string>Downloads the latest version of OpenJDK. Set ARCHITECTURE "x64" to download the Intel or "aarch64" for Apple Silicon.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.OpenJDK</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCHITECTURE</key>
-        <string>aarch64</string>
+		<key>ARCHITECTURE</key>
+		<string>aarch64</string>
 		<key>NAME</key>
 		<string>OpenJDK</string>
 		<key>categories</key>
@@ -17,7 +17,7 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OpenJDK is a free and open-source implementation of the Java Platform, Standard Edition.</string>
+		<string>OpenJDK is a free and open-source implementation of the Java Platform, Standard Edition.</string>
 		<key>developer</key>
 		<string>Oracle</string>
 		<key>display_name</key>

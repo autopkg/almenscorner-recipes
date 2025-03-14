@@ -15,9 +15,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Nucleo is a beautiful library of 30231 icons, and a powerful application to collect, customize and export all your icons.</string>
-        <key>developer</key>
-        <string>Nucleo</string>
+		<string>Nucleo is a beautiful library of 30231 icons, and a powerful application to collect, customize and export all your icons.</string>
+		<key>developer</key>
+		<string>Nucleo</string>
 		<key>display_name</key>
 		<string>Nucleo</string>
 	</dict>
@@ -27,17 +27,17 @@
 	<string>com.github.neilmartin83-recipes.download.Nucleo</string>
 	<key>Process</key>
 	<array>
-	    <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-                <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/Applications/%NAME%.app</string>
-            </dict>
-            <key>Processor</key>
-            <string>DmgCreator</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/Applications/%NAME%.app</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>

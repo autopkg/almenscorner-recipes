@@ -2,14 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the latest version of Badgeify. To download Intel version, override ARCH to x86_64.</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Badgeify. To download Intel version, override ARCH to x86_64.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.download.Badgeify</string>
 	<key>Input</key>
 	<dict>
-        <key>ARCH</key>
-        <string>aarch64</string>
+		<key>ARCH</key>
+		<string>aarch64</string>
 		<key>NAME</key>
 		<string>Badgeify</string>
 	</dict>
@@ -20,10 +20,10 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
 				<key>url</key>
 				<string>https://api.badgeify.app/release/download/darwin/%ARCH%/latest</string>
-                <key>filename</key>
-                <string>%NAME%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -43,15 +43,15 @@
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
 		</dict>
-        <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>dmg_path</key>
-                <string>%pathname%</string>
-            </dict>
-            <key>Processor</key>
-            <string>AppDmgVersioner</string>
-        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%pathname%</string>
+			</dict>
+			<key>Processor</key>
+			<string>AppDmgVersioner</string>
+		</dict>
 	</array>
 </dict>
 </plist>

@@ -13,9 +13,9 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>A graphical tool for Podman and developing on containers and Kubernetes</string>
-        <key>developer</key>
-        <string>podman.io</string>
+		<string>A graphical tool for Podman and developing on containers and Kubernetes</string>
+		<key>developer</key>
+		<string>podman.io</string>
 		<key>display_name</key>
 		<string>Podman Desktop</string>
 	</dict>
