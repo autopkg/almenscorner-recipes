@@ -240,6 +240,11 @@
         "description": "Blender is the open source, cross platform suite of tools for 3D creation."
     },
     {
+        "name": "BlueJ",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BlueJ/BlueJ.intune.recipe",
+        "description": "A free Java Development Environment designed for beginners, used by millions worldwide."
+    },
+    {
         "name": "Boxcryptor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Boxcryptor/Boxcryptor.intune.recipe",
         "description": "Boxcryptor protects your data in the cloud: in OneDrive, SharePoint, Dropbox, Google Drive and more."
@@ -690,6 +695,11 @@
         "description": "A macOS app to turn off the Touch Bar at will."
     },
     {
+        "name": "HocusFocus",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HocusFocus/HocusFocus.intune.recipe",
+        "description": "Hide your inactive windows."
+    },
+    {
         "name": "Hyper",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hyper/Hyper.intune.recipe",
         "description": "A highly extensible terminal emulator, built on Electron."
@@ -975,6 +985,11 @@
         "description": "It\u2019s time.\n\nAll of your commitments, now in one place. Meet the beautifully designed, fully integrated calendar for your work and life."
     },
     {
+        "name": "Nova",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nova/Nova.intune.recipe",
+        "description": "Nova is a native Mac code editor created by Panic Inc."
+    },
+    {
         "name": "Nucleo",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nucleo/Nucleo.intune.recipe",
         "description": "Nucleo is a beautiful library of 30231 icons, and a powerful application to collect, customize and export all your icons."
@@ -1190,6 +1205,11 @@
         "description": "Project management and word processing tool for writers."
     },
     {
+        "name": "Setapp",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Setapp/Setapp.intune.recipe",
+        "description": "Required Think tasks, not apps. Setapp membership gives you an all-access pass to curated Mac and iOS apps."
+    },
+    {
         "name": "Shottr",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Shottr/Shottr.intune.recipe",
         "description": "Shottr is a small, fast, human-sized screenshot app built for those who care about pixels. It was crafted with Swift, optimized for M1, and is distributed for free."
@@ -1275,6 +1295,11 @@
         "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet."
     },
     {
+        "name": "TIDAL",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tidal/Tidal.intune.recipe",
+        "description": "TIDAL is the first music service with High Fidelity sound quality, High Definition music videos and Curated Editorial, expertly crafted by music journalists."
+    },
+    {
         "name": "Tabby",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tabby/Tabby.intune.recipe",
         "description": "Tabby is an alternative to Windows' standard terminal (conhost), PowerShell ISE, PuTTY, macOS Terminal.app and iTerm."
@@ -1325,6 +1350,11 @@
         "description": "Time Out is a break reminder tool with micro-breaks"
     },
     {
+        "name": "Timeular",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Timeular/Timeular.intune.recipe",
+        "description": "Discover where your time really goes."
+    },
+    {
         "name": "Tor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tor/Tor.intune.recipe",
         "description": "Web browser that anonymizes your activity using peer-to-peer networks."
@@ -1340,6 +1370,11 @@
         "description": "Tunnelblick is a Mac app that lets you easily connect to OpenVPN."
     },
     {
+        "name": "Typora",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Typora/Typora.intune.recipe",
+        "description": "A minimal Markdown editor and reader"
+    },
+    {
         "name": "UTM",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/UTM/UTM.intune.recipe",
         "description": "Virtual machines for iOS and macOS"
@@ -1348,6 +1383,11 @@
         "name": "Unity Hub",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Unity3D/UnityHub.intune.recipe",
         "description": "A second brain, for you, forever. Unity Hub is a powerful knowledge base that works on top of a local folder of plain text Markdown files."
+    },
+    {
+        "name": "U\u0308bersicht",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Ubersicht/Ubersicht.intune.recipe",
+        "description": "\u00dcbersicht lets you run system commands and display their output on your desktop in little containers, called widgets. Widgets are written using HTML5, which means they are easy to write and customize\ncan show data in tables, charts, graphs ... you name it\ncan react to different screen sizes"
     },
     {
         "name": "VLC Media Player",
@@ -1390,6 +1430,11 @@
         "description": "The smartest JavaScript IDE\n\nhttps://www.jetbrains.com/webstorm"
     },
     {
+        "name": "Weka",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Weka/Weka.intune.recipe",
+        "description": "Weka is a collection of machine learning algorithms for solving real-world data mining problems. It is written in Java and runs on almost any platform. The algorithms can either be applied directly to a dataset or called from your own Java code."
+    },
+    {
         "name": "Windows App",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/WindowsApp/WindowsApp.intune.recipe",
         "description": "Windows App is your gateway to Azure Virtual Desktop, Windows 365, Microsoft Dev Box, Remote Desktop Services, and remote PCs, securely connecting you to Windows devices and apps."
@@ -1412,6 +1457,11 @@
     {
         "name": "Yubico Authenticator",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe",
+        "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
+    },
+    {
+        "name": "Yubico Authenticator",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubico-authenticator.intune.recipe",
         "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
     },
     {
