@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of erase-install.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.erase-install</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>erase-install</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+        <key>description</key>
+        <string>A script that automates downloading macOS installers and erasing or upgrading macOS in a single process.</string> 
+        <key>developer</key>
+        <string>Graham Pugh</string>
+		<key>display_name</key>
+		<string>erase-install</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.grahampugh.recipes.download.erase-install</string>
+	<key>Process</key>
+	<array>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
+                <key>flat_pkg_path</key>
+                <string>%pathname%</string>
+                <key>purge_destination</key>
+                <true/>
+            </dict>
+            <key>Processor</key>
+            <string>FlatPkgUnpacker</string>
+        </dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/payload</string>
+                <key>pkg_payload_path</key>
+                <string>%RECIPE_CACHE_DIR%/unpack/Payload</string>
+                <key>purge_destination</key>
+                <true/>
+            </dict>
+            <key>Processor</key>
+            <string>PkgPayloadUnpacker</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>source_path</key>
+                <string>%RECIPE_CACHE_DIR%/payload/Library/Management/erase-install/icons/Erase and Reinstall macOS.png</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/erase-install.png</string>
+			</dict>
+			<key>Processor</key>
+			<string>Copier</string>
+		</dict>
+        <dict>
+			<key>Arguments</key>
+			<dict>
+				<key>re_pattern</key>
+				<string>identifier="com.github.grahampugh.erase-install" version="([0-9]+(\.[0-9]+)+)"</string>
+				<key>result_output_var_name</key>
+				<string>version</string>
+				<key>url</key>
+				<string>file:///%RECIPE_CACHE_DIR%/unpack/PackageInfo</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>path_list</key>
+                <array>
+                    <string>%RECIPE_CACHE_DIR%/unpack</string>
+                    <string>%RECIPE_CACHE_DIR%/payload</string>
+                </array>
+            </dict>
+            <key>Processor</key>
+            <string>PathDeleter</string>
+        </dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pathname%</string>
+				<key>bundleId</key>
+				<string>com.github.grahampugh.erase-install</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string>%RECIPE_CACHE_DIR%/erase-install.png</string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
