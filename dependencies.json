@@ -36,6 +36,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/bnpl-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/bryanheinz-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/bryanheinz-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/clburlison-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/clburlison-recipes"
     },
@@ -70,6 +74,10 @@
     {
         "recipe_url": "https://github.com/autopkg/gilburns-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/gilburns-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/grahampugh-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/grahampugh-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/gregneagle-recipes",
@@ -172,12 +180,20 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/ox-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/paul-cossey-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/paul-cossey-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/peetinc-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/peetinc-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/peshay-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/peshay-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/peterkelm-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/peterkelm-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/precursorca-recipes",
