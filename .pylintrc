@@ -22,3 +22,6 @@ disable=
     too-many-statements,
     unnecessary-lambda-assignment,
     wrong-import-position,
+ignore=
+    recipes.py,
+    autopkgdeps.py
