@@ -10,6 +10,11 @@
         "description": "4K Video Downloader allows downloading videos, playlists, channels and subtitles from YouTube, Facebook, Vimeo and other video sites in high quality."
     },
     {
+        "name": "AFFiNE",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Affine/Affine.intune.recipe",
+        "description": "A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds."
+    },
+    {
         "name": "Abstract",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Abstract/Abstract.intune.recipe",
         "description": "Abstract is a platform for modern design teams to work together."
@@ -155,6 +160,11 @@
         "description": "AppCleaner is a small application which allows you to thoroughly uninstall unwanted apps."
     },
     {
+        "name": "AppFlowy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AppFlowy/AppFlowy.intune.recipe",
+        "description": "AppFlowy is the AI workspace where you achieve more without losing control of your data."
+    },
+    {
         "name": "Apparency",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apparency/Apparency.intune.recipe",
         "description": "Apparency is an application for inspecting other applications."
@@ -268,6 +278,11 @@
         "name": "Boxcryptor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Boxcryptor/Boxcryptor.intune.recipe",
         "description": "Boxcryptor protects your data in the cloud: in OneDrive, SharePoint, Dropbox, Google Drive and more."
+    },
+    {
+        "name": "Brackets",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Brackets/Brackets.intune.recipe",
+        "description": "Brackets is an open source code editor for web designers and front-end developers. http://brackets.io/"
     },
     {
         "name": "Brave",
@@ -405,6 +420,16 @@
         "description": "Edit HTML code and text on your Mac."
     },
     {
+        "name": "CotEditor",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CotEditor/CotEditor.intune.recipe",
+        "description": "Lightweight Plain-Text Editor for macOS"
+    },
+    {
+        "name": "Craft",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Craft/Craft.intune.recipe",
+        "description": "Craft the best docs in the world."
+    },
+    {
         "name": "Cursor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cursor/Cursor.intune.recipe",
         "description": "Built to make you extraordinarily productive, Cursor is the best way to code with AI."
@@ -495,6 +520,11 @@
         "description": " Download YouTube videos."
     },
     {
+        "name": "Dozer",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dozer/Dozer.intune.recipe",
+        "description": "Utility that allows you to hide unwanted menu bar icons."
+    },
+    {
         "name": "DrawBot",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DrawBot/DrawBot.intune.recipe",
         "description": "DrawBot is an open source application for OS X that allows users to write simple Python scripts to generate two-dimensional graphics."
@@ -538,6 +568,11 @@
         "name": "Elgato WaveLink",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Elgato Wave Link/ElgatoWaveLink.intune.recipe",
         "description": "Mozilla Elgato Wave Link is a free and open source web browser."
+    },
+    {
+        "name": "Emacs",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Emacs/Emacs.intune.recipe",
+        "description": "Pure Emacs! No Extras! No Nonsense!"
     },
     {
         "name": "Epic Games Launcher",
@@ -595,6 +630,11 @@
         "description": "Mozilla Firefox is a free and open source web browser."
     },
     {
+        "name": "Flameshot",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FlameShot/FlameShot.intune.recipe",
+        "description": "Powerful yet simple to use screenshot software."
+    },
+    {
         "name": "Fleet",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Fleet.intune.recipe",
         "description": "Fleet is a code editor designed for simplicity, combining a clean UI, AI capabilities, and an essential set of built-in features for most major languages."
@@ -603,6 +643,11 @@
         "name": "Flux",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Flux/Flux.intune.recipe",
         "description": "f.lux makes your computer screen look like the room you're in, all the time. When the sun sets, it makes your computer look like your indoor lights. In the morning, it makes things look like sunlight again.\n\nTell f.lux what kind of lighting you have, and where you live. Then forget about it. f.lux will do the rest, automatically."
+    },
+    {
+        "name": "Folder Peek",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FolderPeek/FolderPeek.intune.recipe",
+        "description": " Put folders in your menu bar."
     },
     {
         "name": "Foldr",
@@ -900,6 +945,11 @@
         "description": "LangGraph Studio offers a new way to develop LLM applications by providing a specialized agent IDE that enables visualization, interaction, and debugging of complex agentic applications."
     },
     {
+        "name": "Lapce",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Lapce/Lapce.intune.recipe",
+        "description": "Lightning-fast and Powerful Code Editor "
+    },
+    {
         "name": "LibreOffice",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LibreOffice/LibreOffice.intune.recipe",
         "description": "LibreOffice is the free power-packed Open Source personal productivity suite for Windows, Macintosh and Linux, that gives you six feature-rich applications for all your document production and data processing needs: Writer, Calc, Impress, Draw, Math and Base."
@@ -935,9 +985,19 @@
         "description": "MAMP installs a local server environment with Apache, PHP and MySQL"
     },
     {
+        "name": "MacDown",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacDown/MacDown.intune.recipe",
+        "description": "MacDown is an open source Markdown editor for OS X."
+    },
+    {
         "name": "Maccy",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe",
         "description": "Lightweight clipboard manager for macOS"
+    },
+    {
+        "name": "MarkText",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MarkText/MarkText.intune.recipe",
+        "description": "A simple and elegant open-source markdown editor that focused on speed and usability."
     },
     {
         "name": "Maven",
@@ -1048,6 +1108,11 @@
         "name": "NordVPN",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NordVPN/NordVPN.intune.recipe",
         "description": "Get the fastest VPN in the world and enjoy a smooth, safe, and private connection on your Mac. NordVPN\u2019s easy-to-use app will protect all your connected devices from snoopers tracking what you do online.\n\nEven if you think you have nothing to hide \u2014 no one likes to be watched. That\u2019s why you need a VPN to protect your privacy and keep your online data safe."
+    },
+    {
+        "name": "NotchNook",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NotchNook/NotchNook.intune.recipe",
+        "description": "A whole new way of using macos."
     },
     {
         "name": "Notion",
@@ -1345,6 +1410,11 @@
         "description": "Screen capture utility."
     },
     {
+        "name": "Sniffnet",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sniffnet/Sniffnet.intune.recipe",
+        "description": "Application to comfortably monitor your Internet traffic. Cross-platform. Intuitive. Reliable."
+    },
+    {
         "name": "Snipaste",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Snipaste/Snipaste.intune.recipe",
         "description": "Snipaste is a simple but powerful snipping tool, and also allows you to pin the screenshot back onto the screen. Download and start the application, press F1 to start snipping, then press F3 to paste it as a floating window. That's it!"
@@ -1618,6 +1688,11 @@
         "name": "Zed",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe",
         "description": "Lightweight, responsive text editor and integrated development environment (IDE)."
+    },
+    {
+        "name": "Zettlr",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zettlr/Zettlr.intune.recipe",
+        "description": "From idea to publication in one app: Zettlr supports your writing process at every stage \u2014 from initial notes to journal submission or book manuscript."
     },
     {
         "name": "Zoom",
