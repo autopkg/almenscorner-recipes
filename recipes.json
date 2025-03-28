@@ -295,6 +295,11 @@
         "description": "A free Java Development Environment designed for beginners, used by millions worldwide."
     },
     {
+        "name": "BoltAI",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BoltAI/BoltAI.intune.recipe",
+        "description": "Switch between top AI services and local models. All from a single native app on your Mac."
+    },
+    {
         "name": "Bookends",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Bookends/Bookends.intune.recipe",
         "description": "Reference management and bibliography software."
@@ -600,6 +605,11 @@
         "description": "Secure file-sharing tool."
     },
     {
+        "name": "Dropzone 4",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dropzone/Dropzone.intune.recipe",
+        "description": "Dropzone is a Mac app that redefines your drag and drop experience, accelerates file transfers, simplifies application launches, and seamlessly integrates with many services to optimise your workflow and increase your productivity."
+    },
+    {
         "name": "Duck Duck Go",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duck Duck Go/DuckDuckGo.intune.recipe",
         "description": "Chrome-like keyword search for Safari."
@@ -795,6 +805,11 @@
         "description": "GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages."
     },
     {
+        "name": "GPower",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GPower/GPower.intune.recipe",
+        "description": "G*Power\nStatistical Power Analyses for Mac and Windows\n\nG*Power is a tool to compute statistical power analyses for many different t tests, F tests, \u03c72 tests, z tests and some exact tests. G*Power can also be used to compute effect sizes and to display graphically the results of power analyses."
+    },
+    {
         "name": "Geekbench",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Geekbench/Geekbench.intune.recipe",
         "description": "Geekbench 6, the latest major upgrade to Primate Labs\u2019 easy-to-use cross-platform benchmark, is now available for download. Geekbench 6 allows you to measure your system\u2019s power more accurately than ever before."
@@ -848,6 +863,11 @@
         "name": "Gitpod",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitpod/Gitpod.intune.recipe",
         "description": "Gitpod Desktop is the fastest and easiest way to run and recreate cloud development environments locally. It is currently available for Apple silicon users."
+    },
+    {
+        "name": "Glyphs 3",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Glyphs/Glyphs.intune.recipe",
+        "description": "The complete Mac font editor for pros and designers alike.\n\nCreate, produce and release font families, icon systems or just logos with ease and power."
     },
     {
         "name": "GoLand",
@@ -945,6 +965,11 @@
         "description": "Vector graphics application."
     },
     {
+        "name": "Inquisit Lab",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inquisit Lab/InquisitLab.intune.recipe",
+        "description": "The complete Mac font editor for pros and designers alike.\n\nCreate, produce and release font families, icon systems or just logos with ease and power."
+    },
+    {
         "name": "Insomnia",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Insomnia/Insomnia.intune.recipe",
         "description": "Explore REST and GraphQL APIs."
@@ -963,6 +988,11 @@
         "name": "IntelliJ IDEA Ultimate Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/IntelliJ-IDEA-UE.intune.recipe",
         "description": "Capable and ergonomic Java IDE\n\nhttps://www.jetbrains.com/idea"
+    },
+    {
+        "name": "Isadora 4",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Isadora 4/Isadora4.intune.recipe",
+        "description": "Isadora is a proprietary graphic programming environment, with emphasis on real-time manipulation of digital video."
     },
     {
         "name": "Joplin",
@@ -1120,9 +1150,19 @@
         "description": "A simple and elegant open-source markdown editor that focused on speed and usability."
     },
     {
+        "name": "Marvel",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Marvel/Marvel.intune.recipe",
+        "description": "The collaborative design platform. Wireframe, prototype, user test, design and inspect designs in one place, for free! Or create an integration with our API."
+    },
+    {
         "name": "Maven",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache/Maven.intune.recipe",
         "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information."
+    },
+    {
+        "name": "Max 9",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Max 9/Max9.intune.recipe",
+        "description": "Max is an infinitely flexible place to create interactive media software. With in-depth tools for audio, graphics, interaction, and communication, Max is an environment to explore and develop your own ideas."
     },
     {
         "name": "MenuBar Stats",
@@ -1195,6 +1235,11 @@
         "description": ""
     },
     {
+        "name": "Millumin4",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Millumin4/Millumin4.intune.recipe",
+        "description": "The complete solution to create Audiovisual Shows."
+    },
+    {
         "name": "Minikube",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Minikube/Minikube.intune.recipe",
         "description": "minikube implements a local Kubernetes cluster on macOS, Linux, and Windows. minikube's primary goals are to be the best tool for local Kubernetes application development and to support all Kubernetes features that fit."
@@ -1203,6 +1248,11 @@
         "name": "Miro",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Miro/Miro.intune.recipe",
         "description": "The online collaborative whiteboard platform to bring teams together, anytime, anywhere."
+    },
+    {
+        "name": "Mobirise",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mobirise/Mobirise.intune.recipe",
+        "description": "Mobirise is a free offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products."
     },
     {
         "name": "MongoDB Compass",
