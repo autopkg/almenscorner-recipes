@@ -15,7 +15,7 @@
 			<string>Productivity</string>
 		</array>
         <key>description</key>
-        <string>A script that automates downloading macOS installers and erasing or upgrading macOS in a single process.</string> 
+        <string>A script that automates downloading macOS installers and erasing or upgrading macOS in a single process.</string>
         <key>developer</key>
         <string>Graham Pugh</string>
 		<key>display_name</key>
