@@ -15,6 +15,11 @@
         "description": "A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds."
     },
     {
+        "name": "AJA Mini-Config",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AJA/AJAMiniConfig.intune.recipe",
+        "description": "The free AJA Mini-Config software allows interactive, visual configuration and complete control of USB-enabled AJA Mini-Converters via a single USB connection to a Mac or PC computer."
+    },
+    {
         "name": "AVBridge",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AVBridge/AVBridge.intune.recipe",
         "description": "The Simplest way to Control and Automate AV devices\n\nUse OSC, MIDI, or HTTP"
@@ -1713,6 +1718,11 @@
         "name": "PhpStorm",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Phpstorm.intune.recipe",
         "description": "PhpStorm is a PHP IDE that actually \u2018gets\u2019 your code. It supports PHP 5.3/5.4/5.5/5.6/7.0, provides on-the-fly error prevention, best autocompletion and code refactoring, zero configuration debugging, and an extended HTML, CSS, and JavaScript editor."
+    },
+    {
+        "name": "Pingendo",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Pingendo/Pingendo.intune.recipe",
+        "description": "Simple Mac app for Bootstrap prototyping."
     },
     {
         "name": "Plex Media Player",
