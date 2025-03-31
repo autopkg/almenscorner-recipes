@@ -185,6 +185,11 @@
         "description": "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.\n\nThis software can be used with any Arduino board.\n        "
     },
     {
+        "name": "Arq",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arq/Arq.intune.recipe",
+        "description": "Arq automatically backs up all your Macs. Your files are stored securely, readable only by you. Backups can be stored on Amazon S3, Amazon Glacier, Dropbox, Google Drive, Google Cloud Storage, Microsoft OneDrive, SFTP, and DreamObjects."
+    },
+    {
         "name": "Asana",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe",
         "description": "Asana\u2019s native desktop app removes distractions so you can focus on what\u2019s important. Just download according to your OS, login with your email on the web, and you\u2019ll be guided to your new favorite app."
@@ -465,6 +470,11 @@
         "description": "Cocktail is a general purpose utility for macOS that lets you clean, repair and optimize your Mac."
     },
     {
+        "name": "CoconutBattery",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CoconutBattery/CoconutBatter.intune.recipe",
+        "description": "Displays info about your laptop battery."
+    },
+    {
         "name": "CodeEdit",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeEdit/CodeEdit.intune.recipe",
         "description": "CodeEdit App for macOS \u2013 Elevate your code editing experience. Open source, free forever."
@@ -483,6 +493,11 @@
         "name": "ColorSnapper",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ColorSnapper/ColorSnapper.intune.recipe",
         "description": "Quickly find the color of any pixel."
+    },
+    {
+        "name": "CommanderOne",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CommanderOne/CommanderOne.intune.recipe",
+        "description": "With Commander One you can use two panels at once, set up your very own hotkeys for any action, and way more. Moreover it is a free software that can be a great OS X Finder alternative."
     },
     {
         "name": "CotEditor",
@@ -530,6 +545,11 @@
         "description": "Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF."
     },
     {
+        "name": "Dash",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Dash/Dash.intune.recipe",
+        "description": "Dash is an API Documentation Browser and Code Snippet Manager. Dash stores snippets of code and instantly searches offline documentation sets for 150+ APIs. You can even generate your own docsets or request docsets to be included."
+    },
+    {
         "name": "DataGrip",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Datagrip.intune.recipe",
         "description": "Meet DataGrip, our database IDE that is tailored to suit the specific needs of professional SQL developers."
@@ -563,6 +583,11 @@
         "name": "DevUtils",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DevUtils/DevUtils.intune.recipe",
         "description": "47+ hand crafted developer tools for your everyday tasks whenever you need it.\n\nFully customizable and configurable."
+    },
+    {
+        "name": "Dis kDrill",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DiskDrill/DiskDrill.intune.recipe",
+        "description": "The Premier Mac Data Recovery Software. Recover deleted or lost data from any storage device, iOS and Android."
     },
     {
         "name": "Discord",
@@ -618,6 +643,11 @@
         "name": "Duet",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duet/Duet.intune.recipe",
         "description": "Use your iPad as an external display."
+    },
+    {
+        "name": "Duplicacy Web Edition",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Duplicacy/Duplicacy.intune.recipe",
+        "description": "Duplicacy backs up your files to many cloud storages with client-side encryption and the highest level of deduplication."
     },
     {
         "name": "EagleFiler",
@@ -683,6 +713,11 @@
         "name": "ExpressVPN",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ExpressVPN/ExpressVPN.intune.recipe",
         "description": "The VPN that just works."
+    },
+    {
+        "name": "Fantastical",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Fantastical/Fantastical.intune.recipe",
+        "description": "The Mac calendar you'll actually enjoy using."
     },
     {
         "name": "Fathom",
@@ -960,6 +995,11 @@
         "description": "Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available."
     },
     {
+        "name": "ImageOptim",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ImageOptim/ImageOptim.intune.recipe",
+        "description": "ImageOptim is a free app that makes images take up less disk space and load faster, without sacrificing quality. It optimizes compression parameters, removes junk metadata and unnecessary color profiles."
+    },
+    {
         "name": "Inkscape",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Inkscape/Inkscape.intune.recipe",
         "description": "Vector graphics application."
@@ -1013,6 +1053,11 @@
         "name": "Jumpshare",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpshare/Jumpshare.intune.recipe",
         "description": "Capture and share anything - screen recordings, GIFs, and screenshots - or upload files, all with instantly shareable links to bring clarity, save time, and boost productivity."
+    },
+    {
+        "name": "Kaleidoscope",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kaleidoscope/Kaleidoscope.intune.recipe",
+        "description": "Easily spot the differences in text and image files. Review changes in seconds with the world's most advanced Mac diff tool."
     },
     {
         "name": "Karabiner-Elements",
@@ -1140,6 +1185,16 @@
         "description": "MacDown is an open source Markdown editor for OS X."
     },
     {
+        "name": "MacPass",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPass/MacPass.intune.recipe",
+        "description": "MacPass is an application for accessing KeePass keychains."
+    },
+    {
+        "name": "MacTeX",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacTeX/MacTeX.intune.recipe",
+        "description": "MacTeX is a product produced by the MacTeX TeXnical working group of the TeX Users Group (TUG). It is the Macintosh component of the TeX Collection DVD, the reference edition of TeX distributed by TeX User Groups across the world. The reference edition runs on Mac OS X, Windows, GNU/Linux, various BSD Unix systems, and most other computer architectures."
+    },
+    {
         "name": "Maccy",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe",
         "description": "Lightweight clipboard manager for macOS"
@@ -1155,6 +1210,11 @@
         "description": "The collaborative design platform. Wireframe, prototype, user test, design and inspect designs in one place, for free! Or create an integration with our API."
     },
     {
+        "name": "Mattermost",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mattermost/Mattermost.intune.recipe",
+        "description": "Mattermost: Open Source, Private Cloud Slack Alternative"
+    },
+    {
         "name": "Maven",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Apache/Maven.intune.recipe",
         "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information."
@@ -1163,6 +1223,11 @@
         "name": "Max 9",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Max 9/Max9.intune.recipe",
         "description": "Max is an infinitely flexible place to create interactive media software. With in-depth tools for audio, graphics, interaction, and communication, Max is an environment to explore and develop your own ideas."
+    },
+    {
+        "name": "Mendeley",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mendeley/Mendeley.intune.recipe",
+        "description": "Mendeley brings your research to life, so you can make an impact on tomorrow."
     },
     {
         "name": "MenuBar Stats",
@@ -1260,9 +1325,24 @@
         "description": "Compass. The GUI for MongoDB.\n\nCompass is an interactive tool for querying, optimizing, and analyzing your MongoDB data. Get key insights, drag and drop to build pipelines, and more."
     },
     {
+        "name": "Moom",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Moom/Moom.intune.recipe",
+        "description": "Versatile window manager."
+    },
+    {
+        "name": "Mullvad VPN",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MullvadVPN/MullvadVPN.intune.recipe",
+        "description": "Mullvad is a VPN service that helps keep your online activity, identity, and location private."
+    },
+    {
         "name": "Multipass",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Multipass/Multipass.intune.recipe",
         "description": "Multipass is a lightweight VM manager for Linux, Windows and macOS. It's designed for developers who want to spin up a fresh Ubuntu environment with a single command."
+    },
+    {
+        "name": "Navicat 17 Premium Lite",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Navicat 17 Premium Lite/Navicat17PremiumLite.intune.recipe",
+        "description": "Navicat Premium Lite is a compact version of Navicat, packed with the core features needed for users who primarily need to perform basic database operations. It allows you to simultaneously connect to a variety of database platforms, including MySQL, PostgreSQL, SQL Server, Oracle, MariaDB, as well as NoSQL databases like Redis and MongoDB, all from a single application. Additionally, Navicat Premium Lite is compatible with GaussDB, OceanBase and PolarDB database platforms."
     },
     {
         "name": "NetNewsWire",
@@ -1273,6 +1353,11 @@
         "name": "NetSpot",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetSpot/NetSpot.intune.recipe",
         "description": "Wireless survey tool."
+    },
+    {
+        "name": "Nmap",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nmap/Nmap.intune.recipe",
+        "description": "Nmap (\"Network Mapper\") is a free and open source utility for network discovery and security auditing."
     },
     {
         "name": "NoMachine",
@@ -1330,9 +1415,39 @@
         "description": "Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models."
     },
     {
+        "name": "OmniDiskSweeper",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniDiskSweeper.intune.recipe",
+        "description": "OmniDiskSweeper shows you the files on your drive, in descending order by size, and letting you decide what to do with them. Delete away, but exercise caution."
+    },
+    {
         "name": "OmniFocus",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniFocus4.intune.recipe",
         "description": "OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done\u00ae system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do."
+    },
+    {
+        "name": "OmniGraffle 7",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniGraffle.intune.recipe",
+        "description": "Need a diagram, process chart, quick page-layout, website wireframe or graphic design? OmniGraffle can help you make eye-popping graphic documents quickly by keeping lines connected to shapes even when they're moved, providing powerful styling tools, importing and exporting Microsoft Visio files, and magically organizing diagrams with just one click. Whether you need a quick sketch or an epic technical figure, OmniGraffle keeps it gorgeously understandable."
+    },
+    {
+        "name": "OmniGraphSketcher",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniGraphSketcher.intune.recipe",
+        "description": "OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program."
+    },
+    {
+        "name": "OmniOutliner 4",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniOutliner.intune.recipe",
+        "description": "OmniOutliner is a start-to-finish writing app. Perfect for collecting information, outlining Big Ideas, adding structure to any sort of writing, and much more. From grocery lists to email drafts to long-form composition."
+    },
+    {
+        "name": "OmniPlan 3",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniPlan.intune.recipe",
+        "description": "OmniPlan is designed to help you visualize, maintain, and simplify your projects. Break down tasks, optimize the required resources, control costs, and monitor your entire plan\u2014all at a glance. Collaborate with your colleagues and share every detail, update a calendar with your days off, or mix and match. Accept and reject changes one-by-one or all in one go. OmniPlan provides features like Gantt charts, schedules, summaries, milestones, and critical path highlighting to let you manage all of your activities. From customizable views to fast data entry, OmniPlan helps you manage projects that are as simple or complex as you need them to be\u2014without the complexity."
+    },
+    {
+        "name": "One Thing 2",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OneThing/OneThing.intune.recipe",
+        "description": "Put a single task or goal in your menu bar."
     },
     {
         "name": "Onyx for macOS Sequoia",
@@ -1378,6 +1493,21 @@
         "name": "Parsec",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Parsec/Parsec.intune.recipe",
         "description": "With Parsec, you can play PC games from anywhere on any device. Parsec lets you play over the internet from your own gaming PC or access a cloud gaming PC."
+    },
+    {
+        "name": "PhpStorm",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Phpstorm.intune.recipe",
+        "description": "PhpStorm is a PHP IDE that actually \u2018gets\u2019 your code. It supports PHP 5.3/5.4/5.5/5.6/7.0, provides on-the-fly error prevention, best autocompletion and code refactoring, zero configuration debugging, and an extended HTML, CSS, and JavaScript editor."
+    },
+    {
+        "name": "Plex Media Player",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Plex/PlexMediaPlayer.intune.recipe",
+        "description": "Organize all your videos, photos, and music."
+    },
+    {
+        "name": "Plex Media Server",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Plex/PlexMediaServer.intune.recipe",
+        "description": "Organize all your videos, photos, and music."
     },
     {
         "name": "PlistEdit Pro",
@@ -1470,14 +1600,29 @@
         "description": "Python is a programming language that lets you work quickly and integrate systems more effectively."
     },
     {
+        "name": "QGIS",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/QGIS/QGIS.intune.recipe",
+        "description": "A Free and Open Source Geographic Information System"
+    },
+    {
         "name": "Quarto",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Quarto/Quarto.intune.recipe",
         "description": "An open-source scientific and technical publishing system"
     },
     {
+        "name": "Quip",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Quip/Quip.intune.recipe",
+        "description": "Chat, docs, task lists, and spreadsheets in one app."
+    },
+    {
         "name": "RStudio",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RStudio/RStudio.intune.recipe",
         "description": "RStudio IDE is a powerful and productive user interface for R."
+    },
+    {
+        "name": "Rambox",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rambox/Rambox.intune.recipe",
+        "description": "Workspace simplifier. The only way to organize your workspace and boost your productivity."
     },
     {
         "name": "Rancher Desktop",
@@ -1530,9 +1675,19 @@
         "description": "Web-based time management tool that tracks the activities and duration of a user's computer usage."
     },
     {
+        "name": "Resilio Sync",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Resilio/ResilioSync.intune.recipe",
+        "description": "Sync files without the cloud, using peer-to-peer connections."
+    },
+    {
         "name": "Rider",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/Rider.intune.recipe",
         "description": "A cross-platform .NET IDE based on the IntelliJ platform and ReSharper\n\nhttps://www.jetbrains.com/rider"
+    },
+    {
+        "name": "Rocket Chat",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RocketChat/RocketChat.intune.recipe",
+        "description": "Workspace simplifier. The only way to organize your workspace and boost your productivity."
     },
     {
         "name": "Rotato",
@@ -1575,6 +1730,16 @@
         "description": "Project management and word processing tool for writers."
     },
     {
+        "name": "Sensei",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sensei/Sensei.intune.recipe",
+        "description": "Sensei helps you clean junk, monitor performance, and optimize your Mac for peak speed. Free up storage, boost performance, and keep your Mac in top condition with powerful maintenance features."
+    },
+    {
+        "name": "SequelPro",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SequelPro/SequelPro.intune.recipe",
+        "description": "Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases."
+    },
+    {
         "name": "Setapp",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Setapp/Setapp.intune.recipe",
         "description": "Required Think tasks, not apps. Setapp membership gives you an all-access pass to curated Mac and iOS apps."
@@ -1598,6 +1763,11 @@
         "name": "Slack",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe",
         "description": "Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go."
+    },
+    {
+        "name": "SmartGit",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SmartGit/SmartGit.intune.recipe",
+        "description": "SmartGit is a graphical Git client with Subversion support. SmartGit is free for non-commercial use and runs on macOS, Windows and Linux."
     },
     {
         "name": "Snagit",
@@ -1625,6 +1795,11 @@
         "description": "SourceTree is a free Mercurial and Git client for Windows and Mac that provides a graphical interface for your Hg and Git repositories."
     },
     {
+        "name": "Spark",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SparkDesktop/SparkDesktop.intune.recipe",
+        "description": "Fast, cross-platform email designed to filter out the noise - so you can focus on what's important."
+    },
+    {
         "name": "Splashtop Business",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Splashtop/SplashtopBusiness.intune.recipe",
         "description": "Install the Splashtop Business app on the Mac you want to remote from."
@@ -1640,6 +1815,16 @@
         "description": "Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels."
     },
     {
+        "name": "Spyder",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spyder/Spyder.intune.recipe",
+        "description": "Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts. It offers a unique combination of the advanced editing, analysis, debugging, and profiling functionality of a comprehensive development tool with the data exploration, interactive execution, deep inspection, and beautiful visualization capabilities of a scientific package."
+    },
+    {
+        "name": "StarUML",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/StarUML/StarUML.intune.recipe",
+        "description": "A sophisticated software modeler for agile and concise modeling."
+    },
+    {
         "name": "Stats",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stats/Stats.intune.recipe",
         "description": "macOS system monitor in your menu bar."
@@ -1653,6 +1838,11 @@
         "name": "SteelSeries GG",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steelseries GG/SteelseriesGG.intune.recipe",
         "description": "SteelSeries GG helps create better connections with your gear, your people and your game."
+    },
+    {
+        "name": "Sublime Merge",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sublime Merge/SublimeMerge.intune.recipe",
+        "description": "Fast Git client from the makers of Sublime Text."
     },
     {
         "name": "Super Duper",
@@ -1683,6 +1873,11 @@
         "name": "Syncthing",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Syncthing/Syncthing.intune.recipe",
         "description": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers in real time, safely protected from prying eyes. Your data is your data alone and you deserve to choose where it is stored, whether it is shared with some third party, and how it's transmitted over the internet."
+    },
+    {
+        "name": "TG Pro",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TGPro/TGPro.intune.recipe",
+        "description": "Control fan speeds, monitor temperatures, and find faulty sensors."
     },
     {
         "name": "TIDAL",
@@ -1725,6 +1920,11 @@
         "description": "All-In-One Solution for Remote Access and Support over the Internet."
     },
     {
+        "name": "Telegram",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Telegram/Telegram.intune.recipe",
+        "description": "Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed."
+    },
+    {
         "name": "Termius",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Termius/Termius.intune.recipe",
         "description": "Termius is a portable server management system that works for you in any situation."
@@ -1745,6 +1945,11 @@
         "description": "Python IDE for beginners."
     },
     {
+        "name": "Thunderbird",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Thunderbird/Tunderbird.intune.recipe",
+        "description": "Mozilla Thunderbird is a free and open source mail client."
+    },
+    {
         "name": "TimeOut",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TimeOut/TimeOut.intune.recipe",
         "description": "Time Out is a break reminder tool with micro-breaks"
@@ -1763,6 +1968,11 @@
         "name": "Tower",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tower/Tower.intune.recipe",
         "description": "Version control with Git made easy."
+    },
+    {
+        "name": "Transmit 5",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Transmit/Transmit.intune.recipe",
+        "description": "Graphical FTP client from Panic."
     },
     {
         "name": "Tunnelblick",
@@ -1883,6 +2093,11 @@
         "name": "Zed",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe",
         "description": "Lightweight, responsive text editor and integrated development environment (IDE)."
+    },
+    {
+        "name": "Zeplin",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zeplin/Zeplin.intune.recipe",
+        "description": "Build pixel-perfect apps in peace."
     },
     {
         "name": "Zettlr",

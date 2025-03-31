@@ -100,6 +100,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/hjuutilainen-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/hobbithardcase-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/hobbithardcase-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/homebysix-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/homebysix-recipes"
     },
@@ -218,6 +222,10 @@
     {
         "recipe_url": "https://github.com/autopkg/swy-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/swy-recipes"
+    },
+    {
+        "recipe_url": "https://github.com/autopkg/tallfunnyjew-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/tallfunnyjew-recipes"
     },
     {
         "recipe_url": "https://github.com/autopkg/timsutton-recipes",
