@@ -785,6 +785,11 @@
         "description": "Design, prototype, and gather feedback all in one place with Figma."
     },
     {
+        "name": "FilePane",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FilePane/FilePane.intune.recipe",
+        "description": "Empower drag-and-drop on your Mac."
+    },
+    {
         "name": "FileZilla",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FileZilla/FileZilla.intune.recipe",
         "description": "FileZilla is a fast and reliable cross-platform FTP, FTPS and SFTP client."
@@ -1005,6 +1010,11 @@
         "description": "App and web service for correcting grammatical issues and detecting plagarism."
     },
     {
+        "name": "GraphicConverter",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GraphicConverter/GraphicConverter.intune.recipe",
+        "description": ""
+    },
+    {
         "name": "HP Easy Admin",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HP/HPEasyAdmin.intune.recipe",
         "description": "HP Easy Admin is a macOS application tool that enables education and enterprise administrators to directly download HP printing and/or scanning solutions to use for remote distribution."
@@ -1030,6 +1040,11 @@
         "description": "App that hides distractions and allows you to focus on your current task."
     },
     {
+        "name": "Hazel",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hazel/Hazel.intune.recipe",
+        "description": "Automation tool to keep your files and folders organized and tidy."
+    },
+    {
         "name": "Hidden Bar",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hidden Bar/HiddenBar.intune.recipe",
         "description": "An ultra-light MacOS utility that helps hide menu bar icons."
@@ -1043,6 +1058,11 @@
         "name": "HocusFocus",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HocusFocus/HocusFocus.intune.recipe",
         "description": "Hide your inactive windows."
+    },
+    {
+        "name": "HoudahGeo",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HoudahGeo/HoudahGeo.intune.recipe",
+        "description": "Photo geocoding solution."
     },
     {
         "name": "Hyper",
@@ -1113,6 +1133,11 @@
         "name": "Itsycal",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Itsycal/Itsycal.intune.recipe",
         "description": "Itsycal is a tiny calendar for your Mac's menu bar."
+    },
+    {
+        "name": "JProfiler",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JProfiler/JProfiler.intune.recipe",
+        "description": "JProfiler is the industry's most comprehensive all-in one Java profiler that helps resolve performance bottlenecks, pin down memory leaks and understand threading issues."
     },
     {
         "name": "Jitsi",
@@ -1260,6 +1285,21 @@
         "description": "Say it with video! Loom is the most effective way to get your message across, no matter where you work."
     },
     {
+        "name": "Low Profile",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NameChanger/NameChanger.intune.recipe",
+        "description": "Rename files in batches."
+    },
+    {
+        "name": "Low Profile",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MySQLWorkbench/MySQLWorkbench.intune.recipe",
+        "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs."
+    },
+    {
+        "name": "Low Profile",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LowProfile/LowProfile.intune.recipe",
+        "description": "A Mac utility to help inspect Apple Configuration Profile payloads."
+    },
+    {
         "name": "LuLu",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LuLu/LuLu.intune.recipe",
         "description": "In today's connected world, it is rare to find an application or piece of malware that doesn't talk to a remote server. LuLu is the free, open-source, firewall for Macs, that can protect your network connections and detect malicious activity."
@@ -1330,6 +1370,11 @@
         "description": "Max is an infinitely flexible place to create interactive media software. With in-depth tools for audio, graphics, interaction, and communication, Max is an environment to explore and develop your own ideas."
     },
     {
+        "name": "Mellel",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mellel/Mellel.intune.recipe",
+        "description": "The word processor of choice for scholars, writers and long document writing."
+    },
+    {
         "name": "Mendeley",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mendeley/Mendeley.intune.recipe",
         "description": "Mendeley brings your research to life, so you can make an impact on tomorrow."
@@ -1348,6 +1393,11 @@
         "name": "MenuBar Stats",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MenuBar Stats 3/MenuBarStats3.intune.recipe",
         "description": "Advanced Mac system monitor."
+    },
+    {
+        "name": "Metabase",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Metabase/Metabse.intune.recipe",
+        "description": "An app that gives everyone on your team central access to business intelligence and analytics."
     },
     {
         "name": "Metashape",
@@ -1445,9 +1495,24 @@
         "description": "Compass. The GUI for MongoDB.\n\nCompass is an interactive tool for querying, optimizing, and analyzing your MongoDB data. Get key insights, drag and drop to build pipelines, and more."
     },
     {
+        "name": "Monodraw",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Monodraw/Monodraw.intune.recipe",
+        "description": "ASCII art editor."
+    },
+    {
+        "name": "Monolingual",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Monolingual/Monolingual.intune.recipe",
+        "description": "Monolingual is a program for removing unnecessary language resources from Mac OS X."
+    },
+    {
         "name": "Moom",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Moom/Moom.intune.recipe",
         "description": "Versatile window manager."
+    },
+    {
+        "name": "Mountain",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mountain/Mountain.intune.recipe",
+        "description": "Manage mounted storage drives from the menu bar."
     },
     {
         "name": "Mullvad VPN",
@@ -1467,7 +1532,7 @@
     {
         "name": "Neo Network Utility",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NeoNetworkUtility/NeoNetworkUtility.intune.recipe",
-        "description": "Neo Network Utility has a full range of networking tools for retrieving information about your network adapter and diagnose common network problems.\n        \nAll similarities with an application of the same name that was once bundled with legacy versions of Mac OS X and OSX are, of course, purely coincidental."
+        "description": "Neo Network Utility has a full range of networking tools for retrieving information about your network adapter and diagnose common network problems.\n\nAll similarities with an application of the same name that was once bundled with legacy versions of Mac OS X and OSX are, of course, purely coincidental."
     },
     {
         "name": "NetNewsWire",
@@ -1523,6 +1588,11 @@
         "name": "Nucleo",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nucleo/Nucleo.intune.recipe",
         "description": "Nucleo is a beautiful library of 30231 icons, and a powerful application to collect, customize and export all your icons."
+    },
+    {
+        "name": "Numi",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Numi/Numi.intune.recipe",
+        "description": "Menu-bar calculator supports text input."
     },
     {
         "name": "OBS",
@@ -1618,6 +1688,16 @@
         "name": "PDF Expert",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PDF Expert/PDFExpert.intune.recipe",
         "description": "PDF Expert helps you to edit, annotate, sign and organize your PDFs."
+    },
+    {
+        "name": "Pandora",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Pandora/Pandora.intune.recipe",
+        "description": "Mac app for listening to music using the Pandora streaming service."
+    },
+    {
+        "name": "Papers",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Papers/Papers.intune.recipe",
+        "description": "Your personal library of scientific resources."
     },
     {
         "name": "Parsec",
@@ -1850,6 +1930,11 @@
         "description": "3D mockup images and movies in minutes."
     },
     {
+        "name": "Sandvox",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sandvox/Sandvox.intune.recipe",
+        "description": "Easily build eye-catching Web sites."
+    },
+    {
         "name": "Santa",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Santa/Santa.intune.recipe",
         "description": "Santa keeps track of binaries or app bundles that are naughty and nice."
@@ -1878,6 +1963,11 @@
         "name": "Screenflick",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Screenflick/Screenflick.intune.recipe",
         "description": "Providing the power and features to communicate your screen experience."
+    },
+    {
+        "name": "Screenotate",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Screenotate/Screenotate.intune.recipe",
+        "description": "Utility that runs optical character recognition (OCR) on screenshots as you take them, allowing you to better search their contents."
     },
     {
         "name": "Scrivener",
@@ -1938,6 +2028,11 @@
         "name": "Slack",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Slack/Slack.intune.recipe",
         "description": "Slack is a platform for team communication: everything in one place, instantly searchable, available wherever you go."
+    },
+    {
+        "name": "Sleep Aid",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SleepAid/SleepAid.intune.recipe",
+        "description": "Utility for diagnosing sleep-related problems on your Mac."
     },
     {
         "name": "SmartGit",
@@ -2023,6 +2118,11 @@
         "name": "Stellarium",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stellarium/Stellarium.intune.recipe",
         "description": "Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope."
+    },
+    {
+        "name": "StretchLink",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/StretchLink/StretchLink.intune.recipe",
+        "description": "Automatically expands and cleans URLs from your menu bar."
     },
     {
         "name": "Sublime Merge",
