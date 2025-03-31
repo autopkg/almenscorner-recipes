@@ -3,35 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of RapiAPI.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.RapiAPI</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>RapiAPI</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+        <string>RapidAPI for Mac is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It has a beautiful native macOS interface to compose requests, inspect server responses, generate client code and export API definitions.</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>RapidAPI for Teams</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>RapiAPI</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.jaharmi.download.Paw</string>
 	<key>Process</key>
 	<array>
+    	<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications</string>
+			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -40,7 +51,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
@@ -51,7 +62,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>bundleId</key>
 				<string>%bundleid%</string>
 				<key>bundleVersion</key>

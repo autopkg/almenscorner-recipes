@@ -3,35 +3,59 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of Itsycal.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.Itsycal</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>Itsycal</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
-        <key>developer</key>
-        <string>The Omni Group</string>
-		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+        <string>Itsycal is a tiny calendar for your Mac's menu bar.</string>
+        <key>display_name</key>
+        <string>Itsycal</string>
+		<key>developer</key>
+		<string>Mowglii</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.jleggat.Itsycal.download</string>
 	<key>Process</key>
 	<array>
+        <dict>
+            <key>Processor</key>
+            <string>Unarchiver</string>
+            <key>Arguments</key>
+            <dict>
+                <key>archive_path</key>
+                <string>%pathname%</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <key>purge_destination</key>
+                <true/>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>DmgCreator</string>
+            <key>Arguments</key>
+            <dict>
+                <key>dmg_root</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <key>dmg_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -40,7 +64,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
@@ -51,7 +75,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%dmg_path%</string>
 				<key>bundleId</key>
 				<string>%bundleid%</string>
 				<key>bundleVersion</key>

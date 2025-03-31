@@ -3,44 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of OverSight.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.OverSight</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>OverSight</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+        <string>OverSight observes how you use your Mac and categorizes your activities. You see how you spent your time and how productive you were, and the timeline shows when you did what.  It even automatically recognizes blocks of time that belong together!</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>Objective-See</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>OverSight</string>
+        <key>post_install_script</key>
+        <string>IyEvYmluL3NoCnN1ZG8gIi9BcHBsaWNhdGlvbnMvT3ZlclNpZ2h0IEluc3RhbGxlci5hcHAvQ29udGVudHMvTWFjT1MvT3ZlcnNpZ2h0IEluc3RhbGxlciIgLWluc3RhbGwKcm0gLXJmICIvQXBwbGljYXRpb25zL092ZXJTaWdodCBJbnN0YWxsZXIuYXBwLyIKZXhpdCAw</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.oliverweinm-recipes.pkg.OverSight</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_path</key>
-				<string>%pathname%</string>
+				<key>input_plist_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME% Installer.app/Contents/Info.plist</string>
 			</dict>
 			<key>Processor</key>
-			<string>AppDmgVersioner</string>
+			<string>Versioner</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME% Installer.app</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
@@ -51,9 +53,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%pkg_path%</string>
 				<key>bundleId</key>
-				<string>%bundleid%</string>
+				<string>com.objective-see.oversight.installer</string>
 				<key>bundleVersion</key>
 				<string>%version%</string>
 				<key>description</key>
@@ -66,6 +68,8 @@
 				<string>%developer%</string>
 				<key>version</key>
 				<string>%version%</string>
+                <key>postinstall_script</key>
+                <string>%post_install_script%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>

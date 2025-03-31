@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of TinkerTool.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.TinkerTool</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>TinkerTool</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+        <string>TinkerTool is an application that gives you access to additional user settings Apple has built into macOS. This allows to activate hidden features in the operating system and in some of the applications delivered with the system.</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>Marcel Bresink</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>TinkerTool</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	 <string>com.github.almenscorner.download.TinkerTool</string>
 	<key>Process</key>
 	<array>
 		<dict>

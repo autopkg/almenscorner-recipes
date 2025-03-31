@@ -3,28 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of MarginNote4.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.MarginNote4</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>MarginNote4</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+        <string>A brand new e-reader to better study and digest your books
+
+Integrating powerful tools for book annoation, mindmapping, flashcards and more, to build up your reading notes as never before.</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>Sun Min</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>MarginNote 4</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.almenscorner.download.MarginNote4</string>
 	<key>Process</key>
 	<array>
 		<dict>

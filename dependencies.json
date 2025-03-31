@@ -180,6 +180,10 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/nstrauss-recipes"
     },
     {
+        "recipe_url": "https://github.com/autopkg/oliverweinm-recipes",
+        "repo_add_command": "autopkg repo-add https://github.com/autopkg/oliverweinm-recipes"
+    },
+    {
         "recipe_url": "https://github.com/autopkg/ox-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/ox-recipes"
     },
