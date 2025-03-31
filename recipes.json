@@ -640,14 +640,14 @@
         "description": "47+ hand crafted developer tools for your everyday tasks whenever you need it.\n\nFully customizable and configurable."
     },
     {
-        "name": "Dis kDrill",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DiskDrill/DiskDrill.intune.recipe",
-        "description": "The Premier Mac Data Recovery Software. Recover deleted or lost data from any storage device, iOS and Android."
-    },
-    {
         "name": "Discord",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Discord/Discord.intune.recipe",
         "description": "Discord is a freeware proprietary VoIP application designed for gaming communities. Discord runs on Microsoft Windows, macOS, Android, iOS, Linux, and in a web browser. In December 2016, the developers announced that Discord had over 25 million users."
+    },
+    {
+        "name": "Disk Drill",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DiskDrill/DiskDrill.intune.recipe",
+        "description": "The Premier Mac Data Recovery Software. Recover deleted or lost data from any storage device, iOS and Android."
     },
     {
         "name": "DisplayLink Manager",
