@@ -3,46 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of NeoNetworkUtility.</string>
+	<string>Downloads the current version of Monodraw.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.NeoNetworkUtility</string>
+	<string>com.github.almenscorner.intune.Monodraw</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>NeoNetworkUtility</string>
+		<string>Monodraw</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Neo Network Utility has a full range of networking tools for retrieving information about your network adapter and diagnose common network problems.
-
-All similarities with an application of the same name that was once bundled with legacy versions of Mac OS X and OSX are, of course, purely coincidental.</string>
+        <string>ASCII art editor.</string>
         <key>developer</key>
-        <string>DEVONtechnologies</string>
+        <string>Helftone Ltd</string>
 		<key>display_name</key>
-		<string>Neo Network Utility</string>
+		<string>Monodraw</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.kevinmcox.download.NeoNetworkUtility</string>
+	<string>com.github.homebysix.download.Monodraw</string>
 	<key>Process</key>
 	<array>
     	<dict>
-			<key>Processor</key>
-			<string>FileFinder</string>
 			<key>Arguments</key>
 			<dict>
-				<key>pattern</key>
-				<string>%RECIPE_CACHE_DIR%/unarchived/*.dmg</string>
+				<key>dmg_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<key>dmg_root</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/Applications</string>
 			</dict>
+			<key>Processor</key>
+			<string>DmgCreator</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%found_filename%</string>
+				<string>%dmg_path%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -51,7 +51,7 @@ All similarities with an application of the same name that was once bundled with
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%found_filename%</string>
+				<string>%dmg_path%</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
@@ -62,7 +62,7 @@ All similarities with an application of the same name that was once bundled with
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%found_filename%</string>
+				<string>%dmg_path%</string>
 				<key>bundleId</key>
 				<string>%bundleid%</string>
 				<key>bundleVersion</key>
