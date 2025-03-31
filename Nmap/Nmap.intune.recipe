@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the current version of OmniFocus.</string>
+	<string>Downloads the latest version of Nmap.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniFocus</string>
+	<string>com.github.almenscorner.intune.Nmap</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniFocus4</string>
+		<string>Nmap</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-		<string>OmniFocus is designed to quickly capture your thoughts and allow you to store, manage, and process them into actionable to-do items. Perfect for the Getting Things Done® system, but flexible enough for any task management style, OmniFocus helps you work smarter by giving you powerful tools for staying on top of all the things you need to do.</string>
-		<key>developer</key>
-		<string>The Omni Group</string>
+        <string>Nmap ("Network Mapper") is a free and open source utility for network discovery and security auditing.</string>
+        <key>developer</key>
+        <string>nmap</string>
 		<key>display_name</key>
-		<string>OmniFocus</string>
+		<string>Nmap</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.6.1</string>
+	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnifocus</string>
+	<string>com.github.apettinen.download.nmap</string>
 	<key>Process</key>
 	<array>
 		<dict>
