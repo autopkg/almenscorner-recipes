@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest stable version of MenuBarSpacing for macOS.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.download.MenuBarSpacing</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Menu Bar Spacing</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>url</key>
+                <string>https://github.com/sindresorhus/menu-bar-spacing-meta/releases/latest/download/Menu.Bar.Spacing.zip</string>
+                <key>filename</key>
+                <string>MenuBarSpacing.zip</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>input_path</key>
+                <string>%pathname%/MenuBarSpacing.zip</string>
+                <key>output_path</key>
+                <string>%pathname%/</string>
+            </dict>
+            <key>Processor</key>
+            <string>Unarchiver</string>
+        </dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+        <dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME%.app</string>
+				<key>requirement</key>
+				<string>anchor apple generic and identifier "com.sindresorhus.Menu-Bar-Spacing" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = YG56YK5RN5)</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>
