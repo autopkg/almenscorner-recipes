@@ -15,8 +15,8 @@
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniOutliner is a start-to-finish writing app. Perfect for collecting information, outlining Big Ideas, adding structure to any sort of writing, and much more. From grocery lists to email drafts to long-form composition.</string>  
-        <key>developer</key>      
+        <string>OmniOutliner is a start-to-finish writing app. Perfect for collecting information, outlining Big Ideas, adding structure to any sort of writing, and much more. From grocery lists to email drafts to long-form composition.</string>
+        <key>developer</key>
         <string>The Omni Group</string>
 		<key>display_name</key>
 		<string>OmniOutliner 4</string>

@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of Cryptomator.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.Cryptomator</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>Cryptomator</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+    	<string>Cryptomator provides transparent, client-side encryption for your cloud. Protect your documents from unauthorized access. Cryptomator is free and open source software, so you can rest assured there are no backdoors.</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>Skymatic</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>Cryptomator</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.joshua-d-miller.download.cryptomator</string>
 	<key>Process</key>
 	<array>
 		<dict>

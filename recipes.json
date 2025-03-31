@@ -40,6 +40,11 @@
         "description": "Adobe\u00ae Reader\u00ae is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia."
     },
     {
+        "name": "Aerial",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Aerial/Aerial.intune.recipe",
+        "description": "Apple TV Aerial Screensaver for Mac"
+    },
+    {
         "name": "Affinity Designer",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Serif/AffinityDesigner.intune.recipe",
         "description": "Affinity Designer is an incredibly accurate vector illustrator that feels fast and at home in the hands of creative professionals. It intuitively combines rock solid and crisp vector art with flexible layer management and an impressive range of high quality raster tools for finishing. With accuracy, quality and speed at the heart of every single design task, and the ability to finesse designs without switching apps, this fresh-faced multi-discipline illustrator lets creatives shine."
@@ -480,6 +485,11 @@
         "description": "CodeEdit App for macOS \u2013 Elevate your code editing experience. Open source, free forever."
     },
     {
+        "name": "CodeKit",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeKit/CodeKit.intune.recipe",
+        "description": "It's like steroids for web developers.  CodeKit helps you build websites faster and better."
+    },
+    {
         "name": "CodeRunner",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CodeRunner/CodeRunner.intune.recipe",
         "description": "CodeRunner is the easiest way to write code on your Mac. You can run code in almost any language instantly, and you'll be surprised by the powerful set of features in such a lightweight and easy-to-use editor."
@@ -508,6 +518,11 @@
         "name": "Craft",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Craft/Craft.intune.recipe",
         "description": "Craft the best docs in the world."
+    },
+    {
+        "name": "Cryptomator",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cryptomator/Cryptomator.intune.recipe",
+        "description": "Cryptomator provides transparent, client-side encryption for your cloud. Protect your documents from unauthorized access. Cryptomator is free and open source software, so you can rest assured there are no backdoors."
     },
     {
         "name": "Cursor",
@@ -745,6 +760,11 @@
         "description": "More Tools. More Productivity. More Progress.\n\nFinal Draft 13 is the most customizable version of the world\u2019s bestselling screenwriting software. Take your idea to script with easy-to-use tools so you can get more done with your writing sessions and achieve your goals faster."
     },
     {
+        "name": "Finicky",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Finicky/Finicky.intune.recipe",
+        "description": "Finicky is a macOS application that allows you to set up rules that decide which browser is opened for every link or url."
+    },
+    {
         "name": "Firefox",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Mozilla/FirefoxSigned.intune.recipe",
         "description": "Mozilla Firefox is a free and open source web browser."
@@ -853,6 +873,11 @@
         "name": "Gemini",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacPaw/Gemini2.intune.recipe",
         "description": "Locate and eliminate duplicate and similar files."
+    },
+    {
+        "name": "GeoGebra",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GeoGebra/GeoGebra.intune.recipe",
+        "description": "GeoGebra (www.geogebra.org) is free dynamic mathematics software for all levels of education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus in one easy-to-use package. Interactive learning, teaching and evaluation resources created with GeoGebra can be shared and used by everyone at www.geogebratube.org."
     },
     {
         "name": "Ghostty",
@@ -1035,6 +1060,16 @@
         "description": "Isadora is a proprietary graphic programming environment, with emphasis on real-time manipulation of digital video."
     },
     {
+        "name": "Itsycal",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Itsycal/Itsycal.intune.recipe",
+        "description": "Itsycal is a tiny calendar for your Mac's menu bar."
+    },
+    {
+        "name": "Jitsi",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jitsi/Jitsi.intune.recipe",
+        "description": "ecure video calls, conferencing, chat, desktop sharing, file transfer, support for your favorite OS, and IM network."
+    },
+    {
         "name": "Joplin",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Joplin/Joplin.intune.recipe",
         "description": "Joplin is an open source note-taking app. Capture your thoughts and securely access them from any device."
@@ -1175,6 +1210,11 @@
         "description": "In today's connected world, it is rare to find an application or piece of malware that doesn't talk to a remote server. LuLu is the free, open-source, firewall for Macs, that can protect your network connections and detect malicious activity."
     },
     {
+        "name": "Lunar",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Lunar/Lunar.intune.recipe",
+        "description": "Intelligent adaptive brightness for your external display."
+    },
+    {
         "name": "MAMP",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MAMP/MAMP.intune.recipe",
         "description": "MAMP installs a local server environment with Apache, PHP and MySQL"
@@ -1195,9 +1235,19 @@
         "description": "MacTeX is a product produced by the MacTeX TeXnical working group of the TeX Users Group (TUG). It is the Macintosh component of the TeX Collection DVD, the reference edition of TeX distributed by TeX User Groups across the world. The reference edition runs on Mac OS X, Windows, GNU/Linux, various BSD Unix systems, and most other computer architectures."
     },
     {
+        "name": "MacUpdater",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MacUpdater/MacUpdater.intune.recipe",
+        "description": "MacUpdater is an application that can scan your Mac and display which of the apps that you have installed are not up-to-date. MacUpdater can also update those outdated apps to their newest versions with a simple click."
+    },
+    {
         "name": "Maccy",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Maccy/Maccy.intune.recipe",
         "description": "Lightweight clipboard manager for macOS"
+    },
+    {
+        "name": "MarginNote 4",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MarginNote4/MarginNote4.intune.recipe",
+        "description": "A brand new e-reader to better study and digest your books\n\nIntegrating powerful tools for book annoation, mindmapping, flashcards and more, to build up your reading notes as never before."
     },
     {
         "name": "MarkText",
@@ -1485,6 +1535,11 @@
         "description": "OrbStack is a fast, light, and simple way to run containers and Linux machines on macOS. It's a supercharged alternative to Docker Desktop and WSL, all in one easy-to-use app."
     },
     {
+        "name": "OverSight",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OverSight/OverSight.intune.recipe",
+        "description": "OverSight observes how you use your Mac and categorizes your activities. You see how you spent your time and how productive you were, and the timeline shows when you did what.  It even automatically recognizes blocks of time that belong together!"
+    },
+    {
         "name": "PDF Expert",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PDF Expert/PDFExpert.intune.recipe",
         "description": "PDF Expert helps you to edit, annotate, sign and organize your PDFs."
@@ -1585,6 +1640,11 @@
         "description": "An easy-to-use VPN app for Mac"
     },
     {
+        "name": "Proxyman",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Proxyman/Proxyman.intune.recipe",
+        "description": "Proxyman is a high-performance macOS app, which enables developers to view HTTP/HTTPS requests from apps and domains."
+    },
+    {
         "name": "PyCharm Community Edition",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/JetBrains/PyCharm-CE.intune.recipe",
         "description": "Python IDE for professional developers\n\nhttps://www.jetbrains.com/pycharm"
@@ -1630,6 +1690,11 @@
         "description": "Container Management and Kubernetes on the Desktop"
     },
     {
+        "name": "RapiAPI",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RapidAPI/RapidAPI.intune.recipe",
+        "description": "RapidAPI for Mac is a full-featured HTTP client that lets you test and describe the APIs you build or consume. It has a beautiful native macOS interface to compose requests, inspect server responses, generate client code and export API definitions."
+    },
+    {
         "name": "Raycast",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Raycast/Raycast.intune.recipe",
         "description": "Supercharged productivity\n\nRaycast is a blazingly fast, totally extendable launcher. It lets you complete tasks, calculate, share common links, and much more."
@@ -1658,6 +1723,11 @@
         "name": "Rectangle",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Rectangle/Rectangle.intune.recipe",
         "description": "Move and resize windows on macOS with keyboard shortcuts and snap areas."
+    },
+    {
+        "name": "ReiKey",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ReiKey/ReiKey.intune.recipe",
+        "description": "ReiKey provides continual protection by monitoring persistence locations. Any new persistent component will trigger a ReiKey alert, allowing malicious items be blocked."
     },
     {
         "name": "Remote Desktop Manager Free",
@@ -1705,6 +1775,11 @@
         "description": "Free-form mind mapping tool."
     },
     {
+        "name": "Scilab",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Scilab/Scilab.intune.recipe",
+        "description": "Open source software for numerical computation."
+    },
+    {
         "name": "Scratch 3",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Scratch/Scratch3.intune.recipe",
         "description": "Scratch is a free programming language and online community where you can create your own interactive stories, games, and animations."
@@ -1730,6 +1805,11 @@
         "description": "Project management and word processing tool for writers."
     },
     {
+        "name": "Scroll Reverser",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Scroll Reverser/ScrollReverser.intune.recipe",
+        "description": "Scroll Reverser is a Mac app that reverses the direction of scrolling, with independent settings for trackpads and mice (including Magic Mouse).\n\nFor wheel mouse users, Scroll Reverser also incorporates a step size control, which disables scroll acceleration and instead scrolls a fixed number of lines with each step of the wheel."
+    },
+    {
         "name": "Sensei",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sensei/Sensei.intune.recipe",
         "description": "Sensei helps you clean junk, monitor performance, and optimize your Mac for peak speed. Free up storage, boost performance, and keep your Mac in top condition with powerful maintenance features."
@@ -1753,6 +1833,11 @@
         "name": "Shutter Encoder",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Shutter Encoder/ShutterEncoder.intune.recipe",
         "description": "Shutter Encoder is one of the best video converter software, it handles images and audio too!\n\nIt has been designed by video editors in order to be as accessible and efficient as possible.\n\nShutter Encoder makes use of FFmpeg to handle its encoding, allowing support for almost\n\nevery codec you\u2019ve ever heard of, and many more you haven\u2019t.\n\nDon\u2019t just take our word for it though, Avid themselves recommend Shutter Encoder\n\nas part of your Media Composer and ProTools ingesting workflow!"
+    },
+    {
+        "name": "Signal",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Signal/Signal.intune.recipe",
+        "description": "Say \"hello\" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect."
     },
     {
         "name": "Sketch",
@@ -1838,6 +1923,11 @@
         "name": "SteelSeries GG",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Steelseries GG/SteelseriesGG.intune.recipe",
         "description": "SteelSeries GG helps create better connections with your gear, your people and your game."
+    },
+    {
+        "name": "Stellarium",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Stellarium/Stellarium.intune.recipe",
+        "description": "Stellarium is a free open source planetarium for your computer. It shows a realistic sky in 3D, just like what you see with the naked eye, binoculars or a telescope."
     },
     {
         "name": "Sublime Merge",
@@ -1960,6 +2050,16 @@
         "description": "Discover where your time really goes."
     },
     {
+        "name": "Timing",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Timing/Timing.intune.recipe",
+        "description": "Timing observes how you use your Mac and categorizes your activities. You see how you spent your time and how productive you were, and the timeline shows when you did what.  It even automatically recognizes blocks of time that belong together!"
+    },
+    {
+        "name": "TinkerTool",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/TinkerTool/TinkerTool.intune.recipe",
+        "description": "TinkerTool is an application that gives you access to additional user settings Apple has built into macOS. This allows to activate hidden features in the operating system and in some of the applications delivered with the system."
+    },
+    {
         "name": "Tor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tor/Tor.intune.recipe",
         "description": "Web browser that anonymizes your activity using peer-to-peer networks."
@@ -2003,6 +2103,11 @@
         "name": "VLC Media Player",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VLC/VLC.intune.recipe",
         "description": "VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVD, Audio CD, VCD, and various streaming protocols."
+    },
+    {
+        "name": "VSCodium",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/VSCodium/VSCodium.intune.recipe",
+        "description": "Binary releases of VS Code without MS branding/telemetry/licensing."
     },
     {
         "name": "Vagrant",
@@ -2148,6 +2253,11 @@
         "name": "kdenlive",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Kdenlive/Kdenlive.intune.recipe",
         "description": "Free and Open Source Video Editor."
+    },
+    {
+        "name": "macFUSE",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/macFUSE/macFUSE.intune.recipe",
+        "description": "macFUSE allows you to extend OS X's native file handling capabilities via third-party file systems. macFUSE (v4) is a successor to OSXFUSE (v3), which has been used as a software building block by dozens of products, but is no longer being maintained."
     },
     {
         "name": "mitmproxy",

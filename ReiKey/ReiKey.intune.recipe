@@ -3,44 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of OmniGraphSketcher.</string>
+	<string>Downloads the latest version of ReiKey.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.OmniGraphSketcher</string>
+	<string>com.github.almenscorner.intune.ReiKey</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>OmniGraphSketcher</string>
+		<string>ReiKey</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>OmniGraphSketcher helps you make elegant and precise graphs in seconds, whether you have specific data to visualize or you just have a concept to explain. Specifically designed for reports, presentations, and problem sets where you need to produce sharp-looking graphs on the fly, OmniGraphSketcher combines the data plotting power of charting applications with the ease of a basic drawing program.</string>
+        <string>ReiKey provides continual protection by monitoring persistence locations. Any new persistent component will trigger a ReiKey alert, allowing malicious items be blocked.</string>
         <key>developer</key>
-        <string>The Omni Group</string>
+        <string>Objective-See</string>
 		<key>display_name</key>
-		<string>OmniGraphSketcher</string>
+		<string>ReiKey</string>
+        <key>post_install_script</key>
+        <string>IyEvYmluL3NoCnN1ZG8gIi9BcHBsaWNhdGlvbnMvUmVpS2V5IEluc3RhbGxlci5hcHAvQ29udGVudHMvTWFjT1MvUmVpS2V5IEluc3RhbGxlciIgLWluc3RhbGwKcm0gLXJmICIvQXBwbGljYXRpb25zL1JlaUtleSBJbnN0YWxsZXIuYXBwLyIKZXhpdCAw</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.omnigraphsketcher</string>
+	<string>com.github.dataJAR-recipes.download.ReiKey</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>dmg_path</key>
-				<string>%pathname%</string>
-			</dict>
-			<key>Processor</key>
-			<string>AppDmgVersioner</string>
-		</dict>
+        <dict>
+            <key>Arguments</key>
+            <dict>
+                <key>app_path</key>
+                <string>%RECIPE_CACHE_DIR%/%NAME%/%NAME% Installer.app</string>
+            </dict>
+            <key>Processor</key>
+            <string>AppPkgCreator</string>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%RECIPE_CACHE_DIR%/%NAME%/%NAME% Installer.app</string>
 				<key>name</key>
 				<string>%NAME%</string>
 			</dict>
@@ -51,9 +53,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%pkg_path%</string>
 				<key>bundleId</key>
-				<string>%bundleid%</string>
+				<string>com.objective-see.ReiKey-Installer</string>
 				<key>bundleVersion</key>
 				<string>%version%</string>
 				<key>description</key>
@@ -66,6 +68,8 @@
 				<string>%developer%</string>
 				<key>version</key>
 				<string>%version%</string>
+                <key>postinstall_script</key>
+                <string>%post_install_script%</string>
 			</dict>
 			<key>Processor</key>
 			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>

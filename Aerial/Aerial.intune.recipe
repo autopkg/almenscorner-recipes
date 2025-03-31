@@ -3,55 +3,39 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest stable version of SequelPro for macOS.</string>
+	<string>Downloads the latest version of Aerial.</string>
 	<key>Identifier</key>
-	<string>com.github.almenscorner.intune.SequelPro</string>
+	<string>com.github.almenscorner.intune.Aerial</string>
 	<key>Input</key>
 	<dict>
+		<key>NAME</key>
+		<string>Aerial</string>
 		<key>categories</key>
 		<array>
 			<string>Productivity</string>
 		</array>
 		<key>description</key>
-        <string>Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.</string>
+        <string>Apple TV Aerial Screensaver for Mac</string>
         <key>developer</key>
-        <string>CocoaMySQL</string>
+        <string>John Coates</string>
 		<key>display_name</key>
-		<string>SequelPro</string>
+		<string>Aerial</string>
+        <key>icon_file_path</key>
+        <string></string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0.0</string>
+	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jleggat.SequelPro.download</string>
+	<string>com.github.jaharmi.pkg.Aerial</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>dmg_path</key>
-				<string>%pathname%</string>
-			</dict>
-			<key>Processor</key>
-			<string>AppDmgVersioner</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>app_file</key>
-				<string>%pathname%</string>
-				<key>name</key>
-				<string>%NAME%</string>
-			</dict>
-			<key>Processor</key>
-			<string>com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>app_file</key>
-				<string>%pathname%</string>
+				<string>%pkg_path%</string>
 				<key>bundleId</key>
-				<string>%bundleid%</string>
+				<string>%BUNDLE_ID%</string>
 				<key>bundleVersion</key>
 				<string>%version%</string>
 				<key>description</key>
@@ -60,8 +44,6 @@
 				<string>%display_name%</string>
 				<key>icon</key>
 				<string>%icon_file_path%</string>
-				<key>postinstall_script</key>
-				<string></string>
 				<key>publisher</key>
 				<string>%developer%</string>
 				<key>version</key>
