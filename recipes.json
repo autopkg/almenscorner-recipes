@@ -215,6 +215,11 @@
         "description": "A new productivity-focused web browser."
     },
     {
+        "name": "ArchiChect",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ArchiChect/ArchiChect.intune.recipe",
+        "description": "Drag and drop, or Open, almost any app, bundle, command tool, Installer package, even signed AppleScripts and regular documents, and ArchiChect will tell you whether its quarantine flag is set, if it contains executable code whether that is fully 64-bit, whether it has a valid signature, and whether it has been notarized, delivered by the App Store, or signed by Apple. The ultimate tool for checking Catalina compatibility, and much more."
+    },
+    {
         "name": "Arduino",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Arduino/Arduino.intune.recipe",
         "description": "The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board. It runs on Windows, Mac OS X, and Linux. The environment is written in Java and based on Processing and other open-source software.\n\nThis software can be used with any Arduino board.\n        "
@@ -1063,6 +1068,11 @@
         "name": "HocusFocus",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HocusFocus/HocusFocus.intune.recipe",
         "description": "Hide your inactive windows."
+    },
+    {
+        "name": "Hot",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hot/Hot.intune.recipe",
+        "description": "Hot is macOS menu bar application that displays the CPU speed limit due to thermal issues."
     },
     {
         "name": "HoudahGeo",
