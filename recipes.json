@@ -1550,6 +1550,11 @@
         "description": "Neo Network Utility has a full range of networking tools for retrieving information about your network adapter and diagnose common network problems.\n\nAll similarities with an application of the same name that was once bundled with legacy versions of Mac OS X and OSX are, of course, purely coincidental."
     },
     {
+        "name": "Nessus Agent",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Tenable/NessusAgent.intune.recipe",
+        "description": "Nessus Agents are lightweight programs installed locally on a host a laptop, virtual system, desktop, and/or server. Agents receive scanning instructions from a central Nessus Manager server, perform scans locally, and report vulnerability, compliance and system results back to the central server."
+    },
+    {
         "name": "NetNewsWire",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NetNewsWire/NetNewsWire.intune.recipe",
         "description": "RSS reader for macOS."

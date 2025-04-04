@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest version of Nessus Agent.</string>
+	<key>Identifier</key>
+	<string>com.github.almenscorner.intune.NessusAgent</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Nessus Agent</string>
+		<key>categories</key>
+		<array>
+			<string>Productivity</string>
+		</array>
+		<key>description</key>
+		<string>Nessus Agents are lightweight programs installed locally on a host a laptop, virtual system, desktop, and/or server. Agents receive scanning instructions from a central Nessus Manager server, perform scans locally, and report vulnerability, compliance and system results back to the central server.</string>
+		<key>developer</key>
+		<string>Tenable</string>
+		<key>display_name</key>
+		<string>Nessus Agent</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.1</string>
+	<key>ParentRecipe</key>
+	<string>com.github.neilmartin83-recipes.pkg.Nessus Agent</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>app_file</key>
+				<string>%pkg_path%</string>
+				<key>bundleId</key>
+				<string>com.tenablesecurity.NessusAgent.pkg</string>
+				<key>bundleVersion</key>
+				<string>%version%</string>
+				<key>description</key>
+				<string>%description%</string>
+				<key>displayname</key>
+				<string>%display_name%</string>
+				<key>icon</key>
+				<string></string>
+				<key>publisher</key>
+				<string>%developer%</string>
+				<key>version</key>
+				<string>%version%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.almenscorner.intune-upload.processors/IntuneAppUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
