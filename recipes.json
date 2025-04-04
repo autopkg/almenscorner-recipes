@@ -230,6 +230,11 @@
         "description": "Arq automatically backs up all your Macs. Your files are stored securely, readable only by you. Backups can be stored on Amazon S3, Amazon Glacier, Dropbox, Google Drive, Google Cloud Storage, Microsoft OneDrive, SFTP, and DreamObjects."
     },
     {
+        "name": "ArrayCalc V12",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ArrayCalc 12/ArrayCalc12.intune.recipe",
+        "description": "The d&b ArrayCalc simulation software is the simulation tool for d&b line arrays, column and point source loudspeakers as well as subwoofers. This is a comprehensive toolbox for all tasks associated with acoustic design, performance prediction, alignment, rigging and safety parameters."
+    },
+    {
         "name": "Asana",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Asana/Asana.intune.recipe",
         "description": "Asana\u2019s native desktop app removes distractions so you can focus on what\u2019s important. Just download according to your OS, login with your email on the web, and you\u2019ll be guided to your new favorite app."
@@ -910,6 +915,11 @@
         "description": "OpenSource MindMapper."
     },
     {
+        "name": "Freedom",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Freedom/Freedom.intune.recipe",
+        "description": "Be Incredibly Focused and Productive\n\nUse the world\u2019s best app and website blocker. Join millions of amazing people who use Freedom to manage their screen time and live happier, healthier, and more productive lives."
+    },
+    {
         "name": "GIMP",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GIMP/GIMP.intune.recipe",
         "description": "GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages."
@@ -1410,6 +1420,11 @@
         "description": "Advanced Mac system monitor."
     },
     {
+        "name": "Meta Quest Remote Desktop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Meta Quest Remote Desktop/MetaQuestRemoteDesktop.intune.recipe",
+        "description": "Remote Desktop lets you pair your computer to your Meta Quest headset, streaming what is on your computer screen into VR."
+    },
+    {
         "name": "Metabase",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Metabase/Metabse.intune.recipe",
         "description": "An app that gives everyone on your team central access to business intelligence and analytics."
@@ -1893,6 +1908,11 @@
         "name": "Razer Synapse",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Razer Synapse/RazerSynapse.intune.recipe",
         "description": "Razer Synapse is our unified configuration software that allows you to rebind controls or assign macros to any of your Razer peripherals and saves all your settings automatically to the cloud."
+    },
+    {
+        "name": "RazorSQL",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RazorSQL/RazorSQL.intune.recipe",
+        "description": "RazorSQL is an SQL query tool, database browser, SQL editor, and database administration tool for Windows, macOS, Mac OS X, Linux, and Solaris."
     },
     {
         "name": "Rclone",
