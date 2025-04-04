@@ -1715,6 +1715,11 @@
         "description": "OrbStack is a fast, light, and simple way to run containers and Linux machines on macOS. It's a supercharged alternative to Docker Desktop and WSL, all in one easy-to-use app."
     },
     {
+        "name": "Orion",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Orion/Orion.intune.recipe",
+        "description": "Mac browser by Kagi featuring zero telemetry and web extension support."
+    },
+    {
         "name": "OverSight",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OverSight/OverSight.intune.recipe",
         "description": "OverSight observes how you use your Mac and categorizes your activities. You see how you spent your time and how productive you were, and the timeline shows when you did what.  It even automatically recognizes blocks of time that belong together!"
