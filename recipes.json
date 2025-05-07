@@ -570,6 +570,11 @@
         "description": "Craft the best docs in the world."
     },
     {
+        "name": "CrossOver",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CrossOver/CrossOver.intune.recipe",
+        "description": "Run Windows apps on your Mac."
+    },
+    {
         "name": "Cryptomator",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cryptomator/Cryptomator.intune.recipe",
         "description": "Cryptomator provides transparent, client-side encryption for your cloud. Protect your documents from unauthorized access. Cryptomator is free and open source software, so you can rest assured there are no backdoors."
@@ -965,6 +970,11 @@
         "description": "A Git client for simultaneous branches on top of your existing workflow."
     },
     {
+        "name": "GitFiend",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GitFiend/GitFiend.intune.recipe",
+        "description": "Cross-platform Git UI for humans"
+    },
+    {
         "name": "GitHub Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GitHub/GitHubDesktop.intune.recipe",
         "description": "Focus on what matters instead of fighting with Git. Whether you're new to Git or a seasoned user, GitHub Desktop simplifies your development workflow."
@@ -1063,6 +1073,16 @@
         "name": "Hazel",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hazel/Hazel.intune.recipe",
         "description": "Automation tool to keep your files and folders organized and tidy."
+    },
+    {
+        "name": "HelpWire Operator",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/HelpWire Operator/HelpWireOperator.intune.recipe",
+        "description": "Remote Support Made Simpler\n\nHelpWire is a remote access service that empowers businesses and home users with remote desktop control tools for Windows, macOS, and Linux. By enabling lightning-fast remote support, HelpWire saves both you and your clients time and money, eliminating the need for costly on-site visits."
+    },
+    {
+        "name": "Herd",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Herd/Herd.intune.recipe",
+        "description": "Laravel development perfected.\n\nOne click PHP development environment. Zero dependencies. Zero headaches."
     },
     {
         "name": "Hidden Bar",
@@ -1188,6 +1208,11 @@
         "name": "Jumpshare",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Jumpshare/Jumpshare.intune.recipe",
         "description": "Capture and share anything - screen recordings, GIFs, and screenshots - or upload files, all with instantly shareable links to bring clarity, save time, and boost productivity."
+    },
+    {
+        "name": "KDiff3",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/KDiff3/KDiff3.intune.recipe",
+        "description": "Utility for comparing and merging files and directories"
     },
     {
         "name": "Kaleidoscope",
@@ -1555,6 +1580,11 @@
         "description": "Multipass is a lightweight VM manager for Linux, Windows and macOS. It's designed for developers who want to spin up a fresh Ubuntu environment with a single command."
     },
     {
+        "name": "Nagstamon",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Nagstamon/Nagstamon.intune.recipe",
+        "description": "Nagios status monitor for your desktop."
+    },
+    {
         "name": "Navicat 17 Premium Lite",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Navicat 17 Premium Lite/Navicat17PremiumLite.intune.recipe",
         "description": "Navicat Premium Lite is a compact version of Navicat, packed with the core features needed for users who primarily need to perform basic database operations. It allows you to simultaneously connect to a variety of database platforms, including MySQL, PostgreSQL, SQL Server, Oracle, MariaDB, as well as NoSQL databases like Redis and MongoDB, all from a single application. Additionally, Navicat Premium Lite is compatible with GaussDB, OceanBase and PolarDB database platforms."
@@ -1563,6 +1593,11 @@
         "name": "Neo Network Utility",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/NeoNetworkUtility/NeoNetworkUtility.intune.recipe",
         "description": "Neo Network Utility has a full range of networking tools for retrieving information about your network adapter and diagnose common network problems.\n\nAll similarities with an application of the same name that was once bundled with legacy versions of Mac OS X and OSX are, of course, purely coincidental."
+    },
+    {
+        "name": "Neo4j Desktop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Neo4j Desktop/Neo4jDesktop.intune.recipe",
+        "description": "Neo4j Desktop is a local development environment for working with Neo4j, whether using local database instances or databases located on remote servers. It is designed to help you as a new user to learn and experiment with Neo4j locally by including everything you need to get started."
     },
     {
         "name": "Nessus Agent",
@@ -1673,6 +1708,11 @@
         "name": "OmniPlan 3",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/OmniGroup/OmniPlan.intune.recipe",
         "description": "OmniPlan is designed to help you visualize, maintain, and simplify your projects. Break down tasks, optimize the required resources, control costs, and monitor your entire plan\u2014all at a glance. Collaborate with your colleagues and share every detail, update a calendar with your days off, or mix and match. Accept and reject changes one-by-one or all in one go. OmniPlan provides features like Gantt charts, schedules, summaries, milestones, and critical path highlighting to let you manage all of your activities. From customizable views to fast data entry, OmniPlan helps you manage projects that are as simple or complex as you need them to be\u2014without the complexity."
+    },
+    {
+        "name": "Omnissa Horizon Client",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Omnissa Horizon Client/OmnissaHorizonClient.intune.recipe",
+        "description": "Omnissa Horizon Client for Mac allows you to connect to your Omnissa Horizon virtual desktop from your device of choice giving you on-the-go access from any location."
     },
     {
         "name": "One Thing 2",
@@ -2140,6 +2180,11 @@
         "description": "Spotify is a music streaming service offering unlimited streaming of selected music from a range of major and independent record labels."
     },
     {
+        "name": "SpringToolsForEclipse",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/SpringToolsForEclipse/SpringToolsForEclipse.intune.recipe",
+        "description": "Spring Tools is the next generation of Spring tooling for your favorite coding environment. It provides world-class support for developing Spring-based enterprise applications, whether you prefer Eclipse, Visual Studio Code, or Theia IDE."
+    },
+    {
         "name": "Spyder",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Spyder/Spyder.intune.recipe",
         "description": "Spyder is a powerful scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts. It offers a unique combination of the advanced editing, analysis, debugging, and profiling functionality of a comprehensive development tool with the data exploration, interactive execution, deep inspection, and beautiful visualization capabilities of a scientific package."
@@ -2460,6 +2505,11 @@
         "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
     },
     {
+        "name": "ZAP",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/ZAP/ZAP.intune.recipe",
+        "description": "The ZAP by Checkmarx Core project"
+    },
+    {
         "name": "Zed",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Zed/Zed.intune.recipe",
         "description": "Lightweight, responsive text editor and integrated development environment (IDE)."
@@ -2503,6 +2553,11 @@
         "name": "iMazing Profile Editor",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iMazingProfileEditor/iMazingProfileEditor.intune.recipe",
         "description": "iMazing Profile Editor lets users create, modify, and also digitally sign configuration profiles with a friendly user interface instead of manually coding them in XML."
+    },
+    {
+        "name": "iODBC SDK",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/iODBC SDK/iODBCSDK.intune.recipe",
+        "description": "An open-source ODBC driver manager and SDK that facilitates the development of database-independent applications on linux, freebsd, unix and MacOS X platforms."
     },
     {
         "name": "iStat Menus",
