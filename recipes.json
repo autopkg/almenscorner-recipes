@@ -10,6 +10,16 @@
         "description": "4K Video Downloader allows downloading videos, playlists, channels and subtitles from YouTube, Facebook, Vimeo and other video sites in high quality."
     },
     {
+        "name": "A Better Finder Attributes",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PublicSpace/ABetterFinderAttributes.intune.recipe",
+        "description": "Change file creation and modification dates."
+    },
+    {
+        "name": "A Better Finder Rename",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PublicSpace/ABetterFinderRename.intune.recipe",
+        "description": "File, photo, and MP3 batch renamer."
+    },
+    {
         "name": "AFFiNE",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Affine/Affine.intune.recipe",
         "description": "A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. One hyper-fused platform for wildly creative minds."
@@ -45,6 +55,11 @@
         "description": "The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused."
     },
     {
+        "name": "AdGuard",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AdGuard/AdGuard.intune.recipe",
+        "description": "AdGuard is the only standalone ad blocker app for Mac that can block ads equally well in all browsers and apps, not only in Safari. It will also protect your data from tracking and shield your privacy."
+    },
+    {
         "name": "Adobe Creative Cloud",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeCreativeCloudUniversal.intune.recipe",
         "description": "Get the complete toolkit for creativity, including Photoshop, Premiere Pro, Illustrator, Adobe Express, and Acrobat Pro."
@@ -53,6 +68,11 @@
         "name": "Adobe Reader",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Adobe/AdobeReader.intune.recipe",
         "description": "Adobe\u00ae Reader\u00ae is the global standard for reliably viewing, printing, and commenting on PDF documents. It's the only PDF file viewer that can open and interact with all types of PDF content, including forms and multimedia."
+    },
+    {
+        "name": "Advanced Renamer",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AdvancedRenamer/AdvancedRenamer.intune.recipe",
+        "description": "Advanced Renamer is a program for renaming multiple files and folders at once. By configuring renaming methods the names can be manipulated in various ways."
     },
     {
         "name": "Aerial",
@@ -75,6 +95,11 @@
         "description": "Bring your vision to life with Affinity Publisher, the next generation of professional publishing software. From magazines, books, brochures, posters, reports and stationery to other creations, this incredibly smooth, intuitive app gives you the power to combine your images, graphics and text to make beautiful layouts ready for publication."
     },
     {
+        "name": "AirBuddy",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirBuddy2/AirBuddy2.intune.recipe",
+        "description": "Experience AirPods on your Mac like never before."
+    },
+    {
         "name": "AirFoil",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/RougueAmoeba/AirFoil.intune.recipe",
         "description": "Send any audio from your Mac to AirPort Express units, Apple TVs, iPhones and iPods Touch, and even other Macs and PCs, all in sync."
@@ -83,6 +108,11 @@
         "name": "AirParrot 3",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/AirParrot 3/AirParrot3.intune.recipe",
         "description": "Streaming and Mirroring for Windows and macOS\n\nWirelessly mirror your screen or stream media files to a variety of receivers. AirParrot quickly finds available media receivers on your network and uses quick connect to connect directly to any device running Reflector 4. Easily mirror your screen, extend your desktop or stream files to share videos, audio, presentations and much more!"
+    },
+    {
+        "name": "Aircall",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Aircall/Aircall.intune.recipe",
+        "description": "Simple to set up. Easy to use. Cloud-based call center software connected to your tools."
     },
     {
         "name": "Airtable",
@@ -98,6 +128,11 @@
         "name": "Alacritty",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alacritty/Alacritty.intune.recipe",
         "description": "A cross-platform, GPU-accelerated terminal emulator."
+    },
+    {
+        "name": "Alcove",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Alcove/Alcove.intune.recipe",
+        "description": "Dynam\u0131c Island, now for your Mac"
     },
     {
         "name": "Alfred",
@@ -328,6 +363,11 @@
         "name": "BetterMouse",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/BetterMouse/BetterMouse.intune.recipe",
         "description": "macOS utility app that gives you smooth mouse scrolling, cursor speed control, and powerful mouse/keyboard bindings."
+    },
+    {
+        "name": "Big Mean Folder Machine",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/PublicSpace/BigMeanFolderMachine.intune.recipe",
+        "description": "Bring structure to your file collections."
     },
     {
         "name": "Bitwarden",
