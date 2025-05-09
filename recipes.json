@@ -580,6 +580,11 @@
         "description": "Clipy is a Clipboard extension app for macOS."
     },
     {
+        "name": "Clop",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Clop/Clop.intune.recipe",
+        "description": "Image, video, PDF and clipboard optimiser. Copy large, paste small, send fast."
+    },
+    {
         "name": "Cloudflare WARP",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Cloudflare WARP/CloudflareWARP.intune.recipe",
         "description": "The Cloudflare WARP client allows individuals and organizations to have a faster, more secure, and more private experience online.\n\nThe WARP client sits between your device and the Internet, and has several connection modes to better suit different needs."
@@ -623,6 +628,16 @@
         "name": "CommanderOne",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CommanderOne/CommanderOne.intune.recipe",
         "description": "With Commander One you can use two panels at once, set up your very own hotkeys for any action, and way more. Moreover it is a free software that can be a great OS X Finder alternative."
+    },
+    {
+        "name": "Copilot For Xcode",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Copilot For Xcode/CopilotForXcode.intune.recipe",
+        "description": "Copilot for Xcode is an Xcode Source Editor Extension that provides GitHub Copilot, Codeium and ChatGPT support for Xcode."
+    },
+    {
+        "name": "CopyQ",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CopyQ/CopyQ.intune.recipe",
+        "description": "Clipboard Manager with Advanced Features."
     },
     {
         "name": "CotEditor",
@@ -705,6 +720,11 @@
         "description": "The World\u2019s Best Machine Translation DeepL\u2019s neural networks are able to capture even the slightest nuances and reproduce them in translation unlike any other service."
     },
     {
+        "name": "DeskPad",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Deskpad/DeskPad.intune.recipe",
+        "description": "A virtual monitor for screen sharing."
+    },
+    {
         "name": "Desktoppr",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Desktoppr/Desktoppr.intune.recipe",
         "description": "Simple command line tool which can read and set the desktop picture"
@@ -735,9 +755,19 @@
         "description": "DisplayLink Manager is a new way to enable your DisplayLink dock, adapter or monitor on macOS platforms. It's an application that combines our latest driver with features that streamline the setup of mutliple displays up to 4K."
     },
     {
+        "name": "DockDoor",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/DockDoor/DockDoor.intune.recipe",
+        "description": "DockDoor is the only free and open-source application that lets you easily switch between windows on macOS."
+    },
+    {
         "name": "Docker Desktop",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Docker/Docker.intune.recipe",
         "description": "Docker Desktop \u2013 the fastest way to containerize applications."
+    },
+    {
+        "name": "Doughnut",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Doughnut/Doughnut.intune.recipe",
+        "description": "Podcast app. For Mac."
     },
     {
         "name": "Downie",
@@ -1100,6 +1130,11 @@
         "description": "Watchful eyes in your menu bar"
     },
     {
+        "name": "Goose",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Goose/Goose.intune.recipe",
+        "description": "a local, extensible, open source AI agent that automates engineering tasks."
+    },
+    {
         "name": "Grammarly",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Grammarly/Grammarly.intune.recipe",
         "description": "App and web service for correcting grammatical issues and detecting plagarism."
@@ -1138,6 +1173,11 @@
         "name": "Hazel",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Hazel/Hazel.intune.recipe",
         "description": "Automation tool to keep your files and folders organized and tidy."
+    },
+    {
+        "name": "Headlamp",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Headlamp/Headlamp.intune.recipe",
+        "description": "Headlamp is an easy-to-use and extensible Kubernetes web UI."
     },
     {
         "name": "HelpWire Operator",
