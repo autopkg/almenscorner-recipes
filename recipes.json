@@ -1005,6 +1005,11 @@
         "description": "Designed with performance in mind\u2014Framer is cross-platform and gives you a fast and stable prototyping experience right on your desktop."
     },
     {
+        "name": "Free Ruler",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeRuler/FreeRuler.intune.recipe",
+        "description": "A ruler application for Mac OS."
+    },
+    {
         "name": "FreeCAD",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/FreeCAD/FreeCAD.intune.recipe",
         "description": "FreeCAD is a general purpose feature-based, parametric 3D modeler for CAD, MCAD, CAx, CAE and PLM, aimed directly at mechanical engineering and product design but also fits a wider range of uses in engineering, such as architecture or other engineering specialties. It is 100% Open Source (LGPL2+ license) and extremely modular, allowing for very advanced extension and customization."
@@ -1523,6 +1528,11 @@
         "name": "Max 9",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Max 9/Max9.intune.recipe",
         "description": "Max is an infinitely flexible place to create interactive media software. With in-depth tools for audio, graphics, interaction, and communication, Max is an environment to explore and develop your own ideas."
+    },
+    {
+        "name": "Medis",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Medis 2/Medis.intune.recipe",
+        "description": "Medis is a modern Redis GUI designed for Mac. It is trustworthy in critical situations."
     },
     {
         "name": "Mellel",
@@ -2188,6 +2198,11 @@
         "name": "Sensei",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sensei/Sensei.intune.recipe",
         "description": "Sensei helps you clean junk, monitor performance, and optimize your Mac for peak speed. Free up storage, boost performance, and keep your Mac in top condition with powerful maintenance features."
+    },
+    {
+        "name": "Sequel Ace",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Sequel Ace/SequelAce.intune.recipe",
+        "description": "MySQL/MariaDB database management for macOS"
     },
     {
         "name": "SequelPro",
