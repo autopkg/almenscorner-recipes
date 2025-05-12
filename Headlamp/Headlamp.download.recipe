@@ -4,7 +4,7 @@
 <dict>
 	<key>Description</key>
 	<string>Downloads the latest version of Headlamp.
-    
+
     To download for Intel set ARCH to x64.</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.download.Headlamp</string>
