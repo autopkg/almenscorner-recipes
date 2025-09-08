@@ -9,6 +9,7 @@ Created by Tobias Almén
 import json
 import os
 import plistlib
+import yaml
 import urllib.parse
 
 # Directory containing AutoPkg recipe files
@@ -27,8 +28,12 @@ def process_recipe_file(file_path, file_name):
     :param file_name: The name of the recipe file
     """
     try:
-        with open(file_path, "rb") as plist_file:
-            plist_data = plistlib.load(plist_file)
+        if file_path.endswith(".recipe"):
+            with open(file_path, "rb") as plist_file:
+                plist_data = plistlib.load(plist_file)
+        elif file_path.endswith(".yaml"):
+            with open(file_path, "r") as yaml_file:
+                plist_data = yaml.safe_load(yaml_file)
 
         name = plist_data["Input"]["display_name"]
 
@@ -57,7 +62,7 @@ def process_recipe_file(file_path, file_name):
 # Recursively traverse directories and find all .recipe files
 for root, dirs, files in os.walk(recipes_directory):
     for file_name in files:
-        if file_name.endswith(".intune.recipe"):
+        if file_name.endswith(".intune.recipe") or file_name.endswith("intune.recipe.yaml"):
             file_path = os.path.join(root, file_name)
             process_recipe_file(file_path, file_name)
 

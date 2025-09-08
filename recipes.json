@@ -315,6 +315,11 @@
         "description": "Aviatrix VPN Client is a cloud-based virtual private network solution that uses OpenVPN."
     },
     {
+        "name": "Axure RP 11",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Axure/AxureRP11.intune.recipe.yaml",
+        "description": "Axure RP is the only UX tool that gives UX professionals the power to build realistic, functional prototypes."
+    },
+    {
         "name": "Azul Zulu OpenJDK 11 LTS",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Azul Zulu OpenJDK 11 LTS/Azul+Zulu+OpenJDK+11+LTS.intune.recipe",
         "description": "Azul Zulu builds of OpenJDK are open source, TCK-tested and certified builds of OpenJDK. Azul Zulu is available for a wide range of hardware platforms and operating systems."
@@ -2568,6 +2573,11 @@
         "name": "Vivaldi",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Vivaldi/Vivaldi.intune.recipe",
         "description": "A browser for our friends."
+    },
+    {
+        "name": "Wacom Tablet Drivers",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Wacom/Wacom.intune.recipe.yaml",
+        "description": "Wacom drivers for the latest professional pen displays and pen tablets, as well as their business solutions."
     },
     {
         "name": "Warp",
