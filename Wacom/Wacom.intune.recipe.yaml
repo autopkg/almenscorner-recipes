@@ -1,0 +1,64 @@
+DESCRIPTION: >
+  Downloads the latest version of Wacom Tablet Drivers and imports into Intune.
+Identifier: com.github.almenscorner.intune.WacomTablet
+MinimumVersion: '2.3'
+
+Input:
+  NAME: WacomTablet
+  developer: Wacom
+  display_name: Wacom Tablet Drivers
+  description: Wacom drivers for the latest professional pen displays and pen tablets, as well as their business solutions.
+  categories:
+    - Productivity
+
+ParentRecipe: com.github.rustymyers.download.WacomTablet
+
+Process:
+- Processor: PkgCopier
+  Arguments:
+    source_pkg: '%pathname%/*.pkg'
+    pkg_path: '%RECIPE_CACHE_DIR%/%NAME%.pkg'
+
+- Processor: FlatPkgUnpacker
+  Arguments:
+    flat_pkg_path: '%pkg_path%'
+    destination_path: '%RECIPE_CACHE_DIR%/unpack/%NAME%.app'
+    purge_destination: true
+
+- Processor: PkgPayloadUnpacker
+  Arguments:
+    pkg_payload_path: '%RECIPE_CACHE_DIR%/unpack/%NAME%.app/content.pkg/Payload'
+    destination_path: '%RECIPE_CACHE_DIR%/payload'
+
+- Processor: PlistReader
+  Arguments:
+    info_path: '%destination_path%/Applications/Wacom Tablet.localized/Wacom Tablet Utility.app/Contents/Info.plist'
+    plist_keys:
+      CFBundleIdentifier: bundleid
+      CFBundleShortVersionString: version
+
+- Processor: com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter
+  Arguments:
+    app_file: '%destination_path%/Applications/Wacom Tablet.localized/Wacom Tablet Utility.app'
+    name: '%NAME%'
+
+- Processor: com.github.jps3.munki.WacomIntuosProTabletDriver/AddExecutePermissionsToDirectories
+  Arguments:
+    root_path: '%RECIPE_CACHE_DIR%/payload'
+
+- Processor: PathDeleter
+  Arguments:
+    path_list:
+      - '%RECIPE_CACHE_DIR%/unpack'
+      - '%RECIPE_CACHE_DIR%/payload'
+
+- Processor: com.github.almenscorner.intune-upload.processors/IntuneAppUploader
+  Arguments:
+    app_file: '%pkg_path%'
+    bundleId: '%bundleid%'
+    bundleVersion: '%version%'
+    description: '%description%'
+    publisher: '%developer%'
+    displayname: '%display_name%'
+    icon: '%icon_file_path%'
+    version: '%version%'
