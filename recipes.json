@@ -1120,6 +1120,11 @@
         "description": "The game engine you've been waiting for.\n\nThe Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games."
     },
     {
+        "name": "Godspeed",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Godspeed/Godspeed.intune.recipe",
+        "description": "Everything you need in a todo manager. Right at your fingertips."
+    },
+    {
         "name": "Google Chrome",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Google/GoogleChromePkg.intune.recipe",
         "description": "Chrome is a fast, simple, and secure web browser, built for the modern web."
