@@ -1,0 +1,39 @@
+DESCRIPTION: >
+  Downloads the latest version of Axure RP 11 and imports into Intune.
+Identifier: com.github.almenscorner.intune.AxureRP11
+MinimumVersion: '2.3'
+
+Input:
+  NAME: AxureRP11
+  DOWNLOAD_ARCH: -arm64
+  developer: Axure Software Solutions, Inc.
+  display_name: Axure RP 11
+  description: Axure RP is the only UX tool that gives UX professionals the power to build realistic, functional prototypes.
+  categories:
+    - Productivity
+
+ParentRecipe: com.github.dataJAR-recipes.download.Axure RP 11
+
+Process:
+- Processor: PlistReader
+  Arguments:
+    info_path: '%pathname%/%display_name%.app/Contents/Info.plist'
+    plist_keys:
+      CFBundleIdentifier: bundleid
+      CFBundleVersion: version
+
+- Processor: com.github.almenscorner.intune-upload.processors/IntuneAppIconGetter
+  Arguments:
+    app_file: '%pathname%'
+    name: '%NAME%'
+
+- Processor: com.github.almenscorner.intune-upload.processors/IntuneAppUploader
+  Arguments:
+    app_file: '%pathname%'
+    bundleId: '%bundleid%'
+    bundleVersion: '%version%'
+    description: '%description%'
+    publisher: '%developer%'
+    displayname: '%display_name%'
+    icon: '%icon_file_path%'
+    version: '%version%'
