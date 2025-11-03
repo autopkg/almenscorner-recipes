@@ -24,14 +24,14 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.flammable.download.SequelAce</string>
+	<string>com.github.gerardkok.download.SequelAce</string>
 	<key>Process</key>
 	<array>
         <dict>
             <key>Arguments</key>
             <dict>
                 <key>dmg_root</key>
-                <string>%RECIPE_CACHE_DIR%/%NAME%</string>
+                <string>%RECIPE_CACHE_DIR%/unpacked</string>
                 <key>dmg_path</key>
                 <string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
             </dict>
