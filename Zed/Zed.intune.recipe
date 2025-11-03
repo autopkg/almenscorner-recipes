@@ -5,19 +5,15 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Zed.
 
-Valid values for ARCH include:
-- x86_64 (Intel)
-- aarch64 (Default, Apple Silicon)
-
-Valid values for BRANCH include:
-- stable (default)
-- preview</string>
+To download Apple Silicon use: "-aarch64" in the DOWNLOAD_ARCH variable
+To download Intel use: "-x86_64" in the DOWNLOAD_ARCH variable
+</string>
 	<key>Identifier</key>
 	<string>com.github.almenscorner.intune.Zed</string>
 	<key>Input</key>
 	<dict>
-		<key>ARCH</key>
-		<string>aarch64</string>
+		<key>DOWNLOAD_ARCH</key>
+		<string>-aarch64</string>
 		<key>NAME</key>
 		<string>Zed</string>
 		<key>categories</key>
@@ -34,7 +30,7 @@ Valid values for BRANCH include:
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.almenscorner.download.Zed</string>
+	<string>com.github.dataJAR-recipes.download.Zed</string>
 	<key>Process</key>
 	<array>
 		<dict>
