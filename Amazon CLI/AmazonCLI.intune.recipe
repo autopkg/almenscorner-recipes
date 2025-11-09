@@ -24,7 +24,7 @@
 	<key>MinimumVersion</key>
 	<string>1.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.homebysix.download.AWSCLI</string>
+	<string>com.github.valdore86.download.AWSCLI</string>
 	<key>Process</key>
 	<array>
 		<dict>
