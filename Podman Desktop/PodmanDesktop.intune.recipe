@@ -22,7 +22,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.almenscorner.download.PodmanDesktop</string>
+	<string>com.github.apettinen.download.PodmanDesktop</string>
 	<key>Process</key>
 	<array>
 		<dict>
