@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/homebysix/pre-commit-macadmin
-    rev: v1.18.0
+    rev: v1.21.1
     hooks:
       - id: check-autopkg-recipes
         args: ["--recipe-prefix=com.github.almenscorner.", "--strict", "--"]
@@ -8,7 +8,7 @@ repos:
       - id: forbid-autopkg-overrides
       - id: forbid-autopkg-trust-info
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
         args: ["--maxkb=100"]
@@ -25,19 +25,19 @@ repos:
       - id: no-commit-to-branch
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
-  - repo: https://github.com/psf/black
-    rev: 24.10.0
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 25.11.0
     hooks:
       - id: black
   - repo: https://github.com/pycqa/isort
-    rev: 5.13.2
+    rev: 7.0.0
     hooks:
       - id: isort
   - repo: https://github.com/pycqa/flake8
-    rev: 7.1.1
+    rev: 7.3.0
     hooks:
       - id: flake8
   - repo: https://github.com/pycqa/pylint
-    rev: v3.3.3
+    rev: v4.0.3
     hooks:
       - id: pylint
