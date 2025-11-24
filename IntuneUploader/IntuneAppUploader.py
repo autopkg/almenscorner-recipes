@@ -333,7 +333,7 @@ class IntuneAppUploader(IntuneUploaderBase):
             if ignore_current_version and current_app_data:
                 # If you’re *not* creating a new app, point to the existing one
                 self.request = current_app_data
-                
+
             # If the app needs to be updated or the current version should be ignored
             if current_app_result == "update" or ignore_current_version is True:
                 # If the app is not found, raise an error
