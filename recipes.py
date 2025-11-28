@@ -9,8 +9,9 @@ Created by Tobias Almén
 import json
 import os
 import plistlib
-import yaml
 import urllib.parse
+
+import yaml
 
 # Directory containing AutoPkg recipe files
 recipes_directory = os.getcwd()
@@ -62,7 +63,9 @@ def process_recipe_file(file_path, file_name):
 # Recursively traverse directories and find all .recipe files
 for root, dirs, files in os.walk(recipes_directory):
     for file_name in files:
-        if file_name.endswith(".intune.recipe") or file_name.endswith("intune.recipe.yaml"):
+        if file_name.endswith(".intune.recipe") or file_name.endswith(
+            "intune.recipe.yaml"
+        ):
             file_path = os.path.join(root, file_name)
             process_recipe_file(file_path, file_name)
 
