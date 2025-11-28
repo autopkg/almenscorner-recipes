@@ -30,6 +30,10 @@ To download for Intel, set ARCH to '_intel_mac'</string>
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
         <dict>
 			<key>Arguments</key>
 			<dict>
@@ -42,10 +46,6 @@ To download for Intel, set ARCH to '_intel_mac'</string>
 			</dict>
 			<key>Processor</key>
 			<string>Unarchiver</string>
-		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
