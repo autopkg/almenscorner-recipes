@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/homebysix/pre-commit-macadmin
-    rev: v1.21.1
+    rev: v1.22.0
     hooks:
       - id: check-autopkg-recipes
         args: ["--recipe-prefix=com.github.almenscorner.", "--strict", "--"]
@@ -38,6 +38,6 @@ repos:
     hooks:
       - id: flake8
   - repo: https://github.com/pycqa/pylint
-    rev: v4.0.3
+    rev: v4.0.4
     hooks:
       - id: pylint
