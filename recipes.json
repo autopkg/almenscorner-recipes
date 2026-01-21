@@ -601,7 +601,7 @@
     },
     {
         "name": "CoconutBattery",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CoconutBattery/CoconutBatter.intune.recipe",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/CoconutBattery/CoconutBattery.intune.recipe",
         "description": "Displays info about your laptop battery."
     },
     {
@@ -1103,6 +1103,11 @@
         "name": "Gitpod",
         "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Gitpod/Gitpod.intune.recipe",
         "description": "Gitpod Desktop is the fastest and easiest way to run and recreate cloud development environments locally. It is currently available for Apple silicon users."
+    },
+    {
+        "name": "GlobalProtect",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/GlobalProtect/GlobalProtect.intune.recipe",
+        "description": "GlobalProtect VPN Client from Palo Alto Networks"
     },
     {
         "name": "Glyphs 3",
