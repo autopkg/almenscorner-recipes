@@ -19,7 +19,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>re_pattern</key>
-				<string>(https:\/\/downloads\.claude\.ai\/releases\/darwin\/universal\/(?:[0-9]+(?:\.[0-9]+)*)\/Claude-(?:[A-Fa-f0-9]{40})\.zip)</string>
+				<string>(https:\/\/downloads\.claude\.ai\/releases\/darwin\/universal\/(?:[0-9]+(?:\.[0-9]+)*)\/Claude-(?:[A-Fa-f0-9]{40}))(?:\.zip)</string>
 				<key>url</key>
 				<string>https://formulae.brew.sh/api/cask/claude.json</string>
 			</dict>
@@ -30,9 +30,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.zip</string>
+				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>%match%</string>
+				<string>%match%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -44,19 +44,8 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
-				<key>archive_path</key>
-				<string>%pathname%</string>
-				<key>destination_path</key>
-				<string>%RECIPE_CACHE_DIR%</string>
-			</dict>
-			<key>Processor</key>
-			<string>Unarchiver</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
 				<key>input_path</key>
-				<string>%RECIPE_CACHE_DIR%/Claude.app</string>
+				<string>%pathname%/Claude.app</string>
 				<key>requirement</key>
 				<string>identifier "com.anthropic.claudefordesktop" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Q6L2SF6YDW</string>
 			</dict>
@@ -67,18 +56,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/Claude.app</string>
-			</dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>dmg_path</key>
-				<string>%dmg_path%</string>
+				<string>%pathname%</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
