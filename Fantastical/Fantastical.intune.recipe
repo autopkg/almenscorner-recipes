@@ -24,7 +24,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.jaharmi.download.Fantastical</string>
+	<string>com.github.macprince.download.Fantastical</string>
 	<key>Process</key>
 	<array>
         <dict>
