@@ -127,9 +127,7 @@ class IntuneUploaderBase(Processor):
             encryption_algorithm=serialization.NoEncryption(),
         ).decode()
         thumbprint = certificate.fingerprint(hashes.SHA1()).hex()
-        public_cert_pem = certificate.public_bytes(
-            serialization.Encoding.PEM
-        ).decode()
+        public_cert_pem = certificate.public_bytes(serialization.Encoding.PEM).decode()
 
         app = msal.ConfidentialClientApplication(
             client_id,
