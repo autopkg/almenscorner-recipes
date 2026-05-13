@@ -51,6 +51,8 @@ class IntuneAppCleaner(IntuneUploaderBase):
         )
         self.CLIENT_ID = self.env.get("CLIENT_ID")
         self.CLIENT_SECRET = self.env.get("CLIENT_SECRET")
+        self.CLIENT_CERTIFICATE_PATH = self.env.get("CLIENT_CERTIFICATE_PATH")
+        self.CLIENT_CERTIFICATE_PASSWORD = self.env.get("CLIENT_CERTIFICATE_PASSWORD")
         self.TENANT_ID = self.env.get("TENANT_ID")
         app_name = self.env.get("display_name")
         keep_versions = self.env.get("keep_version_count")
@@ -59,7 +61,11 @@ class IntuneAppCleaner(IntuneUploaderBase):
 
         # Get access token
         self.token = self.obtain_accesstoken(
-            self.CLIENT_ID, self.CLIENT_SECRET, self.TENANT_ID
+            self.CLIENT_ID,
+            self.CLIENT_SECRET,
+            self.TENANT_ID,
+            cert_path=self.CLIENT_CERTIFICATE_PATH,
+            cert_password=self.CLIENT_CERTIFICATE_PASSWORD,
         )
 
         # When running from the command line, keep_versions is a string, convert to int
@@ -76,11 +82,9 @@ class IntuneAppCleaner(IntuneUploaderBase):
         # Get primaryBundleVersion or buildNumber for each app and set it as a key in the app dict
         apps = list(
             map(
-                lambda item: (
-                    {**item, "primaryBundleVersion": item["buildNumber"]}
-                    if "primaryBundleVersion" not in item and "buildNumber" in item
-                    else item
-                ),
+                lambda item: {**item, "primaryBundleVersion": item["buildNumber"]}
+                if "primaryBundleVersion" not in item and "buildNumber" in item
+                else item,
                 apps,
             )
         )
@@ -120,11 +124,11 @@ class IntuneAppCleaner(IntuneUploaderBase):
                 "keep count": str(keep_versions),
                 "match count": str(len(apps)),
                 "removed count": str(len(apps_to_delete)),
-                "removed versions": (
-                    ", ".join([app["primaryBundleVersion"] for app in apps_to_delete])
-                    if len(apps_to_delete) > 0
-                    else ""
-                ),
+                "removed versions": ", ".join(
+                    [app["primaryBundleVersion"] for app in apps_to_delete]
+                )
+                if len(apps_to_delete) > 0
+                else "",
             },
         }
 

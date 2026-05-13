@@ -130,6 +130,8 @@ class IntuneScriptUploader(IntuneUploaderBase):
         )
         self.CLIENT_ID = self.env.get("CLIENT_ID")
         self.CLIENT_SECRET = self.env.get("CLIENT_SECRET")
+        self.CLIENT_CERTIFICATE_PATH = self.env.get("CLIENT_CERTIFICATE_PATH")
+        self.CLIENT_CERTIFICATE_PASSWORD = self.env.get("CLIENT_CERTIFICATE_PASSWORD")
         self.TENANT_ID = self.env.get("TENANT_ID")
         script_path = self.env.get("script_path")
         script_description = self.env.get("description")
@@ -155,7 +157,11 @@ class IntuneScriptUploader(IntuneUploaderBase):
 
         # Get token
         self.token = self.obtain_accesstoken(
-            self.CLIENT_ID, self.CLIENT_SECRET, self.TENANT_ID
+            self.CLIENT_ID,
+            self.CLIENT_SECRET,
+            self.TENANT_ID,
+            cert_path=self.CLIENT_CERTIFICATE_PATH,
+            cert_password=self.CLIENT_CERTIFICATE_PASSWORD,
         )
 
         @dataclass
@@ -187,7 +193,6 @@ class IntuneScriptUploader(IntuneUploaderBase):
         # Check if script exists in Intune
         params = {"$filter": f"displayName eq '{script_name}'"}
         current_script = self.makeapirequest(self.BASE_ENDPOINT, self.token, params)
-        create_request = None
 
         if current_script["value"]:
             # Get script content
@@ -222,8 +227,6 @@ class IntuneScriptUploader(IntuneUploaderBase):
         if assignment_info and action != "none":
             # Assign script to groups
             if action == "create":
-                if not create_request.get("id"):
-                    raise ProcessorError("Failed to retrieve script ID after creation.")
                 script_id = create_request["id"]
             else:
                 script_id = current_script["value"][0]["id"]
