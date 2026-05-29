@@ -232,10 +232,6 @@
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/timsutton-recipes"
     },
     {
-        "recipe_url": "https://github.com/autopkg/valdore86-recipes",
-        "repo_add_command": "autopkg repo-add https://github.com/autopkg/valdore86-recipes"
-    },
-    {
         "recipe_url": "https://github.com/autopkg/wardsparadox-recipes",
         "repo_add_command": "autopkg repo-add https://github.com/autopkg/wardsparadox-recipes"
     },

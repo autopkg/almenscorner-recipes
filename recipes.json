@@ -1466,13 +1466,13 @@
     },
     {
         "name": "Low Profile",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MySQLWorkbench/MySQLWorkbench.intune.recipe",
-        "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs."
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LowProfile/LowProfile.intune.recipe",
+        "description": "A Mac utility to help inspect Apple Configuration Profile payloads."
     },
     {
         "name": "Low Profile",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/LowProfile/LowProfile.intune.recipe",
-        "description": "A Mac utility to help inspect Apple Configuration Profile payloads."
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/MySQLWorkbench/MySQLWorkbench.intune.recipe",
+        "description": "MySQL Workbench is a unified visual tool for database architects, developers, and DBAs."
     },
     {
         "name": "LuLu",
@@ -2636,12 +2636,12 @@
     },
     {
         "name": "Yubico Authenticator",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubico-authenticator.intune.recipe",
         "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
     },
     {
         "name": "Yubico Authenticator",
-        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubico-authenticator.intune.recipe",
+        "recipe_url": "https://github.com/autopkg/almenscorner-recipes/blob/main/Yubico/yubioath-desktop.intune.recipe",
         "description": "Application for generating Open Authentication (OATH) time-based TOTP and event-based HOTP one-time password codes, with the help of a YubiKey that protects the shared secrets."
     },
     {

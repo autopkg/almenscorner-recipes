@@ -24,25 +24,14 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.valdore86.download.visualstudiocode</string>
+	<string>com.github.jc0b.download.VisualStudioCode</string>
 	<key>Process</key>
 	<array>
 		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
-				<key>dmg_root</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
-			</dict>
-			<key>Processor</key>
-			<string>DmgCreator</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>dmg_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%.dmg</string>
+				<string>%pathname%g</string>
 			</dict>
 			<key>Processor</key>
 			<string>AppDmgVersioner</string>
@@ -62,7 +51,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>app_file</key>
-				<string>%dmg_path%</string>
+				<string>%pathname%</string>
 				<key>bundleId</key>
 				<string>%bundleid%</string>
 				<key>bundleVersion</key>
