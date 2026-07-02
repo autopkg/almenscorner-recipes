@@ -127,9 +127,7 @@ class IntuneUploaderBase(Processor):
             encryption_algorithm=serialization.NoEncryption(),
         ).decode()
         thumbprint = certificate.fingerprint(hashes.SHA1()).hex()
-        public_cert_pem = certificate.public_bytes(
-            serialization.Encoding.PEM
-        ).decode()
+        public_cert_pem = certificate.public_bytes(serialization.Encoding.PEM).decode()
 
         app = msal.ConfidentialClientApplication(
             client_id,
@@ -646,8 +644,7 @@ class IntuneUploaderBase(Processor):
         request = [
             app
             for app in matching_apps
-            if app["displayName"] == displayname
-            and app["@odata.type"] == odata_type
+            if app["displayName"] == displayname and app["@odata.type"] == odata_type
         ]
         result = None
         data = {}
@@ -751,10 +748,14 @@ class IntuneUploaderBase(Processor):
         normalized = self._normalize_assignment_info(assignment_info)
 
         missing_assignment = [
-            a for a in normalized if a["group_id"] is not None and a["group_id"] not in current_group_ids
+            a
+            for a in normalized
+            if a["group_id"] is not None and a["group_id"] not in current_group_ids
         ]
         missing_all_assignment = [
-            a for a in normalized if a["group_id"] is None and a["odata_type"] not in current_all_assignment
+            a
+            for a in normalized
+            if a["group_id"] is None and a["odata_type"] not in current_all_assignment
         ]
         data = {"mobileAppAssignments": []}
 
@@ -819,24 +820,34 @@ class IntuneUploaderBase(Processor):
                 odata_type = self._ALL_ASSIGNMENT_MAP.get(
                     a["all_assignment"], a["all_assignment"]
                 )
-                result.append({"odata_type": odata_type, "group_id": None, "intent": intent})
+                result.append(
+                    {"odata_type": odata_type, "group_id": None, "intent": intent}
+                )
             elif "group_id" in a:
                 if a.get("exclude"):
                     odata_type = "#microsoft.graph.exclusionGroupAssignmentTarget"
                 else:
                     odata_type = "#microsoft.graph.groupAssignmentTarget"
-                result.append({"odata_type": odata_type, "group_id": a["group_id"], "intent": intent})
+                result.append(
+                    {
+                        "odata_type": odata_type,
+                        "group_id": a["group_id"],
+                        "intent": intent,
+                    }
+                )
         return result
 
     def _normalize_current_assignments(self, assignments):
         result = []
         for a in assignments:
             target = a.get("target", {})
-            result.append({
-                "odata_type": target.get("@odata.type", ""),
-                "group_id": target.get("groupId"),
-                "intent": a.get("intent", "").lower(),
-            })
+            result.append(
+                {
+                    "odata_type": target.get("@odata.type", ""),
+                    "group_id": target.get("groupId"),
+                    "intent": a.get("intent", "").lower(),
+                }
+            )
         return result
 
     _ODATA_TYPE_LABELS = {
@@ -882,8 +893,16 @@ class IntuneUploaderBase(Processor):
                 self.output(f"{display_name} assignments already in sync, skipping.")
                 return
 
-            added = [self._assignment_label(a) for k, a in desired_keys.items() if k not in current_keys]
-            removed = [self._assignment_label(a) for k, a in current_keys.items() if k not in desired_keys]
+            added = [
+                self._assignment_label(a)
+                for k, a in desired_keys.items()
+                if k not in current_keys
+            ]
+            removed = [
+                self._assignment_label(a)
+                for k, a in current_keys.items()
+                if k not in desired_keys
+            ]
             parts = []
             if added:
                 parts.append(f"added: {', '.join(added)}")
@@ -896,12 +915,14 @@ class IntuneUploaderBase(Processor):
             target = {"@odata.type": a["odata_type"]}
             if a["group_id"]:
                 target["groupId"] = a["group_id"]
-            assignments.append({
-                "@odata.type": "#microsoft.graph.mobileAppAssignment",
-                "target": target,
-                "intent": a["intent"],
-                "settings": None,
-            })
+            assignments.append(
+                {
+                    "@odata.type": "#microsoft.graph.mobileAppAssignment",
+                    "target": target,
+                    "intent": a["intent"],
+                    "settings": None,
+                }
+            )
 
         self.makeapirequestPost(
             f"{self.BASE_ENDPOINT}/{self.request['id']}/assign",

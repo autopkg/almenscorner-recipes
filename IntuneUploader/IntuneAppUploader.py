@@ -371,7 +371,7 @@ class IntuneAppUploader(IntuneUploaderBase):
             if ignore_current_version and current_app_data:
                 # If you’re *not* creating a new app, point to the existing one
                 self.request = current_app_data
-                
+
             # If the app needs to be updated or the current version should be ignored
             if current_app_result == "update" or ignore_current_version is True:
                 # If the app is not found, raise an error
@@ -410,8 +410,14 @@ class IntuneAppUploader(IntuneUploaderBase):
 
                 if sync_metadata:
                     metadata_fields = {
-                        "description": (app_description, current_app_data.get("description")),
-                        "displayName": (app_displayname, current_app_data.get("displayName")),
+                        "description": (
+                            app_description,
+                            current_app_data.get("description"),
+                        ),
+                        "displayName": (
+                            app_displayname,
+                            current_app_data.get("displayName"),
+                        ),
                         "owner": (app_owner, current_app_data.get("owner")),
                     }
                     metadata_patch = {}
@@ -427,7 +433,9 @@ class IntuneAppUploader(IntuneUploaderBase):
                                 f'{current_app_data["displayName"]}: {fname} already up to date ("{current}")'
                             )
                     if metadata_patch:
-                        metadata_patch["@odata.type"] = current_app_data.get("@odata.type")
+                        metadata_patch["@odata.type"] = current_app_data.get(
+                            "@odata.type"
+                        )
                         self.makeapirequestPatch(
                             f'{self.BASE_ENDPOINT}/{current_app_data["id"]}',
                             self.token,
@@ -438,7 +446,9 @@ class IntuneAppUploader(IntuneUploaderBase):
 
                 if sync_assignments:
                     self.wait_for_publishing_state(timeout=publishing_state_timeout)
-                    self.sync_app_assignments(app_assignment_info or [], diff=sync_assignments_diff)
+                    self.sync_app_assignments(
+                        app_assignment_info or [], diff=sync_assignments_diff
+                    )
                 return
 
             # If the app does not exist
