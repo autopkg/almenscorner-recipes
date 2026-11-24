@@ -22,9 +22,9 @@
 		<string>Swift Dialog</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>1.0</string>
+	<string>2.9</string>
 	<key>ParentRecipe</key>
-	<string>com.github.zentralpro.download.swiftDialog</string>
+	<string>com.github.smithjw.download.swiftDialog</string>
 	<key>Process</key>
 	<array>
 		<dict>
